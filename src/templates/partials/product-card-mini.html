@@ -1,0 +1,9 @@
+<div class="product-card-mini">
+  <img src="{{#if hero_image}}{{hero_image}}{{else}}/assets/images/products/placeholder.webp{{/if}}" alt="{{name}}" width="80" height="60" loading="lazy" class="product-card-mini__img">
+  <div class="product-card-mini__info">
+    <span class="product-card-mini__brand">{{#if brand_name}}{{brand_name}}{{else}}{{brand_slug}}{{/if}}</span>
+    <a href="/products/{{slug}}/" class="product-card-mini__name">{{name}}</a>
+    <span class="product-card-mini__price">{{price_range_cad}} CAD</span>
+  </div>
+  <a href="/products/{{slug}}/" class="btn btn--ghost btn--xs">View →</a>
+</div>

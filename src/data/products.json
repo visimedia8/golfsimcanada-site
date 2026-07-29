@@ -1,0 +1,506 @@
+[
+  {
+    "slug": "foresight-gcquad",
+    "name": "Foresight GCQuad",
+    "brand_slug": "foresight-sports",
+    "category": "launch-monitor",
+    "sub_category": "photometric",
+    "badge": "editors-choice",
+    "price_range_cad": "$18,500 – $22,000",
+    "price_verified": "2025-07",
+    "rating": 9.8,
+    "filter_tags": {
+      "best_for": ["serious-golfer", "commercial", "tour-pro"],
+      "space_type": ["dedicated-room", "garage"],
+      "detection_tech": "camera",
+      "software_compat": ["fsx", "gspro", "e6"],
+      "budget_tier": "premium"
+    },
+    "specs": {
+      "technology": "Quadrascopic (4 high-speed cameras)",
+      "ball_data_points": 16,
+      "club_data": "Full club head data (requires Club Head Add-on)",
+      "indoor_outdoor": "Both (Built-in outdoor display & battery)",
+      "software_included": "FSX Play, FSX Pro, 25 Courses",
+      "space_required": "10ft W x 10ft L x 9ft H minimum"
+    },
+    "pros": [
+      "Industry gold-standard photometric camera accuracy",
+      "Direct ball-impact capture with zero calibration distance required",
+      "High visibility outdoor LCD screen for range use"
+    ],
+    "cons": [
+      "High entry cost for Canadian home setups",
+      "Club head data requires additional software unlock fee"
+    ],
+    "canada_notes": "Sold in Canada via official Foresight Sports Canada distributors. Covered by full Canadian warranty and local support. CAD pricing subject to local sales tax (HST/GST).",
+    "dealers": [
+      {
+        "name": "Foresight Sports Canada",
+        "url": "https://foresightsports.ca",
+        "provinces": ["ON", "BC", "AB", "QC"]
+      }
+    ],
+    "alternatives": ["foresight-gc3", "uneekor-eye-xo2", "bushnell-launch-pro"],
+    "positioned_as_alternative_to": ["trackman-4"],
+    "status": "published"
+  },
+  {
+    "slug": "foresight-gc3",
+    "name": "Foresight GC3",
+    "brand_slug": "foresight-sports",
+    "category": "launch-monitor",
+    "sub_category": "photometric",
+    "badge": "featured",
+    "price_range_cad": "$9,500 – $11,500",
+    "price_verified": "2025-07",
+    "rating": 9.4,
+    "filter_tags": {
+      "best_for": ["serious-golfer", "intermediate"],
+      "space_type": ["dedicated-room", "garage"],
+      "detection_tech": "camera",
+      "software_compat": ["fsx", "gspro", "e6"],
+      "budget_tier": "mid-high"
+    },
+    "specs": {
+      "technology": "Triscopic (3 high-speed cameras)",
+      "ball_data_points": 10,
+      "club_data": "Essential club data included (Club Speed, Smash Factor, Path)",
+      "indoor_outdoor": "Both",
+      "software_included": "FSX Play, FSX Pro, 10 Courses",
+      "space_required": "10ft W x 10ft L x 9ft H minimum"
+    },
+    "pros": [
+      "Same core sub-millimeter precision technology as GCQuad at nearly half the price",
+      "No ongoing subscription required for standard ball & club data",
+      "Lightweight and portable with integrated touchscreen"
+    ],
+    "cons": [
+      "Measures slightly fewer club metrics than the 4-camera GCQuad",
+      "Premium price relative to budget radar units"
+    ],
+    "canada_notes": "Extremely popular in Canadian home simulator builds. Fully authorized Canadian distribution with local service centers in Ontario and Alberta.",
+    "dealers": [
+      {
+        "name": "Foresight Sports Canada",
+        "url": "https://foresightsports.ca",
+        "provinces": ["ON", "BC", "AB", "QC", "MB", "NS"]
+      }
+    ],
+    "alternatives": ["foresight-gcquad", "bushnell-launch-pro", "skytrak-plus"],
+    "positioned_as_alternative_to": ["foresight-gcquad"],
+    "status": "published"
+  },
+  {
+    "slug": "foresight-gc3s",
+    "name": "Foresight GC3s",
+    "brand_slug": "foresight-sports",
+    "category": "launch-monitor",
+    "sub_category": "photometric",
+    "badge": null,
+    "price_range_cad": "$8,200 – $9,800",
+    "price_verified": "2025-07",
+    "rating": 9.1,
+    "filter_tags": {
+      "best_for": ["intermediate", "serious-golfer"],
+      "space_type": ["dedicated-room", "garage", "basement"],
+      "detection_tech": "camera",
+      "software_compat": ["fsx", "gspro"],
+      "budget_tier": "mid-high"
+    },
+    "specs": {
+      "technology": "Triscopic Photometric Camera",
+      "ball_data_points": 9,
+      "club_data": "Ball Speed, Club Head Speed, Launch Angle",
+      "indoor_outdoor": "Indoor Primary",
+      "software_included": "FSX Play Lite",
+      "space_required": "10ft W x 10ft L x 9ft H"
+    },
+    "pros": [
+      "Entry point to genuine Foresight camera precision",
+      "Identical build architecture to the standard GC3",
+      "Excellent integration with GSPro"
+    ],
+    "cons": [
+      "Fewer included course licenses than full GC3 package",
+      "Requires subscription option for certain advanced club data"
+    ],
+    "canada_notes": "Tailored for dedicated home room builds across Canada looking for Foresight accuracy on a refined budget.",
+    "dealers": [
+      {
+        "name": "Foresight Sports Canada",
+        "url": "https://foresightsports.ca",
+        "provinces": ["ON", "BC", "AB"]
+      }
+    ],
+    "alternatives": ["foresight-gc3", "bushnell-launch-pro"],
+    "positioned_as_alternative_to": ["skytrak-plus"],
+    "status": "published"
+  },
+  {
+    "slug": "foresight-gcquadmax",
+    "name": "Foresight GCQuadMAX",
+    "brand_slug": "foresight-sports",
+    "category": "launch-monitor",
+    "sub_category": "photometric",
+    "badge": "new",
+    "price_range_cad": "$24,000 – $28,000",
+    "price_verified": "2025-07",
+    "rating": 9.9,
+    "filter_tags": {
+      "best_for": ["tour-pro", "commercial", "serious-golfer"],
+      "space_type": ["dedicated-room", "commercial-bay"],
+      "detection_tech": "camera",
+      "software_compat": ["fsx", "gspro", "e6"],
+      "budget_tier": "ultra-premium"
+    },
+    "specs": {
+      "technology": "Quadrascopic MAX Camera Engine",
+      "ball_data_points": 18,
+      "club_data": "Advanced 3D Club Head & Face Impact Location Data",
+      "indoor_outdoor": "Both (Touch Screen Display & Ergonomic Handle)",
+      "software_included": "FSX Play Premium, FSX Pro, Complete Course Library",
+      "space_required": "12ft W x 12ft L x 9.5ft H"
+    },
+    "pros": [
+      "The highest precision photometric measurement engine ever manufactured",
+      "Includes specialized speed training measurement mode",
+      "Unrivaled club face impact position tracking"
+    ],
+    "cons": [
+      "Top-tier capital expenditure",
+      "Exceeds requirements for casual home recreation"
+    ],
+    "canada_notes": "Favored by top Canadian golf academies, PGA tour fitters, and luxury home installations in Toronto, Vancouver, and Calgary.",
+    "dealers": [
+      {
+        "name": "Foresight Sports Canada",
+        "url": "https://foresightsports.ca",
+        "provinces": ["ON", "BC", "AB", "QC"]
+      }
+    ],
+    "alternatives": ["foresight-gcquad", "uneekor-eye-xo2"],
+    "positioned_as_alternative_to": ["trackman-4"],
+    "status": "published"
+  },
+  {
+    "slug": "foresight-gchawk",
+    "name": "Foresight GCHawk",
+    "brand_slug": "foresight-sports",
+    "category": "launch-monitor",
+    "sub_category": "photometric-ceiling",
+    "badge": null,
+    "price_range_cad": "$24,500 – $29,000",
+    "price_verified": "2025-07",
+    "rating": 9.6,
+    "filter_tags": {
+      "best_for": ["commercial", "serious-golfer"],
+      "space_type": ["dedicated-room", "commercial-bay"],
+      "detection_tech": "camera-ceiling",
+      "software_compat": ["fsx", "gspro"],
+      "budget_tier": "ultra-premium"
+    },
+    "specs": {
+      "technology": "Overhead Quadrascopic Camera Array",
+      "ball_data_points": 16,
+      "club_data": "Full overhead club impact data (Left- and Right-handed seamlessly)",
+      "indoor_outdoor": "Indoor Overhead Mount Only",
+      "software_included": "FSX Play Commercial Suite",
+      "space_required": "14ft W x 16ft L x 9.5ft H"
+    },
+    "pros": [
+      "Seemless seamless switching between right- and left-handed golfers with zero repositioning",
+      "Mounted completely out of harm's way overhead",
+      "Supports multi-sport tracking (golf and soccer)"
+    ],
+    "cons": [
+      "Requires fixed overhead installation and minimum ceiling clearance",
+      "Not portable"
+    ],
+    "canada_notes": "The primary choice for high-end commercial indoor golf lounges and dual-handed Canadian home bays.",
+    "dealers": [
+      {
+        "name": "Foresight Sports Canada",
+        "url": "https://foresightsports.ca",
+        "provinces": ["ON", "BC", "AB", "QC"]
+      }
+    ],
+    "alternatives": ["foresight-falcon", "uneekor-eye-xo2"],
+    "positioned_as_alternative_to": ["uneekor-eye-xo2"],
+    "status": "published"
+  },
+  {
+    "slug": "foresight-falcon",
+    "name": "Foresight Falcon",
+    "brand_slug": "foresight-sports",
+    "category": "launch-monitor",
+    "sub_category": "photometric-ceiling",
+    "badge": "new",
+    "price_range_cad": "$19,500 – $23,000",
+    "price_verified": "2025-07",
+    "rating": 9.5,
+    "filter_tags": {
+      "best_for": ["commercial", "serious-golfer"],
+      "space_type": ["dedicated-room", "garage"],
+      "detection_tech": "camera-ceiling",
+      "software_compat": ["fsx", "gspro"],
+      "budget_tier": "premium"
+    },
+    "specs": {
+      "technology": "Compact Overhead Quadrascopic Photometric",
+      "ball_data_points": 16,
+      "club_data": "Full club & ball metrics",
+      "indoor_outdoor": "Indoor Overhead",
+      "software_included": "FSX Play Suite",
+      "space_required": "12ft W x 14ft L x 9ft H"
+    },
+    "pros": [
+      "Compact overhead footprint compared to GCHawk",
+      "Both right and left handed play without moving hardware",
+      "Built-in power supply and single cable Ethernet connection"
+    ],
+    "cons": [
+      "Permanent installation required",
+      "High investment tier"
+    ],
+    "canada_notes": "Gaining fast popularity in Canadian garage conversions where floor space needs to be clear for vehicles.",
+    "dealers": [
+      {
+        "name": "Foresight Sports Canada",
+        "url": "https://foresightsports.ca",
+        "provinces": ["ON", "BC", "AB"]
+      }
+    ],
+    "alternatives": ["foresight-gchawk", "uneekor-eye-xo2"],
+    "positioned_as_alternative_to": ["uneekor-eye-xo2"],
+    "status": "published"
+  },
+  {
+    "slug": "skytrak-plus",
+    "name": "SkyTrak+",
+    "brand_slug": "skytrak",
+    "category": "launch-monitor",
+    "sub_category": "hybrid-camera-radar",
+    "badge": "featured",
+    "price_range_cad": "$4,200 – $4,900",
+    "price_verified": "2025-07",
+    "rating": 8.9,
+    "filter_tags": {
+      "best_for": ["intermediate", "beginner", "serious-golfer"],
+      "space_type": ["garage", "basement", "dedicated-room"],
+      "detection_tech": "hybrid",
+      "software_compat": ["skytrak-app", "gspro", "e6"],
+      "budget_tier": "mid-range"
+    },
+    "specs": {
+      "technology": "Dual-Photometric High-Speed Camera + Dual Doppler Radar",
+      "ball_data_points": 8,
+      "club_data": "Club Head Speed, Path, Face Angle",
+      "indoor_outdoor": "Indoor Primary (Outdoor Mat Limited)",
+      "software_included": "SkyTrak Basic Driving Range",
+      "space_required": "10ft W x 10ft L x 9ft H"
+    },
+    "pros": [
+      "Hybrid camera + radar system delivers club data without stickers",
+      "Significantly faster shot processing than original SkyTrak",
+      "Great price-to-performance ratio for Canadian home simulators"
+    ],
+    "cons": [
+      "Requires annual software subscription package for course play",
+      "Photometric positioning requires precise alignment beside ball"
+    ],
+    "canada_notes": "Top seller in Canadian suburban garage setups. Supported by official Canadian retail partners with local CAD billing.",
+    "dealers": [
+      {
+        "name": "Golf Sim Canada Authorized Partner",
+        "url": "https://golfsimcanada.site/dealers/skytrak",
+        "provinces": ["ON", "BC", "AB", "QC", "MB", "NS"]
+      }
+    ],
+    "alternatives": ["bushnell-launch-pro", "foresight-gc3", "full-swing-kit"],
+    "positioned_as_alternative_to": ["bushnell-launch-pro"],
+    "status": "published"
+  },
+  {
+    "slug": "bushnell-launch-pro",
+    "name": "Bushnell Launch Pro",
+    "brand_slug": "bushnell",
+    "category": "launch-monitor",
+    "sub_category": "photometric",
+    "badge": "info",
+    "price_range_cad": "$4,800 – $6,200",
+    "price_verified": "2025-07",
+    "rating": 9.3,
+    "filter_tags": {
+      "best_for": ["serious-golfer", "intermediate"],
+      "space_type": ["garage", "basement", "dedicated-room"],
+      "detection_tech": "camera",
+      "software_compat": ["fsx", "gspro"],
+      "budget_tier": "mid-range"
+    },
+    "specs": {
+      "technology": "Triscopic Photometric Camera Engine (Powered by Foresight)",
+      "ball_data_points": 10,
+      "club_data": "Requires Gold Package subscription for full club data",
+      "indoor_outdoor": "Both",
+      "software_included": "FSX Play (Basic tier)",
+      "space_required": "10ft W x 10ft L x 9ft H"
+    },
+    "pros": [
+      "Identical hardware and measurement precision as the Foresight GC3",
+      "Lower upfront hardware purchase price",
+      "Unmatched camera precision under $6k CAD"
+    ],
+    "cons": [
+      "Annual software subscription required to unlock advanced features",
+      "Certain US subscription tiers differ for Canadian buyers — check details"
+    ],
+    "canada_notes": "Important Canadian buyer note: Ensure purchase through an authorized Canadian seller so software subscription keys activate smoothly in Canada without USD currency friction.",
+    "dealers": [
+      {
+        "name": "Bushnell Golf Canada Dealer Network",
+        "url": "https://bushnellgolf.ca",
+        "provinces": ["ON", "BC", "AB", "QC"]
+      }
+    ],
+    "alternatives": ["foresight-gc3", "skytrak-plus"],
+    "positioned_as_alternative_to": ["foresight-gc3"],
+    "status": "published"
+  },
+  {
+    "slug": "uneekor-eye-xo2",
+    "name": "Uneekor EYE XO2",
+    "brand_slug": "uneekor",
+    "category": "launch-monitor",
+    "sub_category": "photometric-ceiling",
+    "badge": null,
+    "price_range_cad": "$16,500 – $19,500",
+    "price_verified": "2025-07",
+    "rating": 9.4,
+    "filter_tags": {
+      "best_for": ["serious-golfer", "commercial"],
+      "space_type": ["dedicated-room", "garage"],
+      "detection_tech": "camera-ceiling",
+      "software_compat": ["view", "gspro", "e6"],
+      "budget_tier": "premium"
+    },
+    "specs": {
+      "technology": "Overhead Dual High-Speed Camera Engine",
+      "ball_data_points": 15,
+      "club_data": "Club Face Impact Video & Full Data Metrics",
+      "indoor_outdoor": "Indoor Ceiling Mount",
+      "software_included": "Uneekor VIEW & Refine Package",
+      "space_required": "12ft W x 15ft L x 9ft H"
+    },
+    "pros": [
+      "Large hitting zone with overhead mounting",
+      "High-speed video capture of actual club-to-ball impact",
+      "Excellent GSPro integration and software flexibility"
+    ],
+    "cons": [
+      "Requires fixed overhead ceiling mounting",
+      "Club stickers required for full spin axis validation"
+    ],
+    "canada_notes": "Very strong presence across Canadian custom simulator installers in Ontario and Western Canada.",
+    "dealers": [
+      {
+        "name": "Uneekor Canada Certified Installers",
+        "url": "https://uneekor.ca",
+        "provinces": ["ON", "BC", "AB", "QC"]
+      }
+    ],
+    "alternatives": ["foresight-gchawk", "foresight-falcon"],
+    "positioned_as_alternative_to": ["foresight-gchawk"],
+    "status": "published"
+  },
+  {
+    "slug": "full-swing-kit",
+    "name": "Full Swing KIT",
+    "brand_slug": "full-swing",
+    "category": "launch-monitor",
+    "sub_category": "radar",
+    "badge": null,
+    "price_range_cad": "$6,800 – $7,900",
+    "price_verified": "2025-07",
+    "rating": 8.7,
+    "filter_tags": {
+      "best_for": ["intermediate", "serious-golfer"],
+      "space_type": ["dedicated-room", "outdoor-range"],
+      "detection_tech": "radar",
+      "software_compat": ["e6", "full-swing-app"],
+      "budget_tier": "mid-high"
+    },
+    "specs": {
+      "technology": "Radar + High-Definition Camera Fusion",
+      "ball_data_points": 16,
+      "club_data": "16 Points of Radar Ball & Club Data",
+      "indoor_outdoor": "Both (Endorsed by Tiger Woods for Outdoor/Indoor)",
+      "software_included": "E6 Connect (5 Courses Included)",
+      "space_required": "10ft W x 16ft L x 9ft H (Requires distance behind ball)"
+    },
+    "pros": [
+      "OLED customizable unit display on the ground",
+      "Compact portable radar casing",
+      "Full video swing capture camera built-in"
+    ],
+    "cons": [
+      "Radar technology requires 8ft behind ball + 8ft ball flight distance indoors",
+      "Indoor spin measurement sensitive to metallic sticker placement"
+    ],
+    "canada_notes": "Popular for Canadian golfers with long basement or garage dimensions (16+ ft length).",
+    "dealers": [
+      {
+        "name": "Full Swing Golf Authorized Retailers",
+        "url": "https://fullswinggolf.com",
+        "provinces": ["ON", "BC", "AB"]
+      }
+    ],
+    "alternatives": ["skytrak-plus", "foresight-gc3"],
+    "positioned_as_alternative_to": ["foresight-gc3"],
+    "status": "published"
+  },
+  {
+    "slug": "forecaddy-smart-cart",
+    "name": "ForeCaddy Smart Cart",
+    "brand_slug": "foresight-sports",
+    "category": "accessory",
+    "sub_category": "robotic-cart",
+    "badge": null,
+    "price_range_cad": "$2,800 – $3,400",
+    "price_verified": "2025-07",
+    "rating": 8.5,
+    "filter_tags": {
+      "best_for": ["outdoor-golfer"],
+      "space_type": ["outdoor-course"],
+      "detection_tech": "radar-tracking",
+      "software_compat": [],
+      "budget_tier": "mid-range"
+    },
+    "specs": {
+      "technology": "Auto-Follow Ultrasonic & Bluetooth Sensor",
+      "modes": "Follow, Remote, Power Assist, Direct Tracking",
+      "battery": "Extended 36-hole Lithium Battery",
+      "indoor_outdoor": "Outdoor Course Use"
+    },
+    "pros": [
+      "Smart follow mode tracks golfer walking on the course",
+      "Heavy duty frame engineered for rugged Canadian terrain",
+      "Folds compactly into trunk space"
+    ],
+    "cons": [
+      "Course accessory only — not used inside home simulator room",
+      "Premium price for walking cart"
+    ],
+    "canada_notes": "Distributed alongside Foresight launch monitors by Canadian authorized equipment dealers for summer course play.",
+    "dealers": [
+      {
+        "name": "Foresight Sports Canada",
+        "url": "https://foresightsports.ca",
+        "provinces": ["ON", "BC", "AB"]
+      }
+    ],
+    "alternatives": [],
+    "positioned_as_alternative_to": [],
+    "status": "published"
+  }
+]

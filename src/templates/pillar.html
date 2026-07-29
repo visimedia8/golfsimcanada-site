@@ -1,0 +1,120 @@
+<!-- pillar.html -->
+<main class="pillar-page py-12">
+  <article class="container container-narrow">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      {{#if is_fr}}
+      <a href="/fr/">Accueil</a> › <span>{{title}}</span>
+      {{else}}
+      <a href="/">Home</a> › <span>{{title}}</span>
+      {{/if}}
+    </nav>
+
+    <!-- Pillar Hero Header -->
+    <header class="pillar-page-hero text-center mb-10">
+      {{#if is_fr}}
+      <span class="badge badge--editors-choice mb-3">Guide complet canadien</span>
+      {{else}}
+      <span class="badge badge--editors-choice mb-3">Comprehensive Canadian Guide</span>
+      {{/if}}
+      <h1 class="h1 text-white mb-4">{{title}}</h1>
+      <div class="meta-row text-xs text-muted flex justify-center gap-4 mb-6">
+        {{#if is_fr}}
+        <span>Mise à jour : {{#if date_modified}}{{date_modified}}{{else}}Juillet 2025{{/if}}</span>
+        <span>✓ Vérifié par la rédaction</span>
+        <span>🍁 Prix en CAD</span>
+        {{else}}
+        <span>Updated: {{#if date_modified}}{{date_modified}}{{else}}July 2025{{/if}}</span>
+        <span>✓ Editorial Verified</span>
+        <span>🍁 CAD Prices</span>
+        {{/if}}
+      </div>
+
+      <!-- Direct Answer AEO Block -->
+      {{#if aeo_direct_answer}}
+      <div class="aeo-block card p-6 bg-surface border-l-4 border-gold text-left text-secondary text-base leading-relaxed mb-8">
+        {{#if is_fr}}
+        <strong class="text-white block mb-2 font-bold">Réponse rapide :</strong>
+        {{else}}
+        <strong class="text-white block mb-2 font-bold">Quick Answer:</strong>
+        {{/if}}
+        {{aeo_direct_answer}}
+      </div>
+      {{/if}}
+    </header>
+
+    <!-- Table of Contents -->
+    {{#if toc_items}}
+    <nav class="toc card p-6 bg-surface mb-8" aria-label="Table of contents">
+      {{#if is_fr}}
+      <h2 class="toc__heading h3 text-white mb-3">Dans ce guide</h2>
+      {{else}}
+      <h2 class="toc__heading h3 text-white mb-3">In This Pillar Guide</h2>
+      {{/if}}
+      <ol class="toc__list space-y-2 text-sm">
+        {{#each toc_items}}
+        <li class="toc__item toc__item--{{level}}">
+          <a href="#{{anchor}}" class="text-accent hover:underline">{{text}}</a>
+        </li>
+        {{/each}}
+      </ol>
+    </nav>
+    {{/if}}
+
+    <!-- Main Content Prose -->
+    <div class="pillar-body prose mb-12">
+      {{{content}}}
+    </div>
+
+    <!-- Embedded Top Featured Products -->
+    {{#if top_products}}
+    <section class="top-recommended-products mb-12">
+      {{#if is_fr}}
+      <h2 class="h2 text-white mb-6">Simulateurs recommandés pour les maisons canadiennes</h2>
+      {{else}}
+      <h2 class="h2 text-white mb-6">Recommended Simulators for Canadian Homes</h2>
+      {{/if}}
+      <div class="grid grid-3col gap-6">
+        {{#each top_products}}
+        {{> product-card}}
+        {{/each}}
+      </div>
+    </section>
+    {{/if}}
+
+    <!-- Inline Lead Gen CTA -->
+    <section class="card p-8 bg-surface text-center mb-12 border border-color-border">
+      {{#if is_fr}}
+      <span class="badge badge--featured mb-2 inline-block">Installations sur mesure</span>
+      <h2 class="h2 text-white mb-3">Besoin d'aide pour concevoir votre espace ?</h2>
+      <p class="text-secondary text-sm container-narrow mb-6">Connectez-vous avec des installateurs de simulateurs personnalisés, vérifiés et assurés dans votre province pour une planification d'espace gratuite et des devis d'équipement en CAD.</p>
+      <a href="/fr/installers/" class="btn btn--primary btn--lg">Obtenir des devis gratuits →</a>
+      {{else}}
+      <span class="badge badge--featured mb-2 inline-block">Local Custom Builds</span>
+      <h2 class="h2 text-white mb-3">Need Help Designing Your Space?</h2>
+      <p class="text-secondary text-sm container-narrow mb-6">Connect with verified, insured custom simulator installers in your province for free space planning and CAD equipment quotes.</p>
+      <a href="/installers/" class="btn btn--primary btn--lg">Get Free Installer Quotes →</a>
+      {{/if}}
+    </section>
+
+    <!-- FAQ Block -->
+    {{> faq-block}}
+  </article>
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{title}}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Golf Sim Canada",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://golfsimcanada.site/assets/images/logo/logo.svg"
+    }
+  },
+  "inLanguage": "en-CA"
+}
+</script>

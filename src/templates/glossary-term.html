@@ -1,0 +1,52 @@
+<!-- glossary-term.html -->
+<main class="glossary-term-page py-12">
+  <div class="container container-narrow">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/glossary/">Glossary</a> › <span>{{term}}</span>
+    </nav>
+
+    <article itemscope itemtype="https://schema.org/DefinedTerm">
+      <header class="mb-8">
+        <span class="badge badge--info mb-2 inline-block">Golf Simulator Glossary</span>
+        <h1 class="h1 text-white mb-4" itemprop="name">{{term}}</h1>
+        <!-- AEO lead definition block -->
+        <p class="definition-lead card p-6 bg-surface border-l-4 border-accent text-secondary text-base leading-relaxed" itemprop="description">
+          {{short_definition}}
+        </p>
+      </header>
+
+      <div class="prose mb-12" itemprop="description">
+        {{{content}}}
+      </div>
+
+      <!-- Related Terms -->
+      {{#if related_terms}}
+      <aside class="related-terms card p-6 bg-surface mb-8">
+        <h2 class="h3 text-white mb-4">Related Simulator Terms</h2>
+        <div class="related-terms__grid flex gap-3 flex-wrap">
+          {{#each related_terms}}
+          <a href="/glossary/{{slug}}/" class="tag tag--sm hover:border-accent">{{term}}</a>
+          {{/each}}
+        </div>
+      </aside>
+      {{/if}}
+
+      <!-- Money Page CTA -->
+      <div class="glossary-cta card p-6 bg-base border border-color-border text-center">
+        <p class="text-secondary text-sm mb-4">{{#if money_page_cta_text}}{{money_page_cta_text}}{{else}}Ready to see which launch monitors measure {{term}} with direct camera or radar accuracy?{{/if}}</p>
+        <a href="/best-home-simulators/" class="btn btn--primary btn--sm">Explore Best Golf Simulators →</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "{{term}}",
+  "description": "{{short_definition}}",
+  "inDefinedTermSet": "https://golfsimcanada.site/glossary/"
+}
+</script>

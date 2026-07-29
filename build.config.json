@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://golfsimcanada.site",
+  "siteName": "Golf Sim Canada",
+  "defaultLocale": "en-CA",
+  "supportedLocales": ["en-CA", "fr-CA"],
+  "paginationSize": {
+    "blog": 10,
+    "products": 12,
+    "venues": 20,
+    "glossary": 24
+  },
+  "trailingSlash": true,
+  "outputDir": "dist"
+}

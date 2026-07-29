@@ -1,0 +1,77 @@
+<!-- list-venue.html -->
+<main class="list-venue-page py-12">
+  <div class="container container-narrow">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/venues/">Indoor Golf Directory</a> › <span>List Your Venue</span>
+    </nav>
+
+    <header class="text-center mb-10">
+      <span class="badge badge--featured mb-3">Canadian Directory Submission</span>
+      <h1 class="h1 text-white mb-4">List Your Indoor Golf Venue</h1>
+      <p class="text-xl text-secondary">
+        Add your Canadian indoor golf facility, trackman lounge, or simulator bar to our directory covering 50+ Canadian cities.
+      </p>
+    </header>
+
+    <div class="card p-8 bg-surface mb-12">
+      <form action="/contact/?venue_submitted=true" method="POST" class="space-y-6">
+        <div class="grid grid-2col gap-6">
+          <div>
+            <label for="venue-name" class="block text-xs font-semibold text-white mb-2">Venue Business Name *</label>
+            <input type="text" id="venue-name" name="venue_name" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="e.g. Apex Golf Lounge" required>
+          </div>
+          <div>
+            <label for="venue-email" class="block text-xs font-semibold text-white mb-2">Business Email *</label>
+            <input type="email" id="venue-email" name="venue_email" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="contact@apexgolf.ca" required>
+          </div>
+        </div>
+
+        <div class="grid grid-2col gap-6">
+          <div>
+            <label for="venue-province" class="block text-xs font-semibold text-white mb-2">Province *</label>
+            <select id="venue-province" name="province" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" required>
+              <option value="">Select Province</option>
+              <option value="ON">Ontario</option>
+              <option value="BC">British Columbia</option>
+              <option value="AB">Alberta</option>
+              <option value="QC">Quebec</option>
+              <option value="MB">Manitoba</option>
+              <option value="NS">Nova Scotia</option>
+              <option value="SK">Saskatchewan</option>
+              <option value="NB">New Brunswick</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="venue-city" class="block text-xs font-semibold text-white mb-2">City *</label>
+            <input type="text" id="venue-city" name="city" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="e.g. Toronto" required>
+          </div>
+        </div>
+
+        <div>
+          <label for="venue-address" class="block text-xs font-semibold text-white mb-2">Street Address</label>
+          <input type="text" id="venue-address" name="address" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="123 Main St, Suite 100">
+        </div>
+
+        <div class="grid grid-2col gap-6">
+          <div>
+            <label for="venue-sim-tech" class="block text-xs font-semibold text-white mb-2">Simulator Technology Used</label>
+            <input type="text" id="venue-sim-tech" name="tech" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="e.g. TrackMan 4, Foresight GCQuad, Uneekor">
+          </div>
+
+          <div>
+            <label for="venue-hourly-rate" class="block text-xs font-semibold text-white mb-2">Hourly Rate Range (CAD)</label>
+            <input type="text" id="venue-hourly-rate" name="rate" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="e.g. $45 – $65 / hr">
+          </div>
+        </div>
+
+        <div>
+          <label for="venue-notes" class="block text-xs font-semibold text-white mb-2">Additional Business Notes / Website URL</label>
+          <textarea id="venue-notes" name="notes" rows="4" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="Include website link, 24/7 access details, bar/licensed status..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--lg w-full">Submit Venue Listing for Review →</button>
+      </form>
+    </div>
+  </div>
+</main>

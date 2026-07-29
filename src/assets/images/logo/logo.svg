@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="160" height="40">
+  <path d="M20 40 Q 40 10, 60 40" fill="none" stroke="#C9A84C" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="60" cy="40" r="5" fill="#C9A84C"/>
+  <text x="80" y="48" font-family="'Playfair Display', serif" font-weight="bold" font-size="28" fill="#FFFFFF">Golf Sim</text>
+  <text x="215" y="48" font-family="'Inter', sans-serif" font-weight="500" font-size="20" fill="#C9A84C" letter-spacing="3">CANADA</text>
+</svg>

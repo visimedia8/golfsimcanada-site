@@ -1,0 +1,95 @@
+<!-- setup-guide.html -->
+<main class="setup-guide-page py-12" itemscope itemtype="https://schema.org/HowTo">
+  <div class="container container-narrow">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/setup/">Setup Guides</a> › <span>{{title}}</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center mb-8">
+      <span class="badge badge--category mb-3 inline-block">Setup & Installation Guide</span>
+      <h1 class="h1 text-white mb-4" itemprop="name">{{title}}</h1>
+      
+      <div class="setup-requirements flex justify-center items-center gap-6 text-sm text-secondary mb-6 flex-wrap">
+        {{#if time_estimate}}<span>⏱ <strong>Time:</strong> {{time_estimate}}</span>{{/if}}
+        {{#if cost_estimate}}<span>💰 <strong>Est. Cost:</strong> {{cost_estimate}} CAD</span>{{/if}}
+        {{#if difficulty}}<span>🔧 <strong>Difficulty:</strong> {{difficulty}}</span>{{/if}}
+      </div>
+
+      <span class="trust-verified text-xs text-accent">✓ Updated for Canadian Home Builds & Codes</span>
+    </header>
+
+    <!-- Requirements Overview -->
+    {{#if requirements}}
+    <section class="setup-requirements-detail card p-6 bg-surface mb-8 border-l-4 border-accent">
+      <h2 class="h3 text-white mb-3">Key Requirements & Hardware Needed</h2>
+      <ul class="requirements-list space-y-2 text-secondary text-sm">
+        {{#each requirements}}
+        <li>✔ {{this}}</li>
+        {{/each}}
+      </ul>
+    </section>
+    {{/if}}
+
+    <!-- Guide Content Prose -->
+    <div class="prose mb-12">
+      {{{content}}}
+    </div>
+
+    <!-- Step-by-Step Guide Section -->
+    {{#if steps}}
+    <section class="setup-steps mb-12">
+      <h2 class="h2 text-white mb-6">Step-by-Step Walkthrough</h2>
+      <ol class="steps-list space-y-6">
+        {{#each steps}}
+        <li class="step card p-6 bg-surface border border-color-border" itemprop="step" itemscope itemtype="https://schema.org/HowToStep">
+          <div class="flex gap-4">
+            <div class="step__number font-bold text-xl text-accent bg-base h-10 w-10 flex items-center justify-center rounded-full flex-shrink-0">
+              {{#if step_number}}{{step_number}}{{else}}•{{/if}}
+            </div>
+            <div class="step__content">
+              <h3 class="h3 text-white mb-2" itemprop="name">{{name}}</h3>
+              <p class="text-secondary text-sm mb-3" itemprop="text">{{description}}</p>
+              {{#if tip}}
+              <div class="step__tip p-3 bg-base rounded text-xs text-gold border-l-2 border-gold">
+                💡 <strong>Pro Tip:</strong> {{tip}}
+              </div>
+              {{/if}}
+            </div>
+          </div>
+        </li>
+        {{/each}}
+      </ol>
+    </section>
+    {{/if}}
+
+    <!-- Recommended Component Mini Cards -->
+    {{#if related_products}}
+    <section class="related-products mb-12 p-6 card bg-surface">
+      <h2 class="h3 text-white mb-4">Recommended Components for This Setup</h2>
+      <div class="product-card-grid space-y-4">
+        {{#each related_products}}
+        {{> product-card-mini}}
+        {{/each}}
+      </div>
+    </section>
+    {{/if}}
+
+    <!-- Canadian Installation Notes -->
+    <section class="canada-notes card p-6 bg-surface mb-12">
+      <h2 class="h3 text-white mb-3">Canadian Installation Considerations</h2>
+      <p class="text-secondary text-sm">Be mindful of Canadian building codes, electrical requirements, and thermal insulation when executing home golf builds in unconditioned basements or cold garages. Hiring a licensed Canadian electrician for high-draw enclosure lighting or 240V garage heating is strongly recommended.</p>
+    </section>
+
+    <!-- Local Installer CTA -->
+    <section class="card p-8 bg-surface text-center mb-12 border border-color-border">
+      <h3 class="h3 text-white mb-2">Want a Professional Turnkey Setup?</h3>
+      <p class="text-secondary text-sm container-narrow mb-6">If DIY isn't your preference, connect with licensed, insured custom simulator installers in your Canadian province.</p>
+      <a href="/installers/" class="btn btn--primary btn--lg">Find Local Installers →</a>
+    </section>
+
+    <!-- FAQ Block -->
+    {{> faq-block}}
+  </div>
+</main>

@@ -1,0 +1,114 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Col 1: Brand -->
+      <div class="footer-col footer-brand">
+        <a href="{{#if is_fr}}/fr/{{else}}/{{/if}}" class="footer-logo" aria-label="Golf Sim Canada — Home">
+          <img src="/assets/images/logo/logo.png" alt="Golf Sim Canada" width="160" height="40" loading="lazy">
+        </a>
+        {{#if is_fr}}
+        <p class="footer-tagline">La référence canadienne pour le golf intérieur</p>
+        <p class="footer-editorial-statement">
+          Nous sommes un guide éditorial indépendant et un annuaire pour les acheteurs, exploitants et passionnés de simulateurs de golf au Canada.
+        </p>
+        {{else}}
+        <p class="footer-tagline">Canada's Home for Home Golf</p>
+        <p class="footer-editorial-statement">
+          We are an independent editorial guide and directory for Canadian golf simulator buyers, operators, and enthusiasts.
+        </p>
+        {{/if}}
+      </div>
+
+      <!-- Col 2: Explore -->
+      {{#if is_fr}}
+      <div class="footer-col">
+        <h4 class="footer-col-title">Explorer</h4>
+        <ul class="footer-links">
+          <li><a href="/blog/fr/meilleur-simulateur-de-golf/">Meilleurs Simulateurs</a></li>
+          <li><a href="/fr/installers/">Trouver un Installateur</a></li>
+        </ul>
+      </div>
+      {{else}}
+      <div class="footer-col">
+        <h4 class="footer-col-title">Explore</h4>
+        <ul class="footer-links">
+          <li><a href="/best-home-simulators/">Best Simulators</a></li>
+          <li><a href="/cost/">Golf Simulator Cost</a></li>
+          <li><a href="/packages/">Full Packages</a></li>
+          <li><a href="/venues/">Indoor Golf Venues</a></li>
+          <li><a href="/installers/">Find Installers</a></li>
+          <li><a href="/build/">Build Your Simulator</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Products & Brands -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Products & Brands</h4>
+        <ul class="footer-links">
+          <li><a href="/products/launch-monitors/">Launch Monitors</a></li>
+          <li><a href="/products/packages/">Full Packages</a></li>
+          <li><a href="/brands/">Brands</a></li>
+          <li><a href="/vs/">Compare</a></li>
+          <li><a href="/glossary/">Glossary</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Company -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Company</h4>
+        <ul class="footer-links">
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/list-venue/">List Your Venue</a></li>
+          <li><a href="/list-business/">List Your Business</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </div>
+      {{/if}}
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <!-- Bottom Bar & Legal -->
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <nav aria-label="Legal links">
+          {{#if is_fr}}
+          <a href="/legal/privacy/">Politique de confidentialité</a>
+          <span class="footer-legal-sep">·</span>
+          <a href="/legal/terms/">Conditions d'utilisation</a>
+          {{else}}
+          <a href="/legal/privacy/">Privacy Policy</a>
+          <span class="footer-legal-sep">·</span>
+          <a href="/legal/terms/">Terms of Use</a>
+          <span class="footer-legal-sep">·</span>
+          <a href="/legal/disclaimer/">Disclaimer</a>
+          <span class="footer-legal-sep">·</span>
+          <a href="/legal/cookies/">Cookie Policy</a>
+          <span class="footer-legal-sep">·</span>
+          <a href="/legal/accessibility/">Accessibility</a>
+          <span class="footer-legal-sep">·</span>
+          <a href="/legal/editorial/">Editorial Policy</a>
+          {{/if}}
+        </nav>
+      </div>
+      {{#if is_fr}}
+      <p class="footer-disclaimer">
+        Prix en CAD. Les dates de dernière vérification sont indiquées sur chaque page. Nous pouvons gagner une commission à partir des liens des revendeurs.
+      </p>
+      <p class="footer-copyright">
+        © 2025 GolfSimCanada.site. Tous droits réservés.
+      </p>
+      {{else}}
+      <p class="footer-disclaimer">
+        Prices in CAD. Last verified dates shown on each page. We may earn commission from dealer links — see our <a href="/legal/editorial/">Editorial Policy</a>.
+      </p>
+      <p class="footer-copyright">
+        © 2025 GolfSimCanada.site. All rights reserved.
+      </p>
+      {{/if}}
+    </div>
+  </div>
+</footer>

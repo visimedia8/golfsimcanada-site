@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "gc3-vs-gcquad",
+    "title": "Foresight GC3 vs GCQuad — Which Launch Monitor Should You Buy in Canada?",
+    "product_a": "foresight-gc3",
+    "product_b": "foresight-gcquad",
+    "verdict": "The Foresight GC3 delivers 95% of the accuracy and metrics of the GCQuad at nearly half the price. Unless you are a professional tour fitter or require specialized 4-camera club impact location mapping, the GC3 is the smarter buy for Canadian home simulator builds under $12,000 CAD.",
+    "verdict_winner": "foresight-gc3",
+    "verdict_context": "best value for serious home simulator builds in Canada",
+    "comparison_table_summary": {
+      "price_a": "$9,500 – $11,500 CAD",
+      "price_b": "$18,500 – $22,000 CAD",
+      "cameras_a": "3 (Triscopic)",
+      "cameras_b": "4 (Quadrascopic)",
+      "club_data_a": "Essential (Path, Speed, Smash)",
+      "club_data_b": "Complete 16-point 3D Face Impact Location",
+      "portability_a": "High (Built-in handle, 5 lbs)",
+      "portability_b": "High (Built-in handle, 7.5 lbs)"
+    },
+    "status": "published"
+  },
+  {
+    "slug": "skytrak-plus-vs-bushnell-launch-pro",
+    "title": "SkyTrak+ vs Bushnell Launch Pro — Best Home Simulator Under $7,000 CAD",
+    "product_a": "skytrak-plus",
+    "product_b": "bushnell-launch-pro",
+    "verdict": "If your primary goal is camera precision and room flexibility without stickers, the Bushnell Launch Pro (powered by Foresight GC3 optics) edges out in pure shot-to-shot consistency. However, the SkyTrak+ offers lower overall subscription costs and built-in hybrid radar-camera club tracking without stickers.",
+    "verdict_winner": "bushnell-launch-pro",
+    "verdict_context": "highest shot precision for dedicated home bays",
+    "comparison_table_summary": {
+      "price_a": "$4,200 – $4,900 CAD",
+      "price_b": "$4,800 – $6,200 CAD",
+      "tech_a": "Hybrid Camera + Radar",
+      "tech_b": "Triscopic Photometric Camera",
+      "subscription_a": "Basic included / $250-450/yr premium",
+      "subscription_b": "$699 USD/yr Gold Package for full club data",
+      "space_req_a": "10ft W x 10ft L x 9ft H",
+      "space_req_b": "10ft W x 10ft L x 9ft H"
+    },
+    "status": "published"
+  },
+  {
+    "slug": "costco-vs-custom",
+    "title": "Costco Golf Simulator Packages vs Building Your Own in Canada",
+    "product_a": "costco-golf-sim-package",
+    "product_b": "custom-diy-simulator-build",
+    "verdict": "Costco packages (like the OptiShot or entry bundle) offer easy one-click ordering, but custom DIY builds using a SkyTrak+ or Foresight GC3 combined with a quality impact screen provide vastly superior accuracy, realistic spin physics, and long-term upgradeability for Canadian homes.",
+    "verdict_winner": "custom-diy-simulator-build",
+    "verdict_context": "superior accuracy and long-term resale value",
+    "comparison_table_summary": {
+      "price_a": "$2,500 – $5,000 CAD",
+      "price_b": "$5,000 – $12,000 CAD",
+      "accuracy_a": "Basic / Infrared entry level",
+      "accuracy_b": "Photometric camera / Radar precision",
+      "screen_quality_a": "Standard single-layer net or screen",
+      "screen_quality_b": "Heavy-duty triple-layer low-bounce impact screen",
+      "warranty_a": "Costco return policy",
+      "warranty_b": "Full manufacturer CAD warranties"
+    },
+    "status": "published"
+  },
+  {
+    "slug": "gspro-vs-e6-connect",
+    "title": "GSPro vs E6 Connect — Which Simulator Software Is Best for Canadian Golfers?",
+    "product_a": "gspro-software",
+    "product_b": "e6-connect-software",
+    "verdict": "GSPro has become the gold standard for home simulation thanks to its incredible 4K graphics, active community course creator ecosystem (over 600+ courses including top Canadian tracks), realistic 4K physics, and affordable $250 USD annual pricing.",
+    "verdict_winner": "gspro-software",
+    "verdict_context": "best course library, community features, and physics",
+    "comparison_table_summary": {
+      "price_a": "$250 USD / year",
+      "price_b": "$300 – $600 USD / year",
+      "courses_a": "600+ community courses (including Banff Springs, St. George's)",
+      "courses_b": "100+ official licensed courses",
+      "graphics_engine_a": "Unity (4K resolution)",
+      "graphics_engine_b": "E6 Engine",
+      "compatibility_a": "Foresight, SkyTrak, Uneekor, Mevo+, Garmin",
+      "compatibility_b": "SkyTrak, TruGolf, FlightScope, Foresight"
+    },
+    "status": "published"
+  }
+]

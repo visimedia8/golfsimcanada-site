@@ -1,0 +1,56 @@
+<!-- compare-index.html -->
+<main class="compare-index-page py-12">
+  <div class="container">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <span>Comparisons Hub</span>
+    </nav>
+
+    <header class="text-center mb-12">
+      <span class="badge badge--featured mb-3">Head-to-Head Tests</span>
+      <h1 class="h1 text-white mb-4">Golf Simulator Head-to-Head Comparisons</h1>
+      <p class="text-xl text-secondary container-narrow">
+        Detailed side-by-side spec tests, Canadian pricing analysis, and verdict breakdowns between popular launch monitors and packages.
+      </p>
+    </header>
+
+    <div class="grid grid-2col gap-6 mb-12">
+      {{#each comparisons}}
+      <article class="card p-6 flex flex-col justify-between hover:border-accent transition-colors">
+        <div>
+          <span class="badge badge--editors-choice mb-2">Head-to-Head</span>
+          <h2 class="h2 text-white mb-2">{{product_a_name}} vs {{product_b_name}}</h2>
+          <p class="text-secondary text-sm mb-4">{{tldr_verdict}}</p>
+        </div>
+        <a href="/vs/{{slug}}/" class="btn btn--secondary btn--sm block text-center">Read Comparison →</a>
+      </article>
+      {{else}}
+      <article class="card p-6 flex flex-col justify-between hover:border-accent transition-colors">
+        <div>
+          <span class="badge badge--editors-choice mb-2">Popular Comparison</span>
+          <h2 class="h2 text-white mb-2">Foresight GC3 vs Foresight GCQuad</h2>
+          <p class="text-secondary text-sm mb-4">Is the GCQuad worth $9,000+ CAD more than the GC3 for home golf simulators in Canada?</p>
+        </div>
+        <a href="/vs/gc3-gcquad/" class="btn btn--secondary btn--sm block text-center">Read Comparison →</a>
+      </article>
+
+      <article class="card p-6 flex flex-col justify-between hover:border-accent transition-colors">
+        <div>
+          <span class="badge badge--featured mb-2">Value Showdown</span>
+          <h2 class="h2 text-white mb-2">SkyTrak+ vs Bushnell Launch Pro</h2>
+          <p class="text-secondary text-sm mb-4">Comparing mid-tier launch monitors under $6,000 CAD for garage and basement setups.</p>
+        </div>
+        <a href="/vs/skytrak-plus-bushnell/" class="btn btn--secondary btn--sm block text-center">Read Comparison →</a>
+      </article>
+
+      <article class="card p-6 flex flex-col justify-between hover:border-accent transition-colors">
+        <div>
+          <span class="badge badge--info mb-2">Special Guide</span>
+          <h2 class="h2 text-white mb-2">Costco Golf Simulators vs Authorized Dealers</h2>
+          <p class="text-secondary text-sm mb-4">What Costco actually sells, what you miss buying big-box, and how warranty & installation work in Canada.</p>
+        </div>
+        <a href="/vs/costco/" class="btn btn--secondary btn--sm block text-center">Read Guide →</a>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</main>

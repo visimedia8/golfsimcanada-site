@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "launch-monitor",
+    "term": "Launch Monitor",
+    "short_definition": "A electronic device that uses optical cameras, radar sensors, or photometric imagery to measure ball flight and club performance metrics at impact.",
+    "full_content_md": "launch-monitor.md",
+    "related_terms": ["photometric-launch-monitor", "doppler-radar", "smash-factor"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "our complete guide to the best launch monitors in Canada",
+    "canadian_context_note": "In Canada, buying through authorized Canadian dealers ensures valid warranty coverage and avoids unexpected import duties at the border.",
+    "status": "published"
+  },
+  {
+    "slug": "smash-factor",
+    "term": "Smash Factor",
+    "short_definition": "Smash factor is the mathematical ratio of ball speed divided by club head speed, quantifying the energy transfer efficiency from club to ball at impact.",
+    "full_content_md": "smash-factor.md",
+    "related_terms": ["ball-speed", "club-head-speed", "launch-angle"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "a launch monitor that tracks smash factor accurately",
+    "canadian_context_note": "A PGA tour driver smash factor averages 1.48–1.50. During cold Canadian garage sessions, cold golf balls compress slightly less, temporarily reducing measured smash factor by 0.02–0.03.",
+    "status": "published"
+  },
+  {
+    "slug": "ball-speed",
+    "term": "Ball Speed",
+    "short_definition": "The velocity of the golf ball measured immediately after separation from the club face, measured in miles per hour (mph) or kilometers per hour (km/h).",
+    "full_content_md": "ball-speed.md",
+    "related_terms": ["smash-factor", "club-head-speed", "carry-distance"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "launch monitors with high-speed ball velocity tracking",
+    "canadian_context_note": "Ball speed is the single biggest factor in total carry distance. High-speed camera launch monitors capture ball speed instantly within 2 inches of movement.",
+    "status": "published"
+  },
+  {
+    "slug": "launch-angle",
+    "term": "Launch Angle",
+    "short_definition": "The vertical angle of the golf ball's initial flight path relative to the ground immediately upon leaving the club face.",
+    "full_content_md": "launch-angle.md",
+    "related_terms": ["spin-rate", "carry-distance", "smash-factor"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "optimizing launch angle on your home simulator",
+    "canadian_context_note": "Achieving optimal launch angle is critical in indoor simulators where ceiling height constraints (minimum 9ft recommended in Canada) dictate vertical clearance.",
+    "status": "published"
+  },
+  {
+    "slug": "spin-rate",
+    "term": "Spin Rate",
+    "short_definition": "The amount of backspin rotation on the golf ball immediately after impact, measured in revolutions per minute (rpm).",
+    "full_content_md": "spin-rate.md",
+    "related_terms": ["launch-angle", "carry-distance", "doppler-radar"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "photometric launch monitors with accurate spin measurement",
+    "canadian_context_note": "Radar launch monitors require at least 8 to 10 feet of ball flight to measure spin accurately indoors, whereas photometric camera systems measure spin rate within 2 inches.",
+    "status": "published"
+  },
+  {
+    "slug": "carry-distance",
+    "term": "Carry Distance",
+    "short_definition": "The total airborne distance the golf ball travels from the impact spot to the point where it first strikes the turf.",
+    "full_content_md": "carry-distance.md",
+    "related_terms": ["ball-speed", "launch-angle", "spin-rate"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "calculating real-world carry distance indoors",
+    "canadian_context_note": "Simulator software algorithms calculate carry distance based on ambient elevation and temperature. Setting your altitude correctly in Canadian cities like Calgary (3,400ft elevation) is vital.",
+    "status": "published"
+  },
+  {
+    "slug": "club-head-speed",
+    "term": "Club Head Speed",
+    "short_definition": "The linear velocity of the club head center immediately prior to impact with the golf ball, measured in mph.",
+    "full_content_md": "club-head-speed.md",
+    "related_terms": ["smash-factor", "ball-speed"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "launch monitors with direct club measurement",
+    "canadian_context_note": "Unlocking club head speed data on high-end camera units allows Canadian golfers to conduct effective winter speed-training programs.",
+    "status": "published"
+  },
+  {
+    "slug": "impact-screen",
+    "term": "Impact Screen",
+    "short_definition": "A heavy-duty, tightly woven polyester or multi-layer mesh screen designed to safely stop full-speed golf ball impacts while displaying a clear projected image.",
+    "full_content_md": "impact-screen.md",
+    "related_terms": ["golf-simulator-enclosure"],
+    "money_page_link": "/setup/components/impact-screens/",
+    "money_page_anchor": "triple-layer low-noise impact screens in Canada",
+    "canadian_context_note": "Triple-layer premium impact screens reduce ball bounce-back and muffle noise, essential for Canadian suburban home basements and attached garages.",
+    "status": "published"
+  },
+  {
+    "slug": "golf-simulator-enclosure",
+    "name": "Golf Simulator Enclosure",
+    "term": "Golf Simulator Enclosure",
+    "short_definition": "A protective framework structure composed of metal piping, side baffle nets, ceiling blackout fabric, and an impact screen designed to contain shanked shots.",
+    "full_content_md": "golf-simulator-enclosure.md",
+    "related_terms": ["impact-screen"],
+    "money_page_link": "/setup/components/enclosures/",
+    "money_page_anchor": "DIY and custom enclosure options available in Canada",
+    "canadian_context_note": "Custom enclosure frames can be constructed using standard EMT conduit available at Canadian hardware retailers (Home Depot, Rona).",
+    "status": "published"
+  },
+  {
+    "slug": "doppler-radar",
+    "term": "Doppler Radar",
+    "short_definition": "A launch monitor detection technology that emits microwave signals to track the moving golf ball and club face over distance.",
+    "full_content_md": "doppler-radar.md",
+    "related_terms": ["photometric-launch-monitor", "launch-monitor"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "doppler radar vs photometric camera comparison",
+    "canadian_context_note": "Radar units perform exceptionally well outdoors on Canadian driving ranges, but require generous room length (16+ ft) when installed indoors.",
+    "status": "published"
+  },
+  {
+    "slug": "photometric-launch-monitor",
+    "term": "Photometric Launch Monitor",
+    "short_definition": "A launch monitor technology that uses high-speed digital cameras to take multiple rapid flash photographs of the ball during the first few inches of flight.",
+    "full_content_md": "photometric-launch-monitor.md",
+    "related_terms": ["doppler-radar", "launch-monitor"],
+    "money_page_link": "/products/launch-monitors/",
+    "money_page_anchor": "top-rated photometric launch monitors",
+    "canadian_context_note": "Photometric camera systems are the preferred choice for Canadian garage and basement builds because they require zero ball-flight distance behind the net.",
+    "status": "published"
+  },
+  {
+    "slug": "gspro",
+    "term": "GSPro",
+    "short_definition": "A leading next-generation golf simulation software engine built on Unity, renowned for 4K ultra-realistic physics, community course creation, and open API compatibility.",
+    "full_content_md": "gspro.md",
+    "related_terms": ["e6-connect", "launch-monitor"],
+    "money_page_link": "/products/gspro/",
+    "money_page_anchor": "GSPro software setup and licensing guide for Canadian golfers",
+    "canadian_context_note": "GSPro features hundreds of Canadian courses rendered by community creators, including Banff Springs, St. George's, and Glen Abbey.",
+    "status": "published"
+  },
+  {
+    "slug": "e6-connect",
+    "term": "E6 Connect",
+    "short_definition": "An industry-standard golf simulation software platform developed by TruGolf, offering cross-platform play, multiplayer leagues, and extensive course libraries.",
+    "full_content_md": "e6-connect.md",
+    "related_terms": ["gspro", "launch-monitor"],
+    "money_page_link": "/products/e6-connect/",
+    "money_page_anchor": "E6 Connect software bundles and launch monitor compatibility",
+    "canadian_context_note": "E6 Connect comes bundled with many popular launch monitors sold in Canada, including SkyTrak+ and Full Swing KIT.",
+    "status": "published"
+  }
+]

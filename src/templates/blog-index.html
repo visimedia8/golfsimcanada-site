@@ -1,0 +1,83 @@
+<!-- blog-index.html -->
+<main class="blog-index-page py-12">
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <span>Blog</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center mb-12">
+      <span class="badge badge--featured mb-3">Independent Research & Guides</span>
+      <h1 class="h1 text-white mb-4">Golf Sim Canada Blog & Field Guides</h1>
+      <p class="text-xl text-secondary container-narrow">
+        Expert analysis, setup tutorials, Canadian pricing guides, and technical deep-dives for home golf simulators.
+      </p>
+    </header>
+
+    <!-- Category Filters -->
+    <div class="category-filters flex justify-center gap-3 flex-wrap mb-10">
+      <a href="/blog/" class="btn btn--secondary btn--sm">All Posts</a>
+      <a href="/blog/category/buying-guides/" class="btn btn--ghost btn--sm">Buying Guides</a>
+      <a href="/blog/category/setup/" class="btn btn--ghost btn--sm">Setup & DIY</a>
+      <a href="/blog/category/technique/" class="btn btn--ghost btn--sm">Data & Technique</a>
+      <a href="/blog/category/canadian-golf/" class="btn btn--ghost btn--sm">Canadian Golf</a>
+    </div>
+
+    <!-- Article Grid -->
+    <div class="article-card-grid grid grid-3col gap-6 mb-12">
+      {{#each posts}}
+      {{> article-card}}
+      {{else}}
+      <!-- Default initial blog posts fallback -->
+      <article class="card article-card">
+        <div class="article-card__image-wrap">
+          <img src="/assets/images/blog/best-golf-sim-winter-canada.jpg" alt="Best Golf Simulators for Canadian Winter 2025" width="400" height="225" loading="lazy" class="article-card__image" onerror="this.src='/assets/images/blog/placeholder.jpg'">
+          <span class="badge badge--category">buying-guides</span>
+        </div>
+        <div class="article-card__body">
+          <div class="article-card__meta">July 15, 2025 • 8 min read</div>
+          <h3 class="article-card__title"><a href="/blog/best-golf-simulators-canadian-winter/">Best Golf Simulators for Canadian Winters — 2025 Guide</a></h3>
+          <p class="article-card__excerpt">Playing golf through a Canadian winter starts with the right home simulator. We tested 8 setups in sub-zero conditions—here's what works in garages and basements.</p>
+        </div>
+        <div class="article-card__footer"><a href="/blog/best-golf-simulators-canadian-winter/" class="article-card__link">Read Article →</a></div>
+      </article>
+
+      <article class="card article-card">
+        <div class="article-card__image-wrap">
+          <img src="/assets/images/blog/smash-factor-explained.jpg" alt="Smash Factor" width="400" height="225" loading="lazy" class="article-card__image" onerror="this.src='/assets/images/blog/placeholder.jpg'">
+          <span class="badge badge--category">technique</span>
+        </div>
+        <div class="article-card__body">
+          <div class="article-card__meta">July 20, 2025 • 5 min read</div>
+          <h3 class="article-card__title"><a href="/blog/smash-factor/">What is Smash Factor & Why it Matters for Indoor Golf Data</a></h3>
+          <p class="article-card__excerpt">Understanding ball speed vs clubhead speed efficiency and how photometric vs doppler monitors calculate smash factor indoors.</p>
+        </div>
+        <div class="article-card__footer"><a href="/blog/smash-factor/" class="article-card__link">Read Article →</a></div>
+      </article>
+
+      <article class="card article-card">
+        <div class="article-card__image-wrap">
+          <img src="/assets/images/blog/financing-golf-simulator-canada.jpg" alt="Financing Guide" width="400" height="225" loading="lazy" class="article-card__image" onerror="this.src='/assets/images/blog/placeholder.jpg'">
+          <span class="badge badge--category">buying-guides</span>
+        </div>
+        <div class="article-card__body">
+          <div class="article-card__meta">July 25, 2025 • 6 min read</div>
+          <h3 class="article-card__title"><a href="/blog/financing/">Financing a Golf Simulator in Canada: Options, Taxes & Rates</a></h3>
+          <p class="article-card__excerpt">Breakdown of dealer payment plans, credit lines, and tax implications when purchasing commercial or home simulators in Canada.</p>
+        </div>
+        <div class="article-card__footer"><a href="/blog/financing/" class="article-card__link">Read Article →</a></div>
+      </article>
+      {{/each}}
+    </div>
+
+    <!-- Pagination -->
+    {{#if has_pagination}}
+    <nav class="pagination flex justify-center items-center gap-4 mt-12" aria-label="Blog pagination">
+      {{#if prev_page}}<a href="{{prev_page_url}}" class="pagination__btn btn btn--ghost btn--sm" rel="prev">← Previous</a>{{/if}}
+      <span class="pagination__info text-sm text-muted">Page {{current_page}} of {{total_pages}}</span>
+      {{#if next_page}}<a href="{{next_page_url}}" class="pagination__btn btn btn--ghost btn--sm" rel="next">Next →</a>{{/if}}
+    </nav>
+    {{/if}}
+  </div>
+</main>

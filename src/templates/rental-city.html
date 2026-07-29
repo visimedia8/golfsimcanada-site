@@ -1,0 +1,159 @@
+<!-- rental-city.html -->
+<main class="rental-city-page py-12">
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/rentals/">Rentals</a> › <span>{{city}}</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="rental-header mb-10 text-center container-narrow">
+      <span class="badge badge--featured mb-3">Mobile & Event Golf Simulators</span>
+      <h1 class="h1 text-white mb-4">Mobile Golf Simulator Rentals in {{city}}, {{province}}</h1>
+      <p class="text-xl text-secondary mb-4">{{#if intro_paragraph}}{{intro_paragraph}}{{else}}Rent commercial-grade mobile golf simulator setups for corporate events, weddings, private parties, and trade shows in {{city}}. Full setup, teardown, and on-site attendants available.{{/if}}</p>
+      <div class="flex items-center justify-center gap-6 text-xs text-muted font-medium">
+        <span>📍 Serving {{city}} & Surrounding Delivery Areas</span>
+        <span class="trust-verified text-accent">✓ Last verified {{#if last_verified}}{{last_verified}}{{else}}July 2025{{/if}}</span>
+      </div>
+    </header>
+
+    <!-- Rentals Grid -->
+    <section class="rental-list grid grid-2col gap-8 mb-16" aria-label="Mobile Golf Sim Rentals in {{city}}">
+      {{#each rentals}}
+      <article class="card rental-card p-6 flex flex-col justify-between {{#if featured}}border-gold{{/if}}">
+        <div>
+          <div class="flex justify-between items-start mb-3 gap-2">
+            <div>
+              <h2 class="h3 text-white mb-1">{{#if provider_name}}{{provider_name}}{{else}}{{name}}{{/if}}</h2>
+              <p class="text-xs text-muted">📍 Delivery Area: {{delivery_area}}</p>
+            </div>
+            <div class="flex flex-col gap-1 items-end">
+              {{#if featured}}<span class="badge badge--featured">Featured Provider</span>{{/if}}
+              <span class="badge badge--info">{{#if indoor_outdoor}}{{indoor_outdoor}}{{else}}Indoor & Outdoor{{/if}}</span>
+            </div>
+          </div>
+
+          <p class="text-sm text-secondary mb-4">{{summary}}</p>
+
+          <div class="rental-card__details space-y-2 text-xs text-secondary mb-4 bg-surface-elevated p-4 rounded-md border border-color-border">
+            <div class="flex justify-between border-b border-color-border pb-1">
+              <span class="text-muted">💰 Rental Rate</span>
+              <span class="text-accent font-bold">From ${{price_per_hour_cad}} CAD/hr</span>
+            </div>
+            <div class="flex justify-between border-b border-color-border pb-1">
+              <span class="text-muted">⏱ Requirements</span>
+              <span class="text-white font-medium">Min {{min_rental_hours}}h rental · {{setup_time_hours}}h setup</span>
+            </div>
+            <div class="flex justify-between border-b border-color-border pb-1">
+              <span class="text-muted">🎯 Hardware & Enclosure</span>
+              <span class="text-white font-medium">
+                {{#each equipment}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+              </span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-muted">👥 Capacity</span>
+              <span class="text-white font-medium">Up to {{max_players}} simultaneous players</span>
+            </div>
+          </div>
+
+          {{#if includes}}
+          <div class="rental-includes flex flex-wrap gap-2 mb-4">
+            {{#each includes}}
+            <span class="tag tag--sm">✓ {{this}}</span>
+            {{/each}}
+          </div>
+          {{/if}}
+        </div>
+
+        <div class="rental-card__footer flex gap-3 border-t border-color-border pt-4 mt-2">
+          {{#if booking_url}}
+          <a href="{{booking_url}}" class="btn btn--primary btn--sm flex-1 text-center" rel="noopener" target="_blank">Book Simulator Rental →</a>
+          {{/if}}
+          {{#if phone}}
+          <a href="tel:{{phone}}" class="btn btn--ghost btn--sm" rel="noopener">Call {{phone}}</a>
+          {{/if}}
+        </div>
+      </article>
+      {{else}}
+      <article class="card p-8 col-span-full text-center bg-surface border border-color-border">
+        <h2 class="h2 text-white mb-3">Mobile Golf Simulator Rentals in {{city}}</h2>
+        <p class="text-secondary text-sm container-narrow mb-6">Looking for a pop-up golf simulator rental for a corporate function, birthday, or private event in {{city}}? Submit an inquiry and our team will connect you with available mobile operators in {{province}}.</p>
+        <div class="flex justify-center gap-4 flex-wrap">
+          <a href="/contact/?type=rental&city={{city_slug}}" class="btn btn--primary btn--sm">Request Rental Quote →</a>
+          <a href="/venues/{{city_slug}}/" class="btn btn--ghost btn--sm">View {{city}} Commercial Lounges</a>
+        </div>
+      </article>
+      {{/each}}
+    </section>
+
+    <!-- Corporate Event CTA -->
+    <aside class="rental-cta card p-8 bg-surface border border-color-border text-center mb-16">
+      <div class="container-narrow">
+        <span class="badge badge--primary mb-3">Event Planning & Team Building</span>
+        <h2 class="h2 text-white mb-3">Planning a Corporate Function or Private Party in {{city}}?</h2>
+        <p class="text-secondary text-sm mb-6">
+          Mobile golf simulators create an unbeatable interactive centerpiece for trade shows, office parties, golf tournament activations, and winter galas in {{city}}. Turnkey packages include setup, high-impact screens, clubs, and on-site technician attendants.
+        </p>
+        <div class="flex justify-center gap-4 flex-wrap">
+          <a href="/contact/?type=rental" class="btn btn--primary btn--sm">Request Event Proposal →</a>
+          <a href="{{#if (eq city_slug "canada")}}/events/{{else}}/events/{{city_slug}}/{{/if}}" class="btn btn--secondary btn--sm">See {{city}} Winter Leagues</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- FAQ Section -->
+    <section class="faq-block mb-12" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 class="h2 text-white mb-6 text-center">Frequently Asked Questions — {{city}} Mobile Rentals</h2>
+      <div class="space-y-4 container-narrow">
+        <div class="card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="h3 text-white mb-2" itemprop="name">What ceiling height and space is required for a mobile golf simulator in {{city}}?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p class="text-secondary text-sm" itemprop="text">Most mobile simulator enclosures require a minimum ceiling clearance of 9.5 to 10 feet, a floor footprint of 15ft W x 16ft L, and standard 110V electrical power outlets. Outdoor setups require a flat, level surface and overhead weather protection.</p>
+          </div>
+        </div>
+
+        <div class="card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="h3 text-white mb-2" itemprop="name">Are golf clubs and ball tracking software provided with the rental?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p class="text-secondary text-sm" itemprop="text">Yes, full rental packages include commercial launch monitor units (such as Foresight GCQuad or SkyTrak+), 4K short-throw projection, impact netting, premium hitting turf, and right/left handed club sets for your guests.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mobile Golf Simulator Rentals in {{city}}, {{province}}",
+  "description": "Event and mobile golf simulator rental providers in {{city}}",
+  "itemListElement": [
+    {{#each rentals}}
+    {
+      "@type": "ListItem",
+      "position": {{add1 @index}},
+      "item": {
+        "@type": "Service",
+        "name": "{{#if provider_name}}{{provider_name}}{{else}}{{name}}{{/if}}",
+        "areaServed": "{{city}}, {{province}}",
+        "url": "{{booking_url}}"
+      }
+    }{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://golfsimcanada.site/" },
+    { "@type": "ListItem", "position": 2, "name": "Rentals", "item": "https://golfsimcanada.site/rentals/" },
+    { "@type": "ListItem", "position": 3, "name": "{{city}}", "item": "https://golfsimcanada.site/rentals/{{city_slug}}/" }
+  ]
+}
+</script>

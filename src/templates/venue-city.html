@@ -1,0 +1,166 @@
+<!-- venue-city.html -->
+<main class="venue-city-page py-12">
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/venues/">Indoor Golf</a> ›
+      {{#if province}}<a href="/venues/{{province_slug}}/">{{province}}</a> › {{/if}}<span>{{city}}</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="venue-city-header mb-10 text-center container-narrow">
+      <span class="badge badge--featured mb-3">Verified Indoor Golf Directory</span>
+      <h1 class="h1 text-white mb-4">Indoor Golf in {{city}}, {{province}} — Simulator Venues Near You</h1>
+      <p class="text-xl text-secondary mb-4">{{#if intro_paragraph}}{{intro_paragraph}}{{else}}Explore top-rated indoor golf facilities, TrackMan lounges, and 24/7 simulator bays in {{city}}. Compare rates, technology, and book your next winter session.{{/if}}</p>
+      <div class="city-meta flex items-center justify-center gap-6 text-xs text-muted font-medium">
+        <span class="flex items-center gap-1">📍 <strong>{{#if venue_count}}{{venue_count}}{{else}}Multiple{{/if}}</strong> Venues Listed</span>
+        <span class="trust-verified text-accent">✓ Last verified {{#if last_verified}}{{last_verified}}{{else}}July 2025{{/if}}</span>
+      </div>
+    </header>
+
+    <!-- Venue List -->
+    <section class="venue-list grid grid-2col gap-8 mb-16" aria-label="Venues in {{city}}">
+      {{#each venues}}
+      <article class="card venue-card p-6 flex flex-col justify-between {{#if featured}}border-gold{{/if}}">
+        <div>
+          <div class="flex justify-between items-start mb-3 gap-2">
+            <div>
+              <h2 class="h3 text-white mb-1">{{name}}</h2>
+              <p class="venue-card__address text-xs text-muted">📍 {{address}}</p>
+            </div>
+            <div class="flex flex-col gap-1 items-end">
+              {{#if featured}}<span class="badge badge--featured">Featured</span>{{/if}}
+              {{#if is_24_7}}<span class="badge badge--info">24/7 Access</span>{{/if}}
+            </div>
+          </div>
+
+          <p class="text-sm text-secondary mb-4">{{summary}}</p>
+
+          <div class="venue-card__details space-y-2 text-xs text-secondary mb-4 bg-surface-elevated p-4 rounded-md border border-color-border">
+            <div class="flex justify-between border-b border-color-border pb-1">
+              <span class="text-muted">🕐 Hours</span>
+              <span class="text-white font-medium">{{hours}}</span>
+            </div>
+            <div class="flex justify-between border-b border-color-border pb-1">
+              <span class="text-muted">💰 Rate</span>
+              <span class="text-accent font-bold">From ${{price_per_hour_cad}} CAD/hr</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-muted">🎯 Technology</span>
+              <span class="text-white font-medium">
+                {{#if brands_formatted}}{{brands_formatted}}{{else}}
+                  {{#each brands}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+                {{/if}}
+              </span>
+            </div>
+          </div>
+
+          {{#if amenities}}
+          <div class="venue-amenities flex flex-wrap gap-2 mb-4">
+            {{#each amenities}}
+            <span class="tag tag--sm">{{this}}</span>
+            {{/each}}
+          </div>
+          {{/if}}
+        </div>
+
+        <div class="venue-card__footer flex gap-3 border-t border-color-border pt-4 mt-2">
+          {{#if booking_url}}
+          <a href="{{booking_url}}" class="btn btn--primary btn--sm flex-1 text-center" rel="noopener" target="_blank">Book Bay Now →</a>
+          {{/if}}
+          <a href="{{#if google_maps_url}}{{google_maps_url}}{{else}}https://maps.google.com/?q={{address}}{{/if}}" class="btn btn--ghost btn--sm" rel="noopener" target="_blank">Map & Directions</a>
+        </div>
+      </article>
+      {{else}}
+      <article class="card p-8 col-span-full text-center bg-surface border border-color-border">
+        <h2 class="h2 text-white mb-3">Indoor Golf Facilities in {{city}}</h2>
+        <p class="text-secondary text-sm container-narrow mb-6">Our team is actively verifying and adding indoor simulator venues in {{city}}, {{province}}. Are you a facility owner or know a local spot?</p>
+        <div class="flex justify-center gap-4 flex-wrap">
+          <a href="/list-venue/" class="btn btn--primary btn--sm">List Your Venue Free →</a>
+          <a href="/venues/" class="btn btn--ghost btn--sm">View All Canadian Cities</a>
+        </div>
+      </article>
+      {{/each}}
+    </section>
+
+    <!-- Home Sim CTA Section -->
+    <aside class="city-home-cta card p-8 bg-surface border border-color-border text-center mb-16">
+      <div class="container-narrow">
+        <span class="badge badge--info mb-3">Transitioning to Home Golf?</span>
+        <h2 class="h2 text-white mb-3">Prefer Playing in Your Own Home or Garage?</h2>
+        <p class="text-secondary text-sm mb-6">
+          Many golfers in {{city}} start out playing at local commercial simulator lounges, then invest in a personal home setup. Explore Canada’s top launch monitors or connect with verified installer specialists serving {{province}}.
+        </p>
+        <div class="flex justify-center gap-4 flex-wrap">
+          <a href="/best-home-simulators/" class="btn btn--primary btn--sm">Top Home Golf Simulators 2025 →</a>
+          <a href="/installers/{{#if province_slug}}{{province_slug}}{{else}}ontario{{/if}}/" class="btn btn--secondary btn--sm">Find {{province}} Installers</a>
+          <a href="/build/" class="btn btn--ghost btn--sm">Simulator Room Builder</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- FAQ Section -->
+    <section class="faq-block mb-12" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 class="h2 text-white mb-6 text-center">Frequently Asked Questions about Indoor Golf in {{city}}</h2>
+      <div class="space-y-4 container-narrow">
+        <div class="card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="h3 text-white mb-2" itemprop="name">How much does indoor golf cost per hour in {{city}}?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p class="text-secondary text-sm" itemprop="text">Hourly simulator bay rates in {{city}} typically range from $35 to $65 CAD per hour depending on prime time hours, launch monitor technology (e.g., TrackMan 4 vs Foresight GCQuad), and lounge amenities.</p>
+          </div>
+        </div>
+
+        <div class="card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="h3 text-white mb-2" itemprop="name">Do I need to bring my own golf clubs to simulator venues in {{city}}?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p class="text-secondary text-sm" itemprop="text">Most indoor golf venues encourage bringing your clean set of clubs. However, many locations also offer rental club sets or house clubs upon request. Soft-spiked golf shoes or clean running shoes are recommended.</p>
+          </div>
+        </div>
+
+        <div class="card p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 class="h3 text-white mb-2" itemprop="name">Are there 24/7 automated indoor golf lounges in {{city}}?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p class="text-secondary text-sm" itemprop="text">Yes, keycard access and automated 24/7 simulator facilities are rapidly expanding across {{province}}. Look for the 24/7 badge on venue listings above to book automated off-hour tee times.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Indoor Golf Simulator Venues in {{city}}, {{province}}",
+  "description": "Directory of commercial indoor golf facilities and simulator lounges in {{city}}",
+  "numberOfItems": {{#if venue_count}}{{venue_count}}{{else}}1{{/if}},
+  "itemListElement": [
+    {{#each venues}}
+    {
+      "@type": "ListItem",
+      "position": {{add1 @index}},
+      "item": {
+        "@type": "SportsActivityLocation",
+        "name": "{{name}}",
+        "address": "{{address}}",
+        "telephone": "{{phone}}",
+        "url": "{{website_url}}"
+      }
+    }{{#unless @last}},{{/unless}}
+    {{/each}}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://golfsimcanada.site/" },
+    { "@type": "ListItem", "position": 2, "name": "Indoor Golf", "item": "https://golfsimcanada.site/venues/" },
+    { "@type": "ListItem", "position": 3, "name": "{{city}}", "item": "https://golfsimcanada.site/venues/{{slug}}/" }
+  ]
+}
+</script>

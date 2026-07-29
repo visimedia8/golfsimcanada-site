@@ -1,0 +1,78 @@
+<!-- brand-single.html -->
+<main class="brand-single-page py-12">
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/brands/">Brands</a> › <span>{{name}}</span>
+    </nav>
+
+    <!-- Brand Header -->
+    <header class="card p-8 bg-surface mb-12 flex flex-col md:flex-row items-center gap-8">
+      {{#if logo}}
+      <img src="{{logo}}" alt="{{name}} Canada" width="160" height="80" class="brand-logo object-contain bg-base p-4 rounded border border-color-border">
+      {{/if}}
+      <div class="brand-header__info">
+        <span class="badge badge--info mb-2">Verified Canadian Brand Hub</span>
+        <h1 class="h1 text-white mb-3">{{name}} Canada</h1>
+        <p class="text-secondary text-base mb-4">{{#if editorial_summary}}{{editorial_summary}}{{else}}Comprehensive guide to {{name}} launch monitors, software, and authorized distributors across Canada.{{/if}}</p>
+        <div class="brand-meta flex gap-6 text-xs text-muted">
+          <span>Country of Origin: {{#if origin}}{{origin}}{{else}}USA / International{{/if}}</span>
+          <span>Canadian Warranty: {{#if warranty}}{{warranty}}{{else}}Official Authorized Warranty{{/if}}</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Products by Brand -->
+    <section class="brand-products mb-12">
+      <h2 class="h2 text-white mb-6">{{name}} Launch Monitors & Hardware</h2>
+      <div class="product-grid grid grid-3col gap-6">
+        {{#each products}}
+        {{> product-card}}
+        {{else}}
+        <p class="text-secondary col-span-full">No products currently listed for this brand.</p>
+        {{/each}}
+      </div>
+    </section>
+
+    <!-- Canadian Dealer & Service Info -->
+    <section class="canada-presence card p-6 bg-surface mb-12">
+      <h2 class="h2 text-white mb-4">Official Canadian Support & Dealers</h2>
+      <div class="prose text-secondary text-sm mb-6">
+        <p>{{#if canada_presence}}{{canada_presence}}{{else}}All {{name}} equipment purchased through recognized Canadian dealers comes with standard manufacturer warranty, direct CAD invoicing, and local technical assistance.{{/if}}</p>
+      </div>
+
+      <div class="dealers-list border-t border-color-border pt-4">
+        <h3 class="h3 text-white mb-3">Authorized Dealers for {{name}} in Canada</h3>
+        <div class="grid grid-2col gap-4">
+          {{#each dealers}}
+          <div class="dealer-card card p-4 flex justify-between items-center bg-base">
+            <div>
+              <span class="font-bold text-white block">{{name}}</span>
+              <span class="text-xs text-muted">Provinces: {{#each provinces}}{{this}} {{/each}}</span>
+            </div>
+            <a href="{{url}}" class="btn btn--secondary btn--sm" target="_blank" rel="noopener">Visit Dealer →</a>
+          </div>
+          {{else}}
+          <div class="dealer-card card p-4 flex justify-between items-center bg-base">
+            <div>
+              <span class="font-bold text-white block">Official Canadian Distributor Network</span>
+              <span class="text-xs text-muted">Authorized sales & support nationwide</span>
+            </div>
+            <a href="/installers/" class="btn btn--secondary btn--sm">Get Quotes →</a>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Brand",
+  "name": "{{name}}",
+  "url": "https://golfsimcanada.site/brands/{{slug}}/",
+  "logo": "https://golfsimcanada.site{{logo}}"
+}
+</script>

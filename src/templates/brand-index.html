@@ -1,0 +1,67 @@
+<!-- brand-index.html -->
+<main class="brand-index-page py-12">
+  <div class="container">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <span>Brands Hub</span>
+    </nav>
+
+    <header class="text-center mb-12">
+      <span class="badge badge--featured mb-3">Authorized Manufacturers</span>
+      <h1 class="h1 text-white mb-4">Golf Simulator Brands in Canada</h1>
+      <p class="text-xl text-secondary container-narrow">
+        Compare leading launch monitor and simulator manufacturers with official distribution and warranty support across Canadian provinces.
+      </p>
+    </header>
+
+    <div class="brands-grid grid grid-3col gap-6 mb-12">
+      {{#each brands}}
+      <article class="card p-6 flex flex-col justify-between hover:border-accent transition-colors">
+        <div>
+          <span class="badge badge--info mb-3 inline-block">Official Brand</span>
+          <h2 class="h2 text-white mb-2">{{name}}</h2>
+          <p class="text-secondary text-sm mb-4">{{editorial_summary}}</p>
+        </div>
+        <div>
+          <a href="/brands/{{slug}}/" class="btn btn--secondary btn--sm w-full text-center block">View {{name}} Canada →</a>
+        </div>
+      </article>
+      {{else}}
+      <article class="card p-6">
+        <h2 class="h2 text-white mb-2">Foresight Sports</h2>
+        <p class="text-secondary text-sm mb-4">Photometric launch monitors including GCQuad, GC3, GC3S, and Hawk.</p>
+        <a href="/brands/foresight/" class="btn btn--secondary btn--sm block text-center">View Foresight Canada →</a>
+      </article>
+
+      <article class="card p-6">
+        <h2 class="h2 text-white mb-2">SkyTrak</h2>
+        <p class="text-secondary text-sm mb-4">Consumer & mid-tier camera/doppler dual tracking monitors like SkyTrak+.</p>
+        <a href="/brands/skytrak/" class="btn btn--secondary btn--sm block text-center">View SkyTrak Canada →</a>
+      </article>
+
+      <article class="card p-6">
+        <h2 class="h2 text-white mb-2">Uneekor</h2>
+        <p class="text-secondary text-sm mb-4">Overhead optical launch monitors such as EYE XO, EYE XO2, and QED.</p>
+        <a href="/brands/uneekor/" class="btn btn--secondary btn--sm block text-center">View Uneekor Canada →</a>
+      </article>
+
+      <article class="card p-6">
+        <h2 class="h2 text-white mb-2">Bushnell Golf</h2>
+        <p class="text-secondary text-sm mb-4">Bushnell Launch Pro (powered by Foresight technology).</p>
+        <a href="/brands/bushnell/" class="btn btn--secondary btn--sm block text-center">View Bushnell Canada →</a>
+      </article>
+
+      <article class="card p-6">
+        <h2 class="h2 text-white mb-2">Full Swing</h2>
+        <p class="text-secondary text-sm mb-4">Full Swing KIT launch monitor and commercial overhead dual-tracking units.</p>
+        <a href="/brands/full-swing/" class="btn btn--secondary btn--sm block text-center">View Full Swing Canada →</a>
+      </article>
+
+      <article class="card p-6">
+        <h2 class="h2 text-white mb-2">TrackMan</h2>
+        <p class="text-secondary text-sm mb-4">Radar-based launch monitors for outdoor & large indoor enclosures (TrackMan 4).</p>
+        <a href="/brands/trackman/" class="btn btn--secondary btn--sm block text-center">View TrackMan Canada →</a>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</main>

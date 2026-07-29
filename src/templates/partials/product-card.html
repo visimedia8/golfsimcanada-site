@@ -1,0 +1,32 @@
+<article class="card product-card" role="listitem" data-category="{{category}}" data-best-for="{{#each filter_tags.best_for}}{{this}} {{/each}}">
+  <div class="product-card__image-wrap">
+    <img src="{{#if hero_image}}{{hero_image}}{{else}}/assets/images/products/placeholder.webp{{/if}}" alt="{{name}}" width="400" height="300" loading="lazy" class="product-card__image">
+    {{#if badge}}
+    <span class="badge badge--{{badge}}">{{#if (eq badge "editors-choice")}}Editor's Choice{{else}}{{badge}}{{/if}}</span>
+    {{/if}}
+  </div>
+  <div class="product-card__body">
+    <p class="product-card__brand">{{#if brand_name}}{{brand_name}}{{else}}{{brand_slug}}{{/if}}</p>
+    <h3 class="product-card__title">
+      <a href="/products/{{slug}}/">{{name}}</a>
+    </h3>
+    <div class="product-card__rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating-value">{{rating}}</span><span class="rating-max">/10</span>
+    </div>
+    <div class="product-card__price">
+      <span class="price-amount">{{price_range_cad}}</span> <span class="price-currency">CAD</span>
+    </div>
+    {{#if filter_tags.best_for}}
+    <div class="product-card__tags">
+      {{#each filter_tags.best_for}}
+      <span class="tag tag--sm">{{this}}</span>
+      {{/each}}
+    </div>
+    {{/if}}
+  </div>
+  <div class="product-card__footer">
+    <a href="/products/{{slug}}/" class="btn btn--secondary btn--sm">View Review</a>
+    <a href="/installers/" class="btn btn--ghost btn--sm">Get Quotes</a>
+  </div>
+</article>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}">
+  <link rel="canonical" href="{{canonical_url}}">
+
+  <!-- hreflang (injected by build script if bilingual page) -->
+  {{hreflang_tags}}
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{meta_title}}">
+  <meta property="og:description" content="{{meta_description}}">
+  <meta property="og:image" content="{{og_image}}">
+  <meta property="og:url" content="{{canonical_url}}">
+  <meta property="og:type" content="{{og_type}}">
+  <meta property="og:locale" content="{{og_locale}}">
+  <meta property="og:site_name" content="Golf Sim Canada">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{meta_title}}">
+  <meta name="twitter:description" content="{{meta_description}}">
+  <meta name="twitter:image" content="{{og_image}}">
+
+  <!-- Robots (default: index, follow. Override per-page for legal/paginated) -->
+  <meta name="robots" content="{{robots_directive}}">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/templates.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/logo/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/images/logo/apple-touch-icon.png">
+
+  <!-- Pagination links (injected by build script when paginated) -->
+  {{pagination_links}}
+
+  <!-- JSON-LD (injected per page by build script) -->
+  {{json_ld_blocks}}
+</head>
+<body class="{{body_class}}">
+
+  <!-- Cookie Consent Banner -->
+  {{> cookie-consent}}
+
+  <!-- Navigation -->
+  {{> nav}}
+
+  <!-- Page Content -->
+  <main id="main-content">
+    {{page_content}}
+  </main>
+
+  <!-- Mobile Sticky Bottom Nav -->
+  {{> mobile-bottom-nav}}
+
+  <!-- Footer -->
+  {{> footer}}
+
+  <!-- JS -->
+  <script src="/assets/js/main.js" defer></script>
+  {{page_scripts}}
+
+</body>
+</html>

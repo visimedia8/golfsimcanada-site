@@ -1,0 +1,26 @@
+<!-- venue-single.html -->
+<main class="venue-single-page py-12">
+  <div class="container container-narrow">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/venues/">Indoor Golf</a> › <span>{{name}}</span>
+    </nav>
+
+    <header class="card p-8 bg-surface mb-8">
+      <span class="badge badge--info mb-2 inline-block">Indoor Golf Venue</span>
+      <h1 class="h1 text-white mb-2">{{name}}</h1>
+      <p class="text-secondary text-sm mb-4">📍 {{address}}</p>
+      <div class="flex gap-4 text-xs text-muted">
+        <span>Hours: {{hours}}</span>
+        <span>Rate: From ${{price_per_hour}} CAD/hr</span>
+      </div>
+    </header>
+
+    <div class="card p-6 bg-base mb-8">
+      <h2 class="h3 text-white mb-3">Facility Details & Amenities</h2>
+      <p class="text-secondary text-sm mb-4">{{#if description}}{{description}}{{else}}High-definition simulator bays with real ball tracking, ideal for winter swing maintenance and leagues.{{/if}}</p>
+      {{#if booking_url}}
+      <a href="{{booking_url}}" class="btn btn--primary" target="_blank" rel="noopener">Book a Bay Online →</a>
+      {{/if}}
+    </div>
+  </div>
+</main>

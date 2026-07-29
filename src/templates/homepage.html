@@ -1,0 +1,316 @@
+<!-- homepage.html -->
+<section class="homepage-hero">
+  <div class="container text-center">
+    <span class="badge badge--featured mb-4">Independent Canadian Guide · CAD Pricing</span>
+    <h1 class="font-heading display-2xl text-white mb-6">Canada's Home for Home Golf</h1>
+    <p class="text-xl text-secondary container-narrow mb-8">
+      The independent guide to home golf simulators in Canada. Real reviews, Canadian prices in CAD, and verified local installers across every province.
+    </p>
+    <div class="hero-ctas flex justify-center gap-4 flex-wrap mb-10">
+      <a href="/best-home-simulators/" class="btn btn--primary btn--lg">See Best Simulators →</a>
+      <a href="/installers/" class="btn btn--ghost btn--lg">Find a Local Installer</a>
+    </div>
+    <div class="trust-bar text-sm text-muted">
+      <span>🇨🇦 Covering 50+ Canadian Cities</span>
+      <span class="mx-2">•</span>
+      <span>11 Brands Reviewed</span>
+      <span class="mx-2">•</span>
+      <span>Updated July 2025</span>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Top Editorial Picks -->
+<section class="py-16 bg-surface">
+  <div class="container">
+    <div class="section-header flex justify-between items-end mb-10">
+      <div>
+        <span class="badge badge--editors-choice mb-2">Tested & Rated</span>
+        <h2 class="h2 text-white">Top-Rated Home Golf Simulators in Canada</h2>
+      </div>
+      <a href="/best-home-simulators/" class="btn btn--ghost text-accent">View all simulators →</a>
+    </div>
+    <div class="homepage-products-grid">
+      {{#each featured_products}}
+      {{> product-card}}
+      {{else}}
+      <!-- Fallback featured items if rendered directly -->
+      <article class="card product-card">
+        <div class="product-card__image-wrap">
+          <img src="/assets/images/products/foresight-gcquad.jpg" alt="Foresight GCQuad" width="400" height="300" loading="lazy" class="product-card__image">
+          <span class="badge badge--editors-choice">Editor's Choice</span>
+        </div>
+        <div class="product-card__body">
+          <p class="product-card__brand">Foresight Sports</p>
+          <h3 class="product-card__title"><a href="/products/foresight-gcquad/">Foresight GCQuad</a></h3>
+          <div class="product-card__rating"><span class="stars">★★★★★</span> 9.8/10</div>
+          <div class="product-card__price"><span class="price-amount">$18,500 – $22,000</span> CAD</div>
+          <div class="product-card__tags"><span class="tag tag--sm">Serious Golfer</span><span class="tag tag--sm">Commercial</span></div>
+        </div>
+        <div class="product-card__footer">
+          <a href="/products/foresight-gcquad/" class="btn btn--secondary btn--sm">View Review</a>
+          <a href="/installers/" class="btn btn--ghost btn--sm">Get Quotes</a>
+        </div>
+      </article>
+
+      <article class="card product-card">
+        <div class="product-card__image-wrap">
+          <img src="/assets/images/products/skytrak-plus.jpg" alt="SkyTrak+" width="400" height="300" loading="lazy" class="product-card__image">
+          <span class="badge badge--featured">Best Value</span>
+        </div>
+        <div class="product-card__body">
+          <p class="product-card__brand">SkyTrak</p>
+          <h3 class="product-card__title"><a href="/products/skytrak-plus/">SkyTrak+</a></h3>
+          <div class="product-card__rating"><span class="stars">★★★★☆</span> 9.2/10</div>
+          <div class="product-card__price"><span class="price-amount">$3,999 – $4,500</span> CAD</div>
+          <div class="product-card__tags"><span class="tag tag--sm">Garage</span><span class="tag tag--sm">Mid-Range</span></div>
+        </div>
+        <div class="product-card__footer">
+          <a href="/products/skytrak-plus/" class="btn btn--secondary btn--sm">View Review</a>
+          <a href="/installers/" class="btn btn--ghost btn--sm">Get Quotes</a>
+        </div>
+      </article>
+
+      <article class="card product-card">
+        <div class="product-card__image-wrap">
+          <img src="/assets/images/products/uneekor-eye-xo2.jpg" alt="Uneekor EYE XO2" width="400" height="300" loading="lazy" class="product-card__image">
+          <span class="badge badge--info">Overhead Track</span>
+        </div>
+        <div class="product-card__body">
+          <p class="product-card__brand">Uneekor</p>
+          <h3 class="product-card__title"><a href="/products/uneekor-eye-xo2/">Uneekor EYE XO2</a></h3>
+          <div class="product-card__rating"><span class="stars">★★★★★</span> 9.6/10</div>
+          <div class="product-card__price"><span class="price-amount">$16,000 – $18,500</span> CAD</div>
+          <div class="product-card__tags"><span class="tag tag--sm">Overhead</span><span class="tag tag--sm">Dual Hitter</span></div>
+        </div>
+        <div class="product-card__footer">
+          <a href="/products/uneekor-eye-xo2/" class="btn btn--secondary btn--sm">View Review</a>
+          <a href="/installers/" class="btn btn--ghost btn--sm">Get Quotes</a>
+        </div>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- Section 3: Directory Entry -->
+<section class="py-16">
+  <div class="container">
+    <div class="text-center mb-10">
+      <h2 class="h2 text-white mb-4">Find Indoor Golf in Your City</h2>
+      <p class="text-secondary container-narrow">Whether you want to practice indoors during a Canadian winter or test setups before buying your own.</p>
+    </div>
+    
+    <div class="province-links flex justify-center gap-3 flex-wrap mb-8">
+      <a href="/venues/ontario/" class="btn btn--ghost btn--sm">Ontario</a>
+      <a href="/venues/bc/" class="btn btn--ghost btn--sm">British Columbia</a>
+      <a href="/venues/alberta/" class="btn btn--ghost btn--sm">Alberta</a>
+      <a href="/venues/manitoba/" class="btn btn--ghost btn--sm">Manitoba</a>
+      <a href="/venues/quebec/" class="btn btn--ghost btn--sm">Quebec</a>
+    </div>
+
+    <div class="city-pills flex justify-center gap-3 flex-wrap mb-8">
+      <a href="/venues/toronto/" class="tag">Toronto, ON</a>
+      <a href="/venues/vancouver/" class="tag">Vancouver, BC</a>
+      <a href="/venues/calgary/" class="tag">Calgary, AB</a>
+      <a href="/venues/ottawa/" class="tag">Ottawa, ON</a>
+      <a href="/venues/edmonton/" class="tag">Edmonton, AB</a>
+      <a href="/venues/montreal/" class="tag">Montreal, QC</a>
+    </div>
+
+    <div class="text-center">
+      <a href="/venues/" class="btn btn--secondary">Browse All Canadian Cities →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Section 4: Trust Section -->
+<section class="py-16 bg-surface">
+  <div class="container">
+    <h2 class="h2 text-white text-center mb-12">Why Canadian Golfers Trust Golf Sim Canada</h2>
+    <div class="grid grid-3col gap-8 mb-12">
+      <div class="card p-6">
+        <div class="text-3xl mb-4">🍁</div>
+        <h3 class="h3 text-white mb-3">Canada-Specific</h3>
+        <p class="text-secondary text-sm">All prices verified in Canadian Dollars (CAD). Complete details on authorized Canadian distributors, shipping, duties, and winter garage installation requirements.</p>
+      </div>
+      <div class="card p-6">
+        <div class="text-3xl mb-4">✎</div>
+        <h3 class="h3 text-white mb-3">Independent Editorial</h3>
+        <p class="text-secondary text-sm">Zero paid brand placement. We test systems in real Canadian homes and commercial facilities to provide unbiased data and honest recommendations.</p>
+      </div>
+      <div class="card p-6">
+        <div class="text-3xl mb-4">✓</div>
+        <h3 class="h3 text-white mb-3">Verified Data</h3>
+        <p class="text-secondary text-sm">Every spec sheet, price point, and venue entry displays a clear last-verified timestamp. No outdated specs or dead links.</p>
+      </div>
+    </div>
+
+    <!-- Editorial Quote -->
+    <div class="author-box max-w-2xl mx-auto">
+      <img src="/assets/images/team/editor-in-chief.jpg" alt="Editor in Chief" width="80" height="80" class="author-avatar" onerror="this.src='/assets/images/logo/logo.svg'">
+      <div>
+        <h4 class="text-white font-bold mb-1">From Our Editorial Desk</h4>
+        <p class="text-secondary text-sm italic mb-2">"Building a home golf simulator in Canada comes with unique considerations—from heating uninsulated garages in February to navigating CAD import fees. Our goal is to give Canadian golfers zero-bullshit advice."</p>
+        <span class="text-xs text-accent">Editor-in-Chief, Golf Sim Canada</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 5: Latest Blog Posts -->
+<section class="py-16">
+  <div class="container">
+    <div class="section-header flex justify-between items-end mb-10">
+      <div>
+        <span class="badge badge--info mb-2">Guides & Research</span>
+        <h2 class="h2 text-white">From the Golf Sim Canada Blog</h2>
+      </div>
+      <a href="/blog/" class="btn btn--ghost text-accent">Read all guides →</a>
+    </div>
+
+    <div class="grid grid-3col gap-8">
+      {{#each latest_posts}}
+      {{> article-card}}
+      {{else}}
+      <article class="card article-card">
+        <div class="article-card__image-wrap">
+          <img src="/assets/images/blog/best-golf-sim-winter-canada.jpg" alt="Canadian Winter Setup Guide" width="400" height="225" loading="lazy" class="article-card__image" onerror="this.src='/assets/images/blog/placeholder.jpg'">
+          <span class="badge badge--category">buying-guides</span>
+        </div>
+        <div class="article-card__body">
+          <div class="article-card__meta">July 15, 2025 • 8 min read</div>
+          <h3 class="article-card__title"><a href="/blog/best-golf-simulators-canadian-winter/">Best Golf Simulators for Canadian Winters — 2025 Guide</a></h3>
+          <p class="article-card__excerpt">Playing golf through a Canadian winter starts with the right home simulator setup. We test temperature limits, space heating, and launch monitor specs for sub-zero garages.</p>
+        </div>
+        <div class="article-card__footer"><a href="/blog/best-golf-simulators-canadian-winter/" class="article-card__link">Read Article →</a></div>
+      </article>
+
+      <article class="card article-card">
+        <div class="article-card__image-wrap">
+          <img src="/assets/images/blog/smash-factor-explained.jpg" alt="Smash Factor" width="400" height="225" loading="lazy" class="article-card__image" onerror="this.src='/assets/images/blog/placeholder.jpg'">
+          <span class="badge badge--category">technique</span>
+        </div>
+        <div class="article-card__body">
+          <div class="article-card__meta">July 20, 2025 • 5 min read</div>
+          <h3 class="article-card__title"><a href="/blog/smash-factor/">What is Smash Factor & Why it Matters for Indoor Golf Data</a></h3>
+          <p class="article-card__excerpt">Understanding ball speed vs clubhead speed efficiency and how photometric vs doppler monitors calculate smash factor indoors.</p>
+        </div>
+        <div class="article-card__footer"><a href="/blog/smash-factor/" class="article-card__link">Read Article →</a></div>
+      </article>
+
+      <article class="card article-card">
+        <div class="article-card__image-wrap">
+          <img src="/assets/images/blog/financing-golf-simulator-canada.jpg" alt="Financing Guide" width="400" height="225" loading="lazy" class="article-card__image" onerror="this.src='/assets/images/blog/placeholder.jpg'">
+          <span class="badge badge--category">buying-guides</span>
+        </div>
+        <div class="article-card__body">
+          <div class="article-card__meta">July 25, 2025 • 6 min read</div>
+          <h3 class="article-card__title"><a href="/blog/financing/">Financing a Golf Simulator in Canada: Options, Taxes & Rates</a></h3>
+          <p class="article-card__excerpt">Breakdown of dealer payment plans, credit lines, and tax implications when purchasing commercial or home simulators in Canada.</p>
+        </div>
+        <div class="article-card__footer"><a href="/blog/financing/" class="article-card__link">Read Article →</a></div>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- Section 6: Simulator Room Builder Tool Teaser -->
+<section class="py-16 bg-surface border-t border-b border-color-border">
+  <div class="container text-center">
+    <span class="badge badge--featured mb-4">Interactive Room Builder</span>
+    <h2 class="h2 text-white mb-4">Not Sure Where to Start?</h2>
+    <p class="text-xl text-secondary container-narrow mb-8">
+      Tell us your room dimensions and budget. Our client-side calculator specs out the optimal launch monitor, enclosure, and clearance requirements for your Canadian space.
+    </p>
+    <a href="/build/" class="btn btn--primary btn--lg">Use Our Simulator Room Builder →</a>
+  </div>
+</section>
+
+<!-- Section 7: Get Installer Quotes (Lead Gen) -->
+<section class="py-16">
+  <div class="container container-narrow">
+    <div class="card p-8">
+      <div class="text-center mb-8">
+        <span class="badge badge--editors-choice mb-2">Verified Installer Network</span>
+        <h2 class="h2 text-white mb-2">Get Free Quotes from Verified Canadian Installers</h2>
+        <p class="text-secondary text-sm">Connect with authorized, insured custom simulator installers in your province.</p>
+      </div>
+
+      <form action="/contact/" method="GET" class="space-y-4">
+        <div class="grid grid-2col gap-4">
+          <div>
+            <label for="home-province" class="block text-xs text-secondary font-medium mb-1">Province *</label>
+            <select id="home-province" name="province" class="w-full p-3 bg-base border border-color-border rounded text-white" required>
+              <option value="">Select Province</option>
+              <option value="ON">Ontario</option>
+              <option value="BC">British Columbia</option>
+              <option value="AB">Alberta</option>
+              <option value="QC">Quebec</option>
+              <option value="MB">Manitoba</option>
+              <option value="NS">Nova Scotia</option>
+              <option value="SK">Saskatchewan</option>
+              <option value="NB">New Brunswick</option>
+              <option value="NL">Newfoundland & Labrador</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="home-budget" class="block text-xs text-secondary font-medium mb-1">Budget Range (CAD) *</label>
+            <select id="home-budget" name="budget" class="w-full p-3 bg-base border border-color-border rounded text-white" required>
+              <option value="">Select Budget</option>
+              <option value="under-3k">Under $3,000 CAD</option>
+              <option value="3k-8k">$3,000 – $8,000 CAD</option>
+              <option value="8k-20k">$8,000 – $20,000 CAD</option>
+              <option value="20k-plus">$20,000+ CAD</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="home-space" class="block text-xs text-secondary font-medium mb-1">Space Type</label>
+          <select id="home-space" name="space" class="w-full p-3 bg-base border border-color-border rounded text-white">
+            <option value="garage">Garage</option>
+            <option value="basement">Basement</option>
+            <option value="dedicated">Dedicated Room</option>
+            <option value="commercial">Commercial / Venue</option>
+          </select>
+        </div>
+
+        <div class="flex items-start gap-2 pt-2">
+          <input type="checkbox" id="home-casl" name="casl" class="mt-1" required>
+          <label for="home-casl" class="text-xs text-muted">
+            I consent to be contacted by verified Canadian golf simulator installers regarding my inquiry in accordance with CASL.
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn--primary w-full mt-4">Request Free Installer Quotes →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- JSON-LD Schema for Homepage -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Golf Sim Canada",
+    "url": "https://golfsimcanada.site",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://golfsimcanada.site/search/?q={search_term_string}"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Golf Sim Canada",
+    "url": "https://golfsimcanada.site",
+    "logo": "https://golfsimcanada.site/assets/images/logo/logo.svg",
+    "description": "Canada's independent home golf simulator guide, directory, and marketplace."
+  }
+]
+</script>

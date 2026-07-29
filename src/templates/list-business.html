@@ -1,0 +1,59 @@
+<!-- list-business.html -->
+<main class="list-business-page py-12">
+  <div class="container container-narrow">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/installers/">Installer Directory</a> › <span>List Your Business</span>
+    </nav>
+
+    <header class="text-center mb-10">
+      <span class="badge badge--featured mb-3">Installer & Dealer Application</span>
+      <h1 class="h1 text-white mb-4">Join Our Canadian Installer & Dealer Network</h1>
+      <p class="text-xl text-secondary">
+        Connect with homeowners and commercial clients seeking custom simulator design, enclosure installation, and launch monitor sales in Canada.
+      </p>
+    </header>
+
+    <div class="card p-8 bg-surface mb-12">
+      <form action="/contact/?business_submitted=true" method="POST" class="space-y-6">
+        <div class="grid grid-2col gap-6">
+          <div>
+            <label for="biz-name" class="block text-xs font-semibold text-white mb-2">Company / Business Name *</label>
+            <input type="text" id="biz-name" name="company_name" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="e.g. Great White North Golf Sims" required>
+          </div>
+          <div>
+            <label for="biz-email" class="block text-xs font-semibold text-white mb-2">Business Email *</label>
+            <input type="email" id="biz-email" name="email" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="info@gwnsims.ca" required>
+          </div>
+        </div>
+
+        <div class="grid grid-2col gap-6">
+          <div>
+            <label for="biz-provinces" class="block text-xs font-semibold text-white mb-2">Provinces Served *</label>
+            <input type="text" id="biz-provinces" name="provinces_served" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="e.g. Ontario, Quebec, Alberta" required>
+          </div>
+
+          <div>
+            <label for="biz-phone" class="block text-xs font-semibold text-white mb-2">Business Phone</label>
+            <input type="tel" id="biz-phone" name="phone" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="(416) 555-0199">
+          </div>
+        </div>
+
+        <div>
+          <label for="biz-type" class="block text-xs font-semibold text-white mb-2">Business Category *</label>
+          <select id="biz-type" name="category" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" required>
+            <option value="installer">Custom Golf Simulator Installer</option>
+            <option value="dealer">Authorized Equipment Dealer / Retailer</option>
+            <option value="both">Both Authorized Dealer & Custom Installer</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="biz-description" class="block text-xs font-semibold text-white mb-2">Company Overview & Brands Installed</label>
+          <textarea id="biz-description" name="description" rows="4" class="w-full p-3 bg-base border border-color-border rounded text-white text-sm" placeholder="Detail your experience, brands carried (Foresight, Uneekor, SkyTrak, etc.), and insurance status..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--lg w-full">Submit Business Verification →</button>
+      </form>
+    </div>
+  </div>
+</main>

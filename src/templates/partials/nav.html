@@ -1,0 +1,97 @@
+<header class="nav" role="banner">
+  <div class="container">
+    <div class="nav__inner">
+
+      <!-- Logo -->
+      <a href="{{#if is_fr}}/fr/{{else}}/{{/if}}" class="nav__logo" aria-label="Golf Sim Canada — Home">
+        <img src="/assets/images/logo/logo.png" alt="Golf Sim Canada"
+             width="160" height="40" fetchpriority="high">
+      </a>
+
+      <!-- Desktop Nav -->
+      {{#if is_fr}}
+      <nav class="nav__links" aria-label="Navigation principale">
+        <a href="/blog/fr/meilleur-simulateur-de-golf/" class="nav__link">Meilleurs Simulateurs</a>
+        <a href="/fr/installers/" class="nav__link">Installateurs</a>
+      </nav>
+
+      <!-- CTA -->
+      <a href="/fr/installers/" class="btn btn--primary btn--sm nav__cta">
+        Devis Gratuit
+      </a>
+      {{else}}
+      <nav class="nav__links" aria-label="Main navigation">
+        <a href="/best-home-simulators/" class="nav__link">Best Simulators</a>
+        <a href="/cost/" class="nav__link">Pricing</a>
+        <div class="nav__dropdown">
+          <button class="nav__link nav__link--dropdown" aria-expanded="false" type="button">
+            Products <span aria-hidden="true">▾</span>
+          </button>
+          <div class="nav__dropdown-menu">
+            <a href="/products/launch-monitors/">Launch Monitors</a>
+            <a href="/products/packages/">Full Packages</a>
+            <a href="/products/enclosures/">Enclosures</a>
+            <a href="/products/projectors/">Projectors</a>
+            <a href="/products/mats/">Hitting Mats</a>
+            <a href="/products/software/">Software</a>
+            <a href="/products/accessories/">Accessories</a>
+          </div>
+        </div>
+        <div class="nav__dropdown">
+          <button class="nav__link nav__link--dropdown" aria-expanded="false" type="button">
+            Find <span aria-hidden="true">▾</span>
+          </button>
+          <div class="nav__dropdown-menu">
+            <a href="/venues/">Indoor Golf Venues</a>
+            <a href="/installers/">Find Installers</a>
+          </div>
+        </div>
+        <a href="/setup/" class="nav__link">Setup Guides</a>
+        <a href="/blog/" class="nav__link">Blog</a>
+      </nav>
+
+      <!-- CTA -->
+      <a href="/installers/" class="btn btn--primary btn--sm nav__cta">
+        Get Quotes
+      </a>
+      {{/if}}
+
+      <!-- Mobile hamburger -->
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false"
+              aria-controls="mobile-menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="nav__mobile" id="mobile-menu" aria-hidden="true">
+    <div class="container">
+      {{#if is_fr}}
+      <a href="/blog/fr/meilleur-simulateur-de-golf/" class="nav__mobile-link">Meilleurs Simulateurs</a>
+      <a href="/fr/installers/" class="nav__mobile-link">Trouver un Installateur</a>
+      <div style="margin-top: var(--space-4);">
+        <a href="/fr/installers/" class="btn btn--primary nav__mobile-cta" style="width: 100%;">Devis Gratuit</a>
+      </div>
+      {{else}}
+      <a href="/best-home-simulators/" class="nav__mobile-link">Best Simulators</a>
+      <a href="/cost/" class="nav__mobile-link">Pricing</a>
+      <div class="nav__mobile-group-title">Products</div>
+      <a href="/products/launch-monitors/" class="nav__mobile-link nav__mobile-link--sub">Launch Monitors</a>
+      <a href="/products/packages/" class="nav__mobile-link nav__mobile-link--sub">Full Packages</a>
+      <a href="/products/enclosures/" class="nav__mobile-link nav__mobile-link--sub">Enclosures</a>
+      <a href="/products/projectors/" class="nav__mobile-link nav__mobile-link--sub">Projectors</a>
+      <a href="/products/mats/" class="nav__mobile-link nav__mobile-link--sub">Hitting Mats</a>
+      <a href="/products/software/" class="nav__mobile-link nav__mobile-link--sub">Software</a>
+      <div class="nav__mobile-group-title">Directory</div>
+      <a href="/venues/" class="nav__mobile-link nav__mobile-link--sub">Indoor Golf Venues</a>
+      <a href="/installers/" class="nav__mobile-link nav__mobile-link--sub">Find Installers</a>
+      <a href="/setup/" class="nav__mobile-link">Setup Guides</a>
+      <a href="/blog/" class="nav__mobile-link">Blog</a>
+      <div style="margin-top: var(--space-4);">
+        <a href="/installers/" class="btn btn--primary nav__mobile-cta" style="width: 100%;">Get Quotes</a>
+      </div>
+      {{/if}}
+    </div>
+  </div>
+</header>

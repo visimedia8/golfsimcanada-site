@@ -1,0 +1,92 @@
+<!-- product-index.html -->
+<main class="product-index-page py-12">
+  <div class="container">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <span>Products Hub</span>
+    </nav>
+
+    <header class="text-center mb-12">
+      <span class="badge badge--featured mb-3">Canadian Product Hub</span>
+      <h1 class="h1 text-white mb-4">Golf Simulator Equipment & Gear in Canada</h1>
+      <p class="text-xl text-secondary container-narrow">
+        Explore verified CAD pricing, independent reviews, and Canadian dealer availability across all home golf simulator categories.
+      </p>
+    </header>
+
+    <!-- Categories Grid -->
+    <section class="grid grid-3col gap-6 mb-16">
+      <a href="/products/launch-monitors/" class="card p-6 block hover:border-accent transition-colors">
+        <h3 class="h3 text-white mb-2 flex items-center justify-between">
+          Launch Monitors <span class="text-accent">→</span>
+        </h3>
+        <p class="text-secondary text-sm">Photometric, radar, and camera launch monitors from Foresight, SkyTrak, Bushnell, Uneekor, and Full Swing.</p>
+      </a>
+
+      <a href="/products/packages/" class="card p-6 block hover:border-accent transition-colors">
+        <h3 class="h3 text-white mb-2 flex items-center justify-between">
+          Full Simulator Packages <span class="text-accent">→</span>
+        </h3>
+        <p class="text-secondary text-sm">Turnkey home bundles including launch monitor, impact screen, enclosure frame, mat, and projector.</p>
+      </a>
+
+      <a href="/products/enclosures/" class="card p-6 block hover:border-accent transition-colors">
+        <h3 class="h3 text-white mb-2 flex items-center justify-between">
+          Impact Screens & Enclosures <span class="text-accent">→</span>
+        </h3>
+        <p class="text-secondary text-sm">Heavy-duty commercial-grade impact screens, side baffle nets, and custom metal enclosure frames.</p>
+      </a>
+
+      <a href="/products/projectors/" class="card p-6 block hover:border-accent transition-colors">
+        <h3 class="h3 text-white mb-2 flex items-center justify-between">
+          Short Throw Projectors <span class="text-accent">→</span>
+        </h3>
+        <p class="text-secondary text-sm">4K UHD and 1080p laser short-throw projectors optimized for tight Canadian basement & garage spaces.</p>
+      </a>
+
+      <a href="/products/mats/" class="card p-6 block hover:border-accent transition-colors">
+        <h3 class="h3 text-white mb-2 flex items-center justify-between">
+          Hitting Mats & Turf <span class="text-accent">→</span>
+        </h3>
+        <p class="text-secondary text-sm">Joint-friendly hitting strips, stance mats, and high-density fairway turf designed to eliminate elbow pain.</p>
+      </a>
+
+      <a href="/products/software/" class="card p-6 block hover:border-accent transition-colors">
+        <h3 class="h3 text-white mb-2 flex items-center justify-between">
+          Simulator Software <span class="text-accent">→</span>
+        </h3>
+        <p class="text-secondary text-sm">GSPro, FSX Play, E6 Connect, and Awesome Golf software guides and PC hardware requirements.</p>
+      </a>
+    </section>
+
+    <!-- All Products Catalog Header -->
+    <div class="section-header flex justify-between items-center mb-8">
+      <h2 class="h2 text-white">All Reviewed Products</h2>
+      <span class="text-xs text-muted">Showing 11 Verified Products</span>
+    </div>
+
+    <div class="product-grid grid grid-3col gap-6 mb-12">
+      {{#each products}}
+      {{> product-card}}
+      {{else}}
+      <!-- Fallback catalog rendering -->
+      <article class="card product-card">
+        <div class="product-card__image-wrap"><img src="/assets/images/products/foresight-gcquad.jpg" alt="Foresight GCQuad" width="400" height="300" class="product-card__image"><span class="badge badge--editors-choice">Editor's Choice</span></div>
+        <div class="product-card__body"><p class="product-card__brand">Foresight Sports</p><h3 class="product-card__title"><a href="/products/foresight-gcquad/">Foresight GCQuad</a></h3><div class="product-card__rating"><span class="stars">★★★★★</span> 9.8/10</div><div class="product-card__price"><span class="price-amount">$18,500 – $22,000</span> CAD</div></div>
+        <div class="product-card__footer"><a href="/products/foresight-gcquad/" class="btn btn--secondary btn--sm">View Review</a></div>
+      </article>
+
+      <article class="card product-card">
+        <div class="product-card__image-wrap"><img src="/assets/images/products/skytrak-plus.jpg" alt="SkyTrak+" width="400" height="300" class="product-card__image"><span class="badge badge--featured">Best Value</span></div>
+        <div class="product-card__body"><p class="product-card__brand">SkyTrak</p><h3 class="product-card__title"><a href="/products/skytrak-plus/">SkyTrak+</a></h3><div class="product-card__rating"><span class="stars">★★★★☆</span> 9.2/10</div><div class="product-card__price"><span class="price-amount">$3,999 – $4,500</span> CAD</div></div>
+        <div class="product-card__footer"><a href="/products/skytrak-plus/" class="btn btn--secondary btn--sm">View Review</a></div>
+      </article>
+
+      <article class="card product-card">
+        <div class="product-card__image-wrap"><img src="/assets/images/products/uneekor-eye-xo2.jpg" alt="Uneekor EYE XO2" width="400" height="300" class="product-card__image"><span class="badge badge--info">Overhead Track</span></div>
+        <div class="product-card__body"><p class="product-card__brand">Uneekor</p><h3 class="product-card__title"><a href="/products/uneekor-eye-xo2/">Uneekor EYE XO2</a></h3><div class="product-card__rating"><span class="stars">★★★★★</span> 9.6/10</div><div class="product-card__price"><span class="price-amount">$16,000 – $18,500</span> CAD</div></div>
+        <div class="product-card__footer"><a href="/products/uneekor-eye-xo2/" class="btn btn--secondary btn--sm">View Review</a></div>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</main>

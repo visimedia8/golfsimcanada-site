@@ -1,0 +1,65 @@
+<!-- glossary-index.html -->
+<main class="glossary-index-page py-12">
+  <div class="container">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <span>Glossary</span>
+    </nav>
+
+    <header class="text-center mb-12">
+      <span class="badge badge--featured mb-3">Technical Reference</span>
+      <h1 class="h1 text-white mb-4">Indoor Golf & Simulator Glossary</h1>
+      <p class="text-xl text-secondary container-narrow">
+        Clear, jargon-free definitions for ball flight metrics, launch monitor technologies, screen specs, and simulator terminology.
+      </p>
+    </header>
+
+    <!-- Alphabetical Jump Links -->
+    <nav class="alphabet-nav flex justify-center gap-2 flex-wrap mb-10 p-4 card bg-surface">
+      <a href="#term-a" class="px-2 py-1 text-sm text-accent hover:underline font-bold">A</a>
+      <a href="#term-b" class="px-2 py-1 text-sm text-accent hover:underline font-bold">B</a>
+      <a href="#term-c" class="px-2 py-1 text-sm text-accent hover:underline font-bold">C</a>
+      <a href="#term-d" class="px-2 py-1 text-sm text-accent hover:underline font-bold">D</a>
+      <a href="#term-e" class="px-2 py-1 text-sm text-accent hover:underline font-bold">E</a>
+      <a href="#term-f" class="px-2 py-1 text-sm text-accent hover:underline font-bold">F</a>
+      <a href="#term-g" class="px-2 py-1 text-sm text-accent hover:underline font-bold">G</a>
+      <a href="#term-h" class="px-2 py-1 text-sm text-accent hover:underline font-bold">H</a>
+      <a href="#term-i" class="px-2 py-1 text-sm text-accent hover:underline font-bold">I</a>
+      <a href="#term-l" class="px-2 py-1 text-sm text-accent hover:underline font-bold">L</a>
+      <a href="#term-p" class="px-2 py-1 text-sm text-accent hover:underline font-bold">P</a>
+      <a href="#term-r" class="px-2 py-1 text-sm text-accent hover:underline font-bold">R</a>
+      <a href="#term-s" class="px-2 py-1 text-sm text-accent hover:underline font-bold">S</a>
+    </nav>
+
+    <!-- Glossary Terms Grid -->
+    <div class="glossary-grid grid grid-3col gap-6 mb-12">
+      {{#each terms}}
+      <article class="card p-6 flex flex-col justify-between hover:border-accent transition-colors">
+        <div>
+          <span class="badge badge--info mb-2 inline-block">Term</span>
+          <h2 class="h3 text-white mb-2"><a href="/glossary/{{slug}}/">{{term}}</a></h2>
+          <p class="text-secondary text-xs line-clamp-3 mb-4">{{short_definition}}</p>
+        </div>
+        <a href="/glossary/{{slug}}/" class="text-accent text-xs font-semibold hover:underline">Read Definition →</a>
+      </article>
+      {{else}}
+      <article class="card p-6 hover:border-accent transition-colors">
+        <h2 class="h3 text-white mb-2"><a href="/glossary/smash-factor/">Smash Factor</a></h2>
+        <p class="text-secondary text-xs mb-4">Ratio of ball speed to clubhead speed measuring energy transfer efficiency at impact.</p>
+        <a href="/glossary/smash-factor/" class="text-accent text-xs font-semibold">Read Definition →</a>
+      </article>
+
+      <article class="card p-6 hover:border-accent transition-colors">
+        <h2 class="h3 text-white mb-2"><a href="/glossary/photometric/">Photometric Launch Monitor</a></h2>
+        <p class="text-secondary text-xs mb-4">High-speed camera-based tracking system that captures ball impact images directly.</p>
+        <a href="/glossary/photometric/" class="text-accent text-xs font-semibold">Read Definition →</a>
+      </article>
+
+      <article class="card p-6 hover:border-accent transition-colors">
+        <h2 class="h3 text-white mb-2"><a href="/glossary/doppler-radar/">Doppler Radar</a></h2>
+        <p class="text-secondary text-xs mb-4">Radar tracking technology measuring ball flight trajectory through microwave signals.</p>
+        <a href="/glossary/doppler-radar/" class="text-accent text-xs font-semibold">Read Definition →</a>
+      </article>
+      {{/each}}
+    </div>
+  </div>
+</main>

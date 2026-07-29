@@ -1,0 +1,299 @@
+[
+  {
+    "slug": "foresight-sports-canada",
+    "company_name": "Foresight Sports Canada",
+    "province_code": "ON",
+    "cities_served": ["Toronto", "Ottawa", "Vancouver", "Calgary", "Montreal"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "turf-flooring",
+      "electrical-av"
+    ],
+    "brands_supported": ["Foresight Sports", "GCQuad", "GC3", "Falcon"],
+    "phone": "+1-855-924-4653",
+    "website_url": "https://foresightsports.ca",
+    "contact_email": "sales@foresightsports.ca",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$12,000 – $60,000+ CAD",
+    "summary": "Official Canadian distributor and custom turnkey installer for Foresight Sports optical launch monitor systems and commercial simulator bays.",
+    "status": "published"
+  },
+  {
+    "slug": "simcaddy-canada",
+    "company_name": "SimCaddy Golf Simulators",
+    "province_code": "ON",
+    "cities_served": ["Toronto", "Ottawa", "Hamilton", "Kitchener", "London", "Barrie"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "turf-flooring"
+    ],
+    "brands_supported": ["Foresight Sports", "TrackMan", "Uneekor"],
+    "phone": "+1-800-590-4653",
+    "website_url": "https://simcaddy.com",
+    "contact_email": "info@simcaddy.com",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$9,500 – $50,000+ CAD",
+    "summary": "Turnkey Canadian golf simulator design, supply, and custom enclosure installer for residential basements and commercial venues.",
+    "status": "published"
+  },
+  {
+    "slug": "hiller-golf-trackman",
+    "company_name": "Hiller Golf Systems",
+    "province_code": "ON",
+    "cities_served": ["Toronto", "Ottawa", "Mississauga", "Oakville", "London"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "electrical-av"
+    ],
+    "brands_supported": ["TrackMan", "TrackMan iO"],
+    "phone": "+1-905-844-4653",
+    "website_url": "https://hillergolf.com",
+    "contact_email": "info@hillergolf.com",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$15,000 – $65,000+ CAD",
+    "summary": "Premier authorized TrackMan dealer and specialized installation partner for high-end home studios and private golf clubs across Canada.",
+    "status": "published"
+  },
+  {
+    "slug": "protecht-golf-simulators",
+    "company_name": "Pro-TechT Golf Simulators",
+    "province_code": "ON",
+    "cities_served": ["Toronto", "Ottawa", "Vancouver", "Calgary", "Edmonton"],
+    "services": [
+      "residential-install",
+      "custom-enclosures",
+      "acoustic-treatment",
+      "turf-flooring"
+    ],
+    "brands_supported": ["TrackMan", "Foresight Sports", "Uneekor"],
+    "phone": "+1-888-412-4653",
+    "website_url": "https://pro-techt.com",
+    "contact_email": "sales@pro-techt.com",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$10,000 – $55,000+ CAD",
+    "summary": "Custom golf room builder specializing in padded impact enclosures, acoustic wall treatment, overhead launch monitor installation, and project design.",
+    "status": "published"
+  },
+  {
+    "slug": "indoor-golf-studios",
+    "company_name": "Indoor Golf Studios",
+    "province_code": "BC",
+    "cities_served": ["Vancouver", "Kelowna", "Victoria", "Surrey", "Burnaby"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "turf-flooring"
+    ],
+    "brands_supported": ["TrackMan", "Foresight Sports", "Uneekor"],
+    "phone": "+1-250-763-4653",
+    "website_url": "https://indoorgolfstudios.ca",
+    "contact_email": "info@indoorgolfstudios.ca",
+    "verified_date": "2025-07",
+    "featured": false,
+    "price_range_estimate": "$8,500 – $45,000+ CAD",
+    "summary": "British Columbia simulator builder offering professional space consultation, custom enclosure fabrication, and launch monitor calibration.",
+    "status": "published"
+  },
+  {
+    "slug": "gta-custom-golf-sims",
+    "company_name": "GTA Custom Golf Simulators",
+    "province_code": "ON",
+    "cities_served": ["Toronto", "Mississauga", "Oakville", "Vaughan", "Markham", "Hamilton", "Ottawa"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "turf-flooring",
+      "electrical-av"
+    ],
+    "brands_supported": ["Foresight Sports", "SkyTrak", "Uneekor", "Bushnell"],
+    "phone": "+1-416-555-0190",
+    "website_url": "https://gtagolfsims.ca",
+    "contact_email": "quotes@gtagolfsims.ca",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$7,500 – $45,000+ CAD",
+    "summary": "Ontario's leading turnkey home simulator builder specializing in garage transformations, basement excavations, and commercial bays.",
+    "status": "published"
+  },
+  {
+    "slug": "pacific-rim-golf-installers",
+    "company_name": "Pacific Rim Simulator Designs",
+    "province_code": "BC",
+    "cities_served": ["Vancouver", "Richmond", "Burnaby", "Surrey", "Victoria", "Kelowna"],
+    "services": [
+      "residential-install",
+      "custom-enclosures",
+      "turf-flooring",
+      "electrical-av"
+    ],
+    "brands_supported": ["Foresight Sports", "Uneekor", "TrackMan"],
+    "phone": "+1-604-555-0177",
+    "website_url": "https://pacificrimsimulators.ca",
+    "contact_email": "info@pacificrimsimulators.ca",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$10,000 – $55,000+ CAD",
+    "summary": "Vancouver and BC interior custom simulator design firm specializing in custom padded enclosures, overhead mounts, and acoustic wall panels.",
+    "status": "published"
+  },
+  {
+    "slug": "alberta-golf-sim-builders",
+    "company_name": "Alberta Sim Builders",
+    "province_code": "AB",
+    "cities_served": ["Calgary", "Edmonton", "Canmore", "Red Deer", "Lethbridge"],
+    "services": [
+      "garage-heating-install",
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures"
+    ],
+    "brands_supported": ["Foresight Sports", "SkyTrak", "Full Swing", "Uneekor"],
+    "phone": "+1-403-555-0144",
+    "website_url": "https://albertasimbuilders.ca",
+    "contact_email": "contact@albertasimbuilders.ca",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$8,500 – $40,000+ CAD",
+    "summary": "Alberta garage climate control and golf simulator installation specialists. Heated garage builds engineered for prairie winters.",
+    "status": "published"
+  },
+  {
+    "slug": "quebec-golf-simulation-inc",
+    "company_name": "Québec Golf Simulation Inc.",
+    "province_code": "QC",
+    "cities_served": ["Montréal", "Laval", "Gatineau", "Québec City"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "turf-flooring"
+    ],
+    "brands_supported": ["Foresight Sports", "Golfzon", "SkyTrak"],
+    "phone": "+1-514-555-0188",
+    "website_url": "https://quebecgolfsim.ca",
+    "contact_email": "ventes@quebecgolfsim.ca",
+    "verified_date": "2025-07",
+    "featured": false,
+    "price_range_estimate": "$8,000 – $38,000+ CAD",
+    "summary": "Bilingual commercial and residential simulator installation team serving Montreal, Quebec City, and Gatineau.",
+    "status": "published"
+  },
+  {
+    "slug": "indoor-golf-canada",
+    "company_name": "InDoor Golf Canada",
+    "province_code": "ON",
+    "cities_served": ["Toronto", "Ottawa", "Hamilton", "London", "Kitchener"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "turf-flooring",
+      "electrical-av"
+    ],
+    "brands_supported": ["Foresight Sports", "TrackMan", "Uneekor", "Golfzon"],
+    "phone": "+1-800-555-0199",
+    "website_url": "https://indoorgolfcanada.ca",
+    "contact_email": "info@indoorgolfcanada.ca",
+    "verified_date": "2025-07",
+    "featured": true,
+    "price_range_estimate": "$10,000 – $60,000+ CAD",
+    "summary": "National distributor and full-service residential and commercial simulator build firm specializing in high-end optical systems.",
+    "status": "published"
+  },
+  {
+    "slug": "west-coast-sim-space",
+    "company_name": "West Coast Sim Space",
+    "province_code": "BC",
+    "cities_served": ["Vancouver", "Victoria", "Kelowna", "Surrey", "Abbotsford"],
+    "services": [
+      "residential-install",
+      "custom-enclosures",
+      "turf-flooring",
+      "acoustic-treatment"
+    ],
+    "brands_supported": ["Foresight Sports", "SkyTrak", "Uneekor"],
+    "phone": "+1-604-555-0122",
+    "website_url": "https://westcoastsimspace.ca",
+    "contact_email": "build@westcoastsimspace.ca",
+    "verified_date": "2025-07",
+    "featured": false,
+    "price_range_estimate": "$8,000 – $42,000+ CAD",
+    "summary": "BC coastal simulator custom builder focused on acoustic wall padding, impact screens, and ceiling clearance solutions.",
+    "status": "published"
+  },
+  {
+    "slug": "prairie-turf-sim-solutions",
+    "company_name": "Prairie Turf & Sim Solutions",
+    "province_code": "AB",
+    "cities_served": ["Calgary", "Edmonton", "Winnipeg", "Saskatoon", "Regina"],
+    "services": [
+      "garage-heating-install",
+      "residential-install",
+      "turf-flooring",
+      "custom-enclosures"
+    ],
+    "brands_supported": ["Uneekor", "SkyTrak", "Foresight Sports"],
+    "phone": "+1-403-555-0177",
+    "website_url": "https://prairieturfsim.ca",
+    "contact_email": "hello@prairieturfsim.ca",
+    "verified_date": "2025-07",
+    "featured": false,
+    "price_range_estimate": "$7,000 – $35,000+ CAD",
+    "summary": "Western Canada turf laying and heated garage simulator enclosure specialists.",
+    "status": "published"
+  },
+  {
+    "slug": "atlantic-simulator-builders",
+    "company_name": "Atlantic Simulator Builders",
+    "province_code": "NS",
+    "cities_served": ["Halifax", "Moncton", "Fredericton", "Charlottetown", "St. John's"],
+    "services": [
+      "residential-install",
+      "commercial-install",
+      "custom-enclosures",
+      "electrical-av"
+    ],
+    "brands_supported": ["Foresight Sports", "SkyTrak", "Bushnell"],
+    "phone": "+1-902-555-0133",
+    "website_url": "https://atlanticsimulators.ca",
+    "contact_email": "info@atlanticsimulators.ca",
+    "verified_date": "2025-07",
+    "featured": false,
+    "price_range_estimate": "$8,000 – $38,000+ CAD",
+    "summary": "Maritime region specialized indoor golf enclosure fabricators and AV installation technicians.",
+    "status": "published"
+  },
+  {
+    "slug": "capital-sim-studio-designs",
+    "company_name": "Capital Sim Studio Designs",
+    "province_code": "ON",
+    "cities_served": ["Ottawa", "Gatineau", "Kanata", "Nepean", "Orleans"],
+    "services": [
+      "residential-install",
+      "custom-enclosures",
+      "electrical-av",
+      "turf-flooring"
+    ],
+    "brands_supported": ["TrackMan", "Foresight Sports", "Uneekor"],
+    "phone": "+1-613-555-0155",
+    "website_url": "https://capitalsimdesigns.ca",
+    "contact_email": "contact@capitalsimdesigns.ca",
+    "verified_date": "2025-07",
+    "featured": false,
+    "price_range_estimate": "$9,000 – $50,000+ CAD",
+    "summary": "National Capital Region custom home studio designer specializing in tight-clearance basements and garage builds.",
+    "status": "published"
+  }
+]

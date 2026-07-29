@@ -1,0 +1,15 @@
+{{#if faq_items}}
+<section class="faq-block" itemscope itemtype="https://schema.org/FAQPage">
+  <h2 class="faq-block__heading">Frequently Asked Questions</h2>
+  <div class="faq-block__list">
+    {{#each faq_items}}
+    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <h3 class="faq-item__question" itemprop="name">{{question}}</h3>
+      <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">{{answer}}</p>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</section>
+{{/if}}

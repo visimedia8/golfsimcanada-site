@@ -1,0 +1,15 @@
+<!-- installer-single.html -->
+<main class="installer-single-page py-12">
+  <div class="container container-narrow">
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/installers/">Installers</a> › <span>{{name}}</span>
+    </nav>
+
+    <header class="card p-8 bg-surface mb-8">
+      <span class="badge badge--editors-choice mb-2 inline-block">Verified Installer</span>
+      <h1 class="h1 text-white mb-2">{{name}}</h1>
+      <p class="text-secondary text-sm mb-4">Coverage: {{#each provinces}}{{this}} {{/each}}</p>
+      <a href="/contact/" class="btn btn--primary">Request Installation Quote →</a>
+    </header>
+  </div>
+</main>

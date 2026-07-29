@@ -1,0 +1,112 @@
+<!-- blog-post.html -->
+<article class="blog-post py-12" itemscope itemtype="https://schema.org/Article">
+  <div class="container container-narrow">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/blog/">Blog</a> › <span>{{title}}</span>
+    </nav>
+
+    <!-- Header -->
+    <header class="blog-post__header mb-8">
+      <div class="blog-post__meta flex items-center gap-3 mb-4">
+        {{#if category}}<span class="badge badge--category">{{category}}</span>{{/if}}
+        {{#if reading_time}}<span class="reading-time text-xs text-muted">{{reading_time}} min read</span>{{/if}}
+      </div>
+      <h1 class="blog-post__title h1 text-white mb-6" itemprop="headline">{{title}}</h1>
+
+      <div class="blog-post__byline flex items-center gap-4 p-4 card bg-surface mb-6">
+        <img src="{{#if author.photo}}{{author.photo}}{{else}}/assets/images/team/editor-in-chief.jpg{{/if}}" alt="{{author.name}}" width="48" height="48" class="author-avatar rounded-full" onerror="this.src='/assets/images/logo/logo.svg'">
+        <div class="text-xs">
+          <span itemprop="author" itemscope itemtype="https://schema.org/Person" class="text-white font-semibold block">
+            <span itemprop="name">{{#if author.name}}{{author.name}}{{else}}Editor-in-Chief{{/if}}</span>
+          </span>
+          <div class="text-muted flex items-center gap-2 mt-1">
+            {{#if date_published}}<time datetime="{{date_published}}" itemprop="datePublished">{{date_published}}</time>{{/if}}
+            {{#if date_modified}}<span class="trust-verified text-accent">✓ Verified: {{date_modified}}</span>{{/if}}
+          </div>
+        </div>
+      </div>
+
+      {{#if og_image}}
+      <img src="{{og_image}}" alt="{{title}}" width="1200" height="630" fetchpriority="high" class="blog-post__hero rounded w-full object-cover mb-8">
+      {{/if}}
+    </header>
+
+    <!-- TL;DR Box -->
+    {{#if tldr}}
+    <aside class="tldr-box card p-6 bg-surface border-l-4 border-accent mb-8">
+      <h2 class="tldr-box__heading h3 text-white mb-2 flex items-center gap-2">⚡ TL;DR Key Takeaways</h2>
+      <div class="tldr-box__content text-secondary text-sm leading-relaxed">{{tldr}}</div>
+    </aside>
+    {{/if}}
+
+    <!-- TOC nav -->
+    {{#if toc_items}}
+    <nav class="toc card p-6 bg-surface mb-8" aria-label="Table of contents">
+      <h2 class="toc__heading h3 text-white mb-3">In This Guide</h2>
+      <ol class="toc__list space-y-2 text-sm">
+        {{#each toc_items}}
+        <li class="toc__item toc__item--{{level}}">
+          <a href="#{{anchor}}" class="text-accent hover:underline">{{text}}</a>
+        </li>
+        {{/each}}
+      </ol>
+    </nav>
+    {{/if}}
+
+    <!-- Body Content -->
+    <div class="blog-post__body prose mb-12" itemprop="articleBody">
+      {{{content}}}
+    </div>
+
+    <!-- Related Products -->
+    {{#if related_products}}
+    <section class="related-products mb-12 p-6 card bg-surface">
+      <h2 class="related-products__heading h3 text-white mb-4">Products Mentioned in This Guide</h2>
+      <div class="product-card-grid space-y-4">
+        {{#each related_products}}
+        {{> product-card-mini}}
+        {{/each}}
+      </div>
+    </section>
+    {{/if}}
+
+    <!-- Author Box -->
+    <aside class="author-box card p-6 bg-surface flex gap-4 items-center mb-12">
+      <img src="{{#if author.photo}}{{author.photo}}{{else}}/assets/images/team/editor-in-chief.jpg{{/if}}" alt="{{author.name}}" width="80" height="80" class="author-avatar rounded-full" onerror="this.src='/assets/images/logo/logo.svg'">
+      <div>
+        <h3 class="h3 text-white mb-1">{{#if author.name}}{{author.name}}{{else}}Editor-in-Chief{{/if}}</h3>
+        <p class="author-box__title text-xs text-accent mb-2">{{#if author.title}}{{author.title}}{{else}}Golf Sim Canada Editorial Team{{/if}}</p>
+        <p class="author-box__bio text-xs text-secondary">{{#if author.bio_short}}{{author.bio_short}}{{else}}Independent indoor golf analyst & equipment reviewer based in Canada. Testing simulators, launch monitors, and enclosure builds for Canadian homes.{{/if}}</p>
+      </div>
+    </aside>
+
+    <!-- FAQ Block -->
+    {{> faq-block}}
+  </div>
+</article>
+
+<!-- Schema JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{title}}",
+  "author": {
+    "@type": "Person",
+    "name": "{{#if author.name}}{{author.name}}{{else}}Editor-in-Chief{{/if}}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Golf Sim Canada",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://golfsimcanada.site/assets/images/logo/logo.svg"
+    }
+  },
+  "datePublished": "{{date_published}}",
+  "dateModified": "{{date_modified}}",
+  "image": "https://golfsimcanada.site{{og_image}}",
+  "inLanguage": "en-CA"
+}
+</script>

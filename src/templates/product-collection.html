@@ -1,0 +1,54 @@
+<!-- product-collection.html -->
+<main class="collection-page py-12">
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/products/">Products</a> › <span>{{#if collection_title}}{{collection_title}}{{else}}Catalog{{/if}}</span>
+    </nav>
+
+    <!-- Collection Header -->
+    <header class="collection-header mb-8">
+      <h1 class="h1 text-white mb-4">{{#if collection_title}}{{collection_title}}{{else}}Golf Simulators & Launch Monitors in Canada{{/if}}</h1>
+      <p class="collection-description text-secondary container-narrow mb-2">
+        {{#if collection_description}}{{collection_description}}{{else}}Compare top-rated golf launch monitors, full enclosure packages, hitting mats, and software verified with Canadian pricing in CAD.{{/if}}
+      </p>
+      <span class="collection-count text-xs text-muted font-medium">{{#if total_count}}{{total_count}}{{else}}11{{/if}} products listed</span>
+    </header>
+
+    <!-- Filter & Sort Bar -->
+    <div class="collection-controls flex justify-between items-center gap-4 flex-wrap mb-8 p-4 card bg-surface">
+      <div class="filters flex gap-2 flex-wrap" role="group" aria-label="Filter products">
+        <button class="filter-btn filter-btn--active btn btn--sm btn--ghost" data-filter="all">All</button>
+        <button class="filter-btn btn btn--sm btn--ghost" data-filter="serious-golfer">Serious Golfer</button>
+        <button class="filter-btn btn btn--sm btn--ghost" data-filter="intermediate">Intermediate</button>
+        <button class="filter-btn btn btn--sm btn--ghost" data-filter="commercial">Commercial</button>
+      </div>
+      <div class="sort-wrap">
+        <label for="sort-select" class="sr-only">Sort products</label>
+        <select id="sort-select" class="sort-select p-2 bg-base border border-color-border rounded text-white text-sm">
+          <option value="rating-desc">Top Rated</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid grid grid-3col gap-6" role="list">
+      {{#each products}}
+      {{> product-card}}
+      {{else}}
+      <p class="text-secondary col-span-full">No products found in this category.</p>
+      {{/each}}
+    </div>
+
+    <!-- Pagination -->
+    {{#if has_pagination}}
+    <nav class="pagination flex justify-center items-center gap-4 mt-12" aria-label="Products pagination">
+      {{#if prev_page}}<a href="{{prev_page_url}}" class="pagination__btn btn btn--ghost btn--sm" rel="prev">← Previous</a>{{/if}}
+      <span class="pagination__info text-sm text-muted">Page {{current_page}} of {{total_pages}}</span>
+      {{#if next_page}}<a href="{{next_page_url}}" class="pagination__btn btn btn--ghost btn--sm" rel="next">Next →</a>{{/if}}
+    </nav>
+    {{/if}}
+  </div>
+</main>

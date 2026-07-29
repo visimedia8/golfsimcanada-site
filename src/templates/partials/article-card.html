@@ -1,0 +1,21 @@
+<article class="card article-card">
+  <div class="article-card__image-wrap">
+    <img src="{{#if og_image}}{{og_image}}{{else}}/assets/images/blog/placeholder.webp{{/if}}" alt="{{title}}" width="400" height="225" loading="lazy" class="article-card__image">
+    {{#if category}}
+    <span class="badge badge--category">{{category}}</span>
+    {{/if}}
+  </div>
+  <div class="article-card__body">
+    <div class="article-card__meta">
+      {{#if date_published_formatted}}<time datetime="{{date_published}}">{{date_published_formatted}}</time>{{else}}<time datetime="{{date_published}}">{{date_published}}</time>{{/if}}
+      {{#if reading_time}} • <span>{{reading_time}} min read</span>{{/if}}
+    </div>
+    <h3 class="article-card__title">
+      <a href="/blog/{{slug}}/">{{title}}</a>
+    </h3>
+    <p class="article-card__excerpt">{{#if meta_description}}{{meta_description}}{{else}}{{tldr}}{{/if}}</p>
+  </div>
+  <div class="article-card__footer">
+    <a href="/blog/{{slug}}/" class="article-card__link">Read Article →</a>
+  </div>
+</article>
