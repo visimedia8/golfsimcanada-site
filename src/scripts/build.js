@@ -396,10 +396,10 @@ async function build() {
       writeHtmlPage(urlSlug, templateName, data);
 
       if (subDir === 'blog' || templateName === 'blog-post') {
-        blogPosts.push({ slug: urlSlug, ...parsed.data });
+        blogPosts.push({ ...parsed.data, slug: urlSlug });
       }
       if (subDir === 'setup' || templateName === 'setup-guide') {
-        setupGuides.push({ slug: urlSlug, ...parsed.data });
+        setupGuides.push({ ...parsed.data, slug: urlSlug });
       }
     });
     console.log(`✅ Built ${mdFiles.length} Markdown pages`);

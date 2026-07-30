@@ -6,7 +6,7 @@ category: "Software"
 primary_keyword: "GSPro Canada"
 meta_title: "GSPro Canada Review & Setup Guide: The Ultimate Golf Simulator Software"
 meta_description: "Deep dive into GSPro in Canada. Discover PC requirements, CAD pricing, Canadian courses, and how to optimize your setup for the ultimate golf simulator experience."
-og_image: "/images/og-gspro-canada.jpg"
+og_image: "/assets/images/products/gspro-canada.jpg"
 schema_type: "SoftwareApplication"
 related_products: ["skytrak-plus", "bushnell-launch-pro"]
 related_posts: ["best-golf-simulator-software-canada"]

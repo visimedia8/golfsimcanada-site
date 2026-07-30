@@ -6,7 +6,7 @@ category: "Launch Monitors"
 primary_keyword: "rapsodo mlm2pro canada"
 meta_title: "Rapsodo MLM2PRO Canada Review (2026): The New Sub-$1K King"
 meta_description: "In-depth Rapsodo MLM2PRO review for Canada. Exploring dual-camera architecture, spin axis accuracy, Callaway RPT balls, and Canadian setup logistics."
-og_image: "/images/products/mlm2pro-review.jpg"
+og_image: "/assets/images/products/mlm2pro.jpg"
 schema_type: "ProductReview"
 related_products: ["garmin-r10", "square-golf"]
 related_posts: ["best-golf-launch-monitor-canada"]

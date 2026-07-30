@@ -1,0 +1,19 @@
+<!-- tool-page.html -->
+<main class="tool-page py-12">
+  <div class="container container-narrow">
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb mb-6" aria-label="breadcrumb">
+      <a href="/">Home</a> › <a href="/tools/">Tools</a> › <span>{{title}}</span>
+    </nav>
+
+    <header class="text-center mb-10">
+      <h1 class="h1 text-white mb-4">{{title}}</h1>
+      <p class="text-xl text-secondary">{{description}}</p>
+    </header>
+
+    <div class="card p-8 bg-surface mb-12">
+      <!-- Injected Tool Form & Container -->
+      {{{content}}}
+    </div>
+  </div>
+</main>

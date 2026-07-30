@@ -1,6 +1,7 @@
 ---
 title: "Garmin R10 vs Rapsodo MLM2PRO: The Sub-$1000 Heavyweights"
 slug: "garmin-r10-vs-mlm2pro"
+og_image: "/assets/images/compare/garmin-r10-vs-mlm2pro.jpg"
 date_published: "2026-07-29"
 category: "Comparisons"
 primary_keyword: "Garmin R10 vs MLM2PRO"

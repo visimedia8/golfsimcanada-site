@@ -16,21 +16,33 @@
     </header>
 
     <!-- Filter & Sort Bar -->
-    <div class="collection-controls flex justify-between items-center gap-4 flex-wrap mb-8 p-4 card bg-surface">
-      <div class="filters flex gap-2 flex-wrap" role="group" aria-label="Filter products">
-        <button class="filter-btn filter-btn--active btn btn--sm btn--ghost" data-filter="all">All</button>
-        <button class="filter-btn btn btn--sm btn--ghost" data-filter="serious-golfer">Serious Golfer</button>
-        <button class="filter-btn btn btn--sm btn--ghost" data-filter="intermediate">Intermediate</button>
-        <button class="filter-btn btn btn--sm btn--ghost" data-filter="commercial">Commercial</button>
+    <div class="collection-controls flex justify-between items-center gap-4 flex-wrap mb-4 p-4 card bg-surface">
+      <form id="filter-form" class="filters flex gap-4 flex-wrap items-center">
+        <span class="text-xs text-muted font-bold uppercase">Filter By:</span>
+        <label class="flex items-center gap-1 text-sm cursor-pointer">
+          <input type="checkbox" data-group="best-for" value="serious-golfer" class="rounded border-color-border bg-base">
+          <span>Serious Golfer</span>
+        </label>
+        <label class="flex items-center gap-1 text-sm cursor-pointer">
+          <input type="checkbox" data-group="best-for" value="intermediate" class="rounded border-color-border bg-base">
+          <span>Intermediate</span>
+        </label>
+        <label class="flex items-center gap-1 text-sm cursor-pointer">
+          <input type="checkbox" data-group="best-for" value="commercial" class="rounded border-color-border bg-base">
+          <span>Commercial</span>
+        </label>
+      </form>
+      <div class="flex items-center gap-4">
+        <span id="results-count" class="text-xs text-muted font-medium"></span>
       </div>
-      <div class="sort-wrap">
-        <label for="sort-select" class="sr-only">Sort products</label>
-        <select id="sort-select" class="sort-select p-2 bg-base border border-color-border rounded text-white text-sm">
-          <option value="rating-desc">Top Rated</option>
-          <option value="price-asc">Price: Low to High</option>
-          <option value="price-desc">Price: High to Low</option>
-        </select>
-      </div>
+    </div>
+
+    <!-- Active Filter Chips Container -->
+    <div id="filter-chips" class="flex gap-2 flex-wrap mb-6"></div>
+
+    <div id="no-results" class="text-center py-12 card bg-surface mb-8" style="display: none;">
+      <h3 class="h3 text-white mb-2">No Products Match Your Filters</h3>
+      <p class="text-secondary text-sm">Try unchecking some filter boxes above to view more launch monitors and packages.</p>
     </div>
 
     <!-- Product Grid -->

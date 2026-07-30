@@ -1,6 +1,7 @@
 ---
 title: "Bushnell Launch Pro Review: Is it Available in Canada?"
 slug: "bushnell-launch-pro"
+og_image: "/assets/images/products/bushnell-launch-pro.jpg"
 date_published: "2026-07-29"
 category: "Launch Monitors"
 primary_keyword: "Bushnell Launch Pro Canada"

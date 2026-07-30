@@ -172,6 +172,7 @@
 html {
   font-size: 100%;
   scroll-behavior: smooth;
+  scroll-padding-top: 72px;
   -webkit-text-size-adjust: 100%;
   background-color: var(--color-bg-base);
   color: var(--color-text-primary);
@@ -260,8 +261,15 @@ a {
   transition: color var(--duration-fast) var(--ease-standard);
 }
 
-a:hover, a:focus-visible {
+a:hover {
   color: var(--color-accent-bright);
+}
+
+a:focus-visible {
+  color: var(--color-accent-bright);
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 
 img, picture, video, canvas, svg {
@@ -298,7 +306,93 @@ table {
 }
 
 /* --------------------------------------------------------------------------
-   4. Utility Classes
+   4. Form Styles & Utilities
+   -------------------------------------------------------------------------- */
+.form-input,
+.form-select,
+.form-textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: var(--space-4);
+  background-color: var(--color-bg-base);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  font-family: var(--font-ui);
+  font-size: var(--text-body-md);
+  transition: border-color var(--duration-fast), box-shadow var(--duration-fast);
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px var(--color-border-accent);
+}
+
+/* Fix placeholder contrast (make it readable but muted) */
+::-webkit-input-placeholder { color: var(--color-text-secondary); opacity: 0.8; }
+::-moz-placeholder { color: var(--color-text-secondary); opacity: 0.8; }
+:-ms-input-placeholder { color: var(--color-text-secondary); opacity: 0.8; }
+::placeholder { color: var(--color-text-secondary); opacity: 0.8; }
+
+label {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: var(--text-small);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+/* Tailwind-like Form Utilities */
+.w-full { width: 100%; }
+.p-3 { padding: 12px; }
+.p-4 { padding: 16px; }
+.bg-base { background-color: var(--color-bg-base); }
+.border { border: 1px solid var(--color-border-strong); }
+.border-color-border { border-color: var(--color-border-strong); }
+.rounded { border-radius: var(--radius-md); }
+.text-white { color: var(--color-text-primary); }
+.text-sm { font-size: var(--text-body-md); }
+.text-xs { font-size: var(--text-small); }
+.font-semibold { font-weight: var(--weight-semibold); }
+.block { display: block; }
+.mb-2 { margin-bottom: 8px; }
+.mb-3 { margin-bottom: 12px; }
+.mb-4 { margin-bottom: 16px; }
+.mb-6 { margin-bottom: 24px; }
+.mb-10 { margin-bottom: 40px; }
+.mb-12 { margin-bottom: 48px; }
+.mt-1 { margin-top: 4px; }
+.mt-6 { margin-top: 24px; }
+.space-y-6 > * + * { margin-top: 24px; }
+.gap-3 { gap: 12px; }
+.gap-6 { gap: 24px; }
+.grid { display: grid; }
+.grid-2col { grid-template-columns: 1fr; }
+@media (min-width: 768px) {
+  .grid-2col { grid-template-columns: repeat(2, 1fr); }
+}
+.flex { display: flex; }
+.items-start { align-items: flex-start; }
+.leading-relaxed { line-height: 1.6; }
+.py-12 { padding-top: 48px; padding-bottom: 48px; }
+
+/* --------------------------------------------------------------------------
+   5. Utility Classes
    -------------------------------------------------------------------------- */
 .visually-hidden,
 .sr-only {
@@ -364,7 +458,7 @@ table {
 .text-secondary { color: var(--color-text-secondary); }
 
 /* --------------------------------------------------------------------------
-   5. Editorial Prose Styles (.prose)
+   6. Editorial Prose Styles (.prose)
    -------------------------------------------------------------------------- */
 .prose {
   font-family: var(--font-ui);
@@ -420,7 +514,7 @@ table {
 }
 
 /* --------------------------------------------------------------------------
-   6. Print Styles
+   7. Print Styles
    -------------------------------------------------------------------------- */
 @media print {
   body {

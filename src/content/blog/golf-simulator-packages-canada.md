@@ -6,7 +6,7 @@ category: "Guides"
 primary_keyword: "golf simulator packages canada"
 meta_title: "Best Golf Simulator Packages in Canada | 2026 Full Comparison"
 meta_description: "Compare the top golf simulator packages available in Canada. Explore bundles from Par2Pro, Indoor Golf Shop, and more, including full CAD pricing."
-og_image: "/images/blog/golf-simulator-packages-canada.jpg"
+og_image: "/assets/images/blog/golf-simulator-packages-canada.jpg"
 schema_type: "Article"
 related_products: ["skytrak-sig10-package", "uneekor-qed-sim-in-a-box"]
 related_posts: ["golf-simulator-cost-canada", "best-golf-mats-canada"]

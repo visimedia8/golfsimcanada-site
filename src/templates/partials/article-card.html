@@ -11,11 +11,11 @@
       {{#if reading_time}} • <span>{{reading_time}} min read</span>{{/if}}
     </div>
     <h3 class="article-card__title">
-      <a href="/blog/{{slug}}/">{{title}}</a>
+      <a href="/{{slug}}/">{{title}}</a>
     </h3>
     <p class="article-card__excerpt">{{#if meta_description}}{{meta_description}}{{else}}{{tldr}}{{/if}}</p>
   </div>
   <div class="article-card__footer">
-    <a href="/blog/{{slug}}/" class="article-card__link">Read Article →</a>
+    <a href="/{{slug}}/" class="article-card__link">Read Article →</a>
   </div>
 </article>

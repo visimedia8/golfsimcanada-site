@@ -1,6 +1,7 @@
 ---
 title: "GSPro vs E6 Connect: The Only Simulator Software Review You Need"
 slug: "gspro-vs-e6-connect"
+og_image: "/assets/images/compare/gspro-vs-e6-connect.jpg"
 date_published: "2026-07-29"
 category: "Comparisons"
 primary_keyword: "GSPro vs E6 Connect"

@@ -6,7 +6,7 @@ category: blog
 primary_keyword: best golf simulators canada
 meta_title: "Top 7 Best Golf Simulators in Canada [2026] | CAD Pricing & Reviews"
 meta_description: "An exhaustive, no-fluff guide to the best golf simulators in Canada. Covers launch monitors, CAD pricing, tax/duties, software latency, and Canadian dealers."
-og_image: "/images/best-golf-simulators-canada.jpg"
+og_image: "/assets/images/blog/best-golf-simulators-canada.jpg"
 schema_type: Article
 related_products: ["trackman-4", "foresight-gcquad", "uneekor-eye-xo", "garmin-approach-r10"]
 related_posts: ["golf-simulator-garage-canada", "launch-monitors-canada"]

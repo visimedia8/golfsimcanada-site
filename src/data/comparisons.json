@@ -78,5 +78,25 @@
       "compatibility_b": "SkyTrak, TruGolf, FlightScope, Foresight"
     },
     "status": "published"
+  },
+  {
+    "slug": "garmin-r10-vs-mlm2pro",
+    "title": "Garmin Approach R10 vs Rapsodo MLM2PRO — Best Budget Golf Simulator in Canada",
+    "product_a": "garmin-r10",
+    "product_b": "mlm2pro",
+    "verdict": "The Garmin R10 is the ultimate portable budget radar, offering tremendous value with no required subscription for basic simulation. However, if you are hitting indoors into a net with less than 16 feet of space, the Rapsodo MLM2PRO's dual-camera system with its RPT dotted balls provides significantly more accurate spin axis and ball flight data, making it worth the premium and subscription cost.",
+    "verdict_winner": "mlm2pro",
+    "verdict_context": "best for indoor garage/net setups",
+    "comparison_table_summary": {
+      "price_a": "$800 – $900 CAD",
+      "price_b": "$950 – $1,100 CAD",
+      "technology_a": "Doppler Radar",
+      "technology_b": "Dual Camera + Doppler Radar",
+      "subscription_a": "Not required for basic features",
+      "subscription_b": "Requires $200 USD/year for full simulation features",
+      "space_req_a": "16ft total depth recommended",
+      "space_req_b": "14-16ft total depth recommended"
+    },
+    "status": "published"
   }
 ]

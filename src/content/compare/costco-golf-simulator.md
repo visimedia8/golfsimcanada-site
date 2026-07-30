@@ -1,6 +1,7 @@
 ---
 title: "The Costco Golf Simulator Package: A Veteran's Honest Review"
 slug: "costco-golf-simulator"
+og_image: "/assets/images/compare/costco-golf-simulator.jpg"
 date_published: "2026-07-29"
 category: "Comparisons"
 primary_keyword: "Costco Golf Simulator"

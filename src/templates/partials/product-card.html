@@ -1,4 +1,4 @@
-<article class="card product-card" role="listitem" data-category="{{category}}" data-best-for="{{#each filter_tags.best_for}}{{this}} {{/each}}">
+<article class="card product-card" role="listitem" data-filterable="true" data-category="{{category}}" data-best-for="{{#each filter_tags.best_for}}{{this}} {{/each}}">
   <div class="product-card__image-wrap">
     <img src="{{#if hero_image}}{{hero_image}}{{else}}/assets/images/products/placeholder.webp{{/if}}" alt="{{name}}" width="400" height="300" loading="lazy" class="product-card__image">
     {{#if badge}}

@@ -1,6 +1,7 @@
 ---
 title: "Foresight GC3 Launch Monitor Review: The Best Mid-Tier Sim?"
 slug: "gc3"
+og_image: "/assets/images/products/gc3.jpg"
 date_published: "2026-07-29"
 category: "Launch Monitors"
 primary_keyword: "Foresight GC3 Canada"

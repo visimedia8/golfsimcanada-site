@@ -1,6 +1,7 @@
 ---
 title: "Foresight GCQuad Launch Monitor Review (Canadian Edition)"
 slug: "gcquad"
+og_image: "/assets/images/products/gcquad.jpg"
 date_published: "2026-07-29"
 category: "Premium Launch Monitors"
 primary_keyword: "Foresight GCQuad Canada"

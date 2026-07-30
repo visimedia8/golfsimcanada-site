@@ -18,10 +18,40 @@
       </div>
     </header>
 
+    <!-- Filter Bar -->
+    <div class="collection-controls flex justify-between items-center gap-4 flex-wrap mb-4 p-4 card bg-surface">
+      <form id="filter-form" class="filters flex gap-4 flex-wrap items-center">
+        <span class="text-xs text-muted font-bold uppercase">Filter:</span>
+        <label class="flex items-center gap-1 text-sm cursor-pointer">
+          <input type="checkbox" data-group="features" value="24-7" class="rounded border-color-border bg-base">
+          <span>24/7 Access</span>
+        </label>
+        <label class="flex items-center gap-1 text-sm cursor-pointer">
+          <input type="checkbox" data-group="features" value="rentals" class="rounded border-color-border bg-base">
+          <span>Rentals</span>
+        </label>
+        <label class="flex items-center gap-1 text-sm cursor-pointer">
+          <input type="checkbox" data-group="features" value="events" class="rounded border-color-border bg-base">
+          <span>Leagues & Events</span>
+        </label>
+      </form>
+      <div class="flex items-center gap-4">
+        <span id="results-count" class="text-xs text-muted font-medium"></span>
+      </div>
+    </div>
+    
+    <!-- Active Filter Chips Container -->
+    <div id="filter-chips" class="flex gap-2 flex-wrap mb-6"></div>
+
+    <div id="no-results" class="text-center py-12 card bg-surface mb-8" style="display: none;">
+      <h3 class="h3 text-white mb-2">No Venues Match Your Filters</h3>
+      <p class="text-secondary text-sm">Try unchecking some filter boxes above to view more facilities.</p>
+    </div>
+
     <!-- Venue List -->
     <section class="venue-list grid grid-2col gap-8 mb-16" aria-label="Venues in {{city}}">
       {{#each venues}}
-      <article class="card venue-card p-6 flex flex-col justify-between {{#if featured}}border-gold{{/if}}">
+      <article class="card venue-card p-6 flex flex-col justify-between {{#if featured}}border-gold{{/if}}" data-filterable="true" data-features="{{#if is_24_7}}24-7 {{/if}}{{#if has_rental}}rentals {{/if}}{{#if has_events}}events {{/if}}">
         <div>
           <div class="flex justify-between items-start mb-3 gap-2">
             <div>

@@ -6,7 +6,7 @@ category: "Guides"
 primary_keyword: "golf simulator cost canada"
 meta_title: "How Much Does a Golf Simulator Cost in Canada? (2026 Breakdown)"
 meta_description: "Discover the true cost of a golf simulator in Canada. We break down CAD pricing, hidden taxes (HST/GST/PST), software subscriptions, and shipping fees."
-og_image: "/images/blog/golf-simulator-cost-canada.jpg"
+og_image: "/assets/images/blog/golf-simulator-cost-canada.jpg"
 schema_type: "Article"
 related_products: ["garmin-approach-r10", "skytrak-plus-canada", "uneekor-eye-xo"]
 related_posts: ["golf-simulator-packages-canada", "best-launch-monitors-canada"]

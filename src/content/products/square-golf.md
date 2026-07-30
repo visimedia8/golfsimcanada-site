@@ -6,7 +6,7 @@ category: "Launch Monitors"
 primary_keyword: "square golf simulator canada"
 meta_title: "Square Golf Simulator Review Canada (2026): Ultra-Budget Optics"
 meta_description: "A deep technical review of the Square Golf Simulator for the Canadian market. Analyzing CAD pricing, high-speed camera tech, space limits, and budget software."
-og_image: "/images/products/square-golf-review.jpg"
+og_image: "/assets/images/products/square-golf.jpg"
 schema_type: "ProductReview"
 related_products: ["garmin-r10", "mlm2pro"]
 related_posts: ["best-golf-launch-monitor-canada"]

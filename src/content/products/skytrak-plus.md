@@ -1,6 +1,7 @@
 ---
 title: "SkyTrak+ Launch Monitor Review: The New Mid-Range King?"
 slug: "skytrak-plus"
+og_image: "/assets/images/products/skytrak-plus.jpg"
 date_published: "2026-07-29"
 category: "Launch Monitors"
 primary_keyword: "SkyTrak Plus Canada"

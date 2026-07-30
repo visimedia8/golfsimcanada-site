@@ -502,5 +502,235 @@
     "alternatives": [],
     "positioned_as_alternative_to": [],
     "status": "published"
+  },
+  {
+    "slug": "garmin-r10",
+    "name": "Garmin Approach R10",
+    "brand_slug": "garmin",
+    "category": "launch-monitor",
+    "sub_category": "radar",
+    "badge": "featured",
+    "price_range_cad": "$800 – $900",
+    "price_verified": "2025-07",
+    "rating": 8.5,
+    "filter_tags": {
+      "best_for": ["beginner", "intermediate"],
+      "space_type": ["garage", "outdoor-range"],
+      "detection_tech": "radar",
+      "software_compat": ["gspro", "e6", "garmin-app"],
+      "budget_tier": "budget"
+    },
+    "specs": {
+      "technology": "Doppler Radar",
+      "ball_data_points": 7,
+      "club_data": "Club Head Speed, Path, Face Angle",
+      "indoor_outdoor": "Both",
+      "software_included": "Garmin Golf App",
+      "space_required": "10ft W x 16ft L x 9ft H"
+    },
+    "pros": [
+      "Incredible value for full ball flight tracking",
+      "Direct integration with GSPro and E6 Connect",
+      "Extremely portable"
+    ],
+    "cons": [
+      "Requires significant room depth (16ft minimum)",
+      "Radar can be affected by concrete floors indoors"
+    ],
+    "canada_notes": "Widely available at major Canadian retailers like Golf Town and Amazon Canada.",
+    "dealers": [
+      {
+        "name": "Golf Town",
+        "url": "https://golftown.com",
+        "provinces": ["ON", "BC", "AB", "QC", "MB", "NS"]
+      }
+    ],
+    "alternatives": ["mlm2pro", "square-golf"],
+    "positioned_as_alternative_to": ["skytrak-plus"],
+    "status": "published"
+  },
+  {
+    "slug": "mlm2pro",
+    "name": "Rapsodo MLM2PRO",
+    "brand_slug": "rapsodo",
+    "category": "launch-monitor",
+    "sub_category": "hybrid-camera-radar",
+    "badge": "editors-choice",
+    "price_range_cad": "$950 – $1,100",
+    "price_verified": "2025-07",
+    "rating": 8.9,
+    "filter_tags": {
+      "best_for": ["beginner", "intermediate", "serious-golfer"],
+      "space_type": ["garage", "outdoor-range"],
+      "detection_tech": "hybrid",
+      "software_compat": ["gspro", "e6"],
+      "budget_tier": "budget"
+    },
+    "specs": {
+      "technology": "Dual Camera + Doppler Radar",
+      "ball_data_points": 13,
+      "club_data": "Club Head Speed, Smash Factor",
+      "indoor_outdoor": "Both",
+      "software_included": "Rapsodo Courses (Requires Subscription)",
+      "space_required": "10ft W x 16ft L x 9ft H"
+    },
+    "pros": [
+      "Uses custom Callaway RPT balls for incredibly accurate spin axis",
+      "Two cameras capture impact vision and down-the-line swing",
+      "Outperforms standard radar indoors"
+    ],
+    "cons": [
+      "Requires specific dotted balls for full spin tracking indoors",
+      "Requires annual premium membership ($200 USD) for 3rd party simulation"
+    ],
+    "canada_notes": "Available through Canadian golf retailers. Subscription billed in USD.",
+    "dealers": [
+      {
+        "name": "Golf Town",
+        "url": "https://golftown.com",
+        "provinces": ["ON", "BC", "AB", "QC", "MB", "NS"]
+      }
+    ],
+    "alternatives": ["garmin-r10", "skytrak-plus"],
+    "positioned_as_alternative_to": ["skytrak-plus"],
+    "status": "published"
+  },
+  {
+    "slug": "square-golf",
+    "name": "Square Golf",
+    "brand_slug": "square-golf",
+    "category": "launch-monitor",
+    "sub_category": "photometric",
+    "badge": "new",
+    "price_range_cad": "$900 – $1,000",
+    "price_verified": "2025-07",
+    "rating": 8.2,
+    "filter_tags": {
+      "best_for": ["beginner", "intermediate"],
+      "space_type": ["garage", "basement", "dedicated-room"],
+      "detection_tech": "camera",
+      "software_compat": ["square-golf-app"],
+      "budget_tier": "budget"
+    },
+    "specs": {
+      "technology": "High-Speed Camera",
+      "ball_data_points": 8,
+      "club_data": "Club Speed, Path, Face Angle (calculated)",
+      "indoor_outdoor": "Indoor Primary",
+      "software_included": "Square Golf Software",
+      "space_required": "10ft W x 10ft L x 9ft H"
+    },
+    "pros": [
+      "Photometric camera accuracy under $1000 CAD",
+      "Requires much less space than radar units like R10",
+      "Includes its own proprietary simulation software"
+    ],
+    "cons": [
+      "Newer brand, less proven long-term reliability",
+      "Currently limited third-party software integration compared to Garmin"
+    ],
+    "canada_notes": "Available primarily online. Shipping and import duties to Canada may apply if purchased from US distributors.",
+    "dealers": [
+      {
+        "name": "Square Golf Direct",
+        "url": "https://squaregolf.com",
+        "provinces": ["ON", "BC", "AB", "QC"]
+      }
+    ],
+    "alternatives": ["garmin-r10", "mlm2pro"],
+    "positioned_as_alternative_to": ["skytrak-plus"],
+    "status": "published"
+  },
+  {
+    "slug": "garmin-r50",
+    "name": "Garmin Approach R50",
+    "brand_slug": "garmin",
+    "category": "launch-monitor",
+    "sub_category": "photometric",
+    "badge": "featured",
+    "price_range_cad": "$6,500 – $7,200",
+    "price_verified": "2025-07",
+    "rating": 9.2,
+    "filter_tags": {
+      "best_for": ["serious-golfer", "commercial"],
+      "space_type": ["garage", "dedicated-room", "outdoor-range"],
+      "detection_tech": "camera",
+      "software_compat": ["home-tee-hero", "e6", "gspro"],
+      "budget_tier": "mid-high"
+    },
+    "specs": {
+      "technology": "Triple-Camera System with Built-in Touchscreen",
+      "ball_data_points": 15,
+      "club_data": "Full Club Head Data",
+      "indoor_outdoor": "Both",
+      "software_included": "Home Tee Hero (Over 43,000 Courses)",
+      "space_required": "10ft W x 10ft L x 9ft H"
+    },
+    "pros": [
+      "Massive 10-inch built-in color touchscreen display",
+      "Does not require a separate PC or iPad to run simulation",
+      "Extremely accurate photometric data matching the GC3"
+    ],
+    "cons": [
+      "High price point for a Garmin product",
+      "Heavier and less portable than the R10"
+    ],
+    "canada_notes": "Garmin's answer to the Bushnell Launch Pro. Available across Canada at major retailers.",
+    "dealers": [
+      {
+        "name": "Golf Town",
+        "url": "https://golftown.com",
+        "provinces": ["ON", "BC", "AB", "QC", "MB", "NS"]
+      }
+    ],
+    "alternatives": ["bushnell-launch-pro", "foresight-gc3"],
+    "positioned_as_alternative_to": ["bushnell-launch-pro"],
+    "status": "published"
+  },
+  {
+    "slug": "gspro-software",
+    "name": "GSPro Simulator Software",
+    "brand_slug": "gspro",
+    "category": "software",
+    "sub_category": "simulation-software",
+    "badge": "editors-choice",
+    "price_range_cad": "$340/year",
+    "price_verified": "2025-07",
+    "rating": 9.8,
+    "filter_tags": {
+      "best_for": ["serious-golfer", "intermediate"],
+      "space_type": ["dedicated-room", "garage", "commercial-bay"],
+      "detection_tech": "software",
+      "software_compat": [],
+      "budget_tier": "budget"
+    },
+    "specs": {
+      "technology": "4K Unity Graphics Engine",
+      "ball_data_points": 0,
+      "club_data": "N/A",
+      "indoor_outdoor": "Indoor",
+      "software_included": "Base Game + Course Forge",
+      "space_required": "Gaming PC Required (RTX 3060 minimum)"
+    },
+    "pros": [
+      "Stunning 4K graphics and highly realistic ball physics",
+      "Massive community-driven library of over 600+ courses (including Canadian tracks)",
+      "Incredible value at $250 USD per year compared to FSX or E6"
+    ],
+    "cons": [
+      "Requires a powerful gaming PC to run smoothly",
+      "Not officially supported by some launch monitors (requires community workarounds)"
+    ],
+    "canada_notes": "Billed in USD ($250/yr). Highly recommended for Canadian DIY simulator builds.",
+    "dealers": [
+      {
+        "name": "GSPro Direct",
+        "url": "https://gsprogolf.com",
+        "provinces": ["ON", "BC", "AB", "QC", "MB", "NS"]
+      }
+    ],
+    "alternatives": ["e6-connect-software"],
+    "positioned_as_alternative_to": ["fsx-play"],
+    "status": "published"
   }
 ]

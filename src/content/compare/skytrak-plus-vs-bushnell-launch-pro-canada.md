@@ -6,7 +6,7 @@ category: "Comparisons"
 primary_keyword: "SkyTrak+ vs Bushnell Launch Pro Canada"
 meta_title: "SkyTrak+ vs Bushnell Launch Pro: Which is Better in Canada?"
 meta_description: "An exhaustive comparison of the SkyTrak+ and Bushnell Launch Pro launch monitors for Canadian golfers. We analyze CAD pricing, subscriptions, radar vs photometric technology, and accuracy."
-og_image: "/images/og-skytrak-vs-blp.jpg"
+og_image: "/assets/images/compare/skytrak-plus-vs-bushnell-launch-pro-canada.jpg"
 schema_type: "Article"
 related_products: ["skytrak-plus", "bushnell-launch-pro"]
 related_posts: ["best-launch-monitors-under-5000-cad"]

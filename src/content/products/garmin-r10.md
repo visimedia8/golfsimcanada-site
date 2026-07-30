@@ -6,7 +6,7 @@ category: "Launch Monitors"
 primary_keyword: "garmin approach r10 canada"
 meta_title: "Garmin Approach R10 Canada Review (2026): The Indoor Truth"
 meta_description: "Deep dive Garmin Approach R10 review for Canadian golfers. Analyzing CAD pricing, indoor radar limitations, RCT ball requirements, and basement setups."
-og_image: "/images/products/garmin-r10-review.jpg"
+og_image: "/assets/images/products/garmin-r10.jpg"
 schema_type: "ProductReview"
 related_products: ["mlm2pro", "square-golf"]
 related_posts: ["best-golf-launch-monitor-canada"]

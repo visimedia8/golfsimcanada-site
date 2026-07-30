@@ -1,6 +1,7 @@
 ---
 title: "Garmin Approach R50 Launch Monitor Review (Canada)"
 slug: "garmin-r50"
+og_image: "/assets/images/products/garmin-r50.jpg"
 date_published: "2026-07-29"
 category: "Premium Launch Monitors"
 primary_keyword: "Garmin Approach R50 Canada"

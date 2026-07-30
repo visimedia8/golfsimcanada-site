@@ -5,19 +5,61 @@
     "founded_year": 2010,
     "founded_location": "San Diego, California, USA",
     "canada_presence_since": 2014,
-    "canada_authorized_dealers": ["ON", "BC", "AB", "QC", "MB", "NS"],
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC",
+      "MB",
+      "NS"
+    ],
     "hq": "San Diego, CA, USA",
     "website": "https://foresightsports.com",
     "canadian_website": "https://foresightsports.ca",
     "technology_type": "Photometric",
     "product_lines": [
-      { "name": "GCQuad", "category": "launch-monitor", "tier": "pro", "slug": "foresight-gcquad" },
-      { "name": "GC3", "category": "launch-monitor", "tier": "mid", "slug": "foresight-gc3" },
-      { "name": "GC3s", "category": "launch-monitor", "tier": "mid", "slug": "foresight-gc3s" },
-      { "name": "GCQuadMAX", "category": "launch-monitor", "tier": "pro", "slug": "foresight-gcquadmax" },
-      { "name": "GCHawk", "category": "launch-monitor", "tier": "commercial", "slug": "foresight-gchawk" },
-      { "name": "Falcon", "category": "launch-monitor", "tier": "commercial", "slug": "foresight-falcon" },
-      { "name": "ForeCaddy", "category": "accessory", "tier": "lifestyle", "slug": "forecaddy-smart-cart" }
+      {
+        "name": "GCQuad",
+        "category": "launch-monitor",
+        "tier": "pro",
+        "slug": "foresight-gcquad"
+      },
+      {
+        "name": "GC3",
+        "category": "launch-monitor",
+        "tier": "mid",
+        "slug": "foresight-gc3"
+      },
+      {
+        "name": "GC3s",
+        "category": "launch-monitor",
+        "tier": "mid",
+        "slug": "foresight-gc3s"
+      },
+      {
+        "name": "GCQuadMAX",
+        "category": "launch-monitor",
+        "tier": "pro",
+        "slug": "foresight-gcquadmax"
+      },
+      {
+        "name": "GCHawk",
+        "category": "launch-monitor",
+        "tier": "commercial",
+        "slug": "foresight-gchawk"
+      },
+      {
+        "name": "Falcon",
+        "category": "launch-monitor",
+        "tier": "commercial",
+        "slug": "foresight-falcon"
+      },
+      {
+        "name": "ForeCaddy",
+        "category": "accessory",
+        "tier": "lifestyle",
+        "slug": "forecaddy-smart-cart"
+      }
     ],
     "known_for": [
       "Highest accuracy photometric cameras in golf",
@@ -30,7 +72,11 @@
       "Commercial indoor venues across Toronto, Vancouver, Calgary, and Montreal"
     ],
     "brand_description_short": "Foresight Sports builds the most accurate photometric launch monitors in golf. Founded in 2010, their multi-camera systems are the industry benchmark.",
-    "alternatives": ["skytrak", "uneekor", "trackman"],
+    "alternatives": [
+      "skytrak",
+      "uneekor",
+      "trackman"
+    ],
     "editor_verdict": "Best-in-class accuracy for indoor golf simulators. Zero calibration distance needed, making Foresight the top choice for Canadian garage and basement builds.",
     "status": "published"
   },
@@ -40,13 +86,27 @@
     "founded_year": 2014,
     "founded_location": "Winston-Salem, North Carolina, USA",
     "canada_presence_since": 2015,
-    "canada_authorized_dealers": ["ON", "BC", "AB", "QC", "MB", "NS", "SK", "NB"],
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC",
+      "MB",
+      "NS",
+      "SK",
+      "NB"
+    ],
     "hq": "Winston-Salem, NC, USA",
     "website": "https://skytrakgolf.com",
     "canadian_website": "https://skytrakgolf.com",
     "technology_type": "Hybrid Photometric & Radar",
     "product_lines": [
-      { "name": "SkyTrak+", "category": "launch-monitor", "tier": "mid", "slug": "skytrak-plus" }
+      {
+        "name": "SkyTrak+",
+        "category": "launch-monitor",
+        "tier": "mid",
+        "slug": "skytrak-plus"
+      }
     ],
     "known_for": [
       "Pioneering affordable consumer home launch monitors",
@@ -58,7 +118,11 @@
       "Regional golf academies and high school golf programs"
     ],
     "brand_description_short": "SkyTrak revolutionized consumer indoor golf simulation by bringing tour-proven photometric technology down to accessible price points.",
-    "alternatives": ["bushnell", "foresight-sports", "uneekor"],
+    "alternatives": [
+      "bushnell",
+      "foresight-sports",
+      "uneekor"
+    ],
     "editor_verdict": "The undisputed value king for Canadian golfers looking to build a high-performance home simulator setup under $5,000 CAD.",
     "status": "published"
   },
@@ -68,13 +132,29 @@
     "founded_year": 1948,
     "founded_location": "Overland Park, Kansas, USA",
     "canada_presence_since": 1980,
-    "canada_authorized_dealers": ["ON", "BC", "AB", "QC", "MB", "NS", "PE", "NL", "SK", "NB"],
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC",
+      "MB",
+      "NS",
+      "PE",
+      "NL",
+      "SK",
+      "NB"
+    ],
     "hq": "Overland Park, KS, USA",
     "website": "https://bushnellgolf.com",
     "canadian_website": "https://bushnellgolf.ca",
     "technology_type": "Photometric (Powered by Foresight Sports)",
     "product_lines": [
-      { "name": "Launch Pro", "category": "launch-monitor", "tier": "mid-high", "slug": "bushnell-launch-pro" }
+      {
+        "name": "Launch Pro",
+        "category": "launch-monitor",
+        "tier": "mid-high",
+        "slug": "bushnell-launch-pro"
+      }
     ],
     "known_for": [
       "World leader in golf laser rangefinders and GPS units",
@@ -86,7 +166,10 @@
       "Avid amateur players building home bays"
     ],
     "brand_description_short": "Bushnell Golf brings decades of distance measurement authority to home simulation with hardware powered by Foresight camera technology.",
-    "alternatives": ["skytrak", "foresight-sports"],
+    "alternatives": [
+      "skytrak",
+      "foresight-sports"
+    ],
     "editor_verdict": "Offers Foresight GC3 camera precision at a lower initial hardware price point, making it a compelling option for smart Canadian buyers.",
     "status": "published"
   },
@@ -96,13 +179,23 @@
     "founded_year": 2008,
     "founded_location": "Seoul, South Korea",
     "canada_presence_since": 2019,
-    "canada_authorized_dealers": ["ON", "BC", "AB", "QC"],
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC"
+    ],
     "hq": "Irvine, California, USA / Seoul, South Korea",
     "website": "https://uneekor.com",
     "canadian_website": "https://uneekor.ca",
     "technology_type": "Overhead Photometric Camera",
     "product_lines": [
-      { "name": "EYE XO2", "category": "launch-monitor", "tier": "pro", "slug": "uneekor-eye-xo2" }
+      {
+        "name": "EYE XO2",
+        "category": "launch-monitor",
+        "tier": "pro",
+        "slug": "uneekor-eye-xo2"
+      }
     ],
     "known_for": [
       "Overhead high-speed camera systems with OPTIX club impact video",
@@ -114,7 +207,10 @@
       "Multi-player residential simulator rooms"
     ],
     "brand_description_short": "Uneekor specializes in overhead mounted camera launch monitors designed for clean floor space and instantaneous club impact replay.",
-    "alternatives": ["foresight-sports", "trackman"],
+    "alternatives": [
+      "foresight-sports",
+      "trackman"
+    ],
     "editor_verdict": "The premier overhead option for Canadian homeowners who want a clean floor space and instant slow-motion video of their club striking the ball.",
     "status": "published"
   },
@@ -124,13 +220,22 @@
     "founded_year": 1986,
     "founded_location": "Carlsbad, California, USA",
     "canada_presence_since": 2005,
-    "canada_authorized_dealers": ["ON", "BC", "AB"],
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB"
+    ],
     "hq": "Carlsbad, CA, USA",
     "website": "https://fullswinggolf.com",
     "canadian_website": "https://fullswinggolf.com",
     "technology_type": "Radar & Camera Fusion",
     "product_lines": [
-      { "name": "Full Swing KIT", "category": "launch-monitor", "tier": "mid-high", "slug": "full-swing-kit" }
+      {
+        "name": "Full Swing KIT",
+        "category": "launch-monitor",
+        "tier": "mid-high",
+        "slug": "full-swing-kit"
+      }
     ],
     "known_for": [
       "Official simulator partner of the PGA Tour and TGL",
@@ -142,7 +247,11 @@
       "High-end commercial sports lounges"
     ],
     "brand_description_short": "Full Swing is an industry leader in luxury simulator enclosures and radar-camera fusion tracking, backed by endorsement from Tiger Woods.",
-    "alternatives": ["foresight-sports", "trackman", "skytrak"],
+    "alternatives": [
+      "foresight-sports",
+      "trackman",
+      "skytrak"
+    ],
     "editor_verdict": "Great option for buyers with deep room dimensions (16+ ft) who want radar data paired with built-in high-definition video capture.",
     "status": "published"
   },
@@ -152,14 +261,29 @@
     "founded_year": 2003,
     "founded_location": "Vedbæk, Denmark",
     "canada_presence_since": 2008,
-    "canada_authorized_dealers": ["ON", "BC", "AB", "QC"],
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC"
+    ],
     "hq": "Vedbæk, Denmark",
     "website": "https://trackman.com",
     "canadian_website": "https://trackman.com",
     "technology_type": "Dual Radar Tracking & Optics",
     "product_lines": [
-      { "name": "TrackMan 4", "category": "launch-monitor", "tier": "commercial", "slug": "trackman-4" },
-      { "name": "TrackMan iO", "category": "launch-monitor", "tier": "commercial", "slug": "trackman-io" }
+      {
+        "name": "TrackMan 4",
+        "category": "launch-monitor",
+        "tier": "commercial",
+        "slug": "trackman-4"
+      },
+      {
+        "name": "TrackMan iO",
+        "category": "launch-monitor",
+        "tier": "commercial",
+        "slug": "trackman-io"
+      }
     ],
     "known_for": [
       "The global benchmark for outdoor Doppler radar tracking",
@@ -171,8 +295,181 @@
       "University golf teams and national fitting centers"
     ],
     "brand_description_short": "TrackMan is the world leader in radar-based golf ball tracking technology, dominant on tour and across premier golf facilities worldwide.",
-    "alternatives": ["foresight-sports", "uneekor"],
+    "alternatives": [
+      "foresight-sports",
+      "uneekor"
+    ],
     "editor_verdict": "Unmatched for outdoor range use. Indoors, ensure you have sufficient ball flight distance (16–18ft room length) or opt for TrackMan iO.",
+    "status": "published"
+  },
+  {
+    "slug": "garmin",
+    "name": "Garmin",
+    "founded_year": 1989,
+    "founded_location": "Lenexa, Kansas, USA",
+    "canada_presence_since": 1990,
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC",
+      "MB",
+      "NS"
+    ],
+    "hq": "Olathe, KS, USA",
+    "website": "https://garmin.com",
+    "canadian_website": "https://garmin.com/en-CA/",
+    "technology_type": "Doppler Radar & Camera",
+    "product_lines": [
+      {
+        "name": "Approach R10",
+        "category": "launch-monitor",
+        "tier": "budget",
+        "slug": "garmin-r10"
+      },
+      {
+        "name": "Approach R50",
+        "category": "launch-monitor",
+        "tier": "premium",
+        "slug": "garmin-r50"
+      }
+    ],
+    "known_for": [
+      "GPS Golf Watches",
+      "Approach R10 Budget Radar Launch Monitor",
+      "Home Tee Hero Software"
+    ],
+    "notable_clients_canada": [
+      "Tens of thousands of Canadian amateur golfers"
+    ],
+    "brand_description_short": "Garmin is a global leader in GPS and radar technology, revolutionizing the budget golf simulator market with the highly portable Approach R10.",
+    "alternatives": [
+      "rapsodo",
+      "skytrak",
+      "bushnell"
+    ],
+    "editor_verdict": "The best ecosystem for golfers who want to combine on-course GPS data with indoor radar launch monitor practice.",
+    "status": "published"
+  },
+  {
+    "slug": "rapsodo",
+    "name": "Rapsodo",
+    "founded_year": 2010,
+    "founded_location": "Singapore",
+    "canada_presence_since": 2020,
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC"
+    ],
+    "hq": "St. Louis, MO, USA",
+    "website": "https://rapsodo.com",
+    "canadian_website": "https://rapsodo.com",
+    "technology_type": "Hybrid Dual-Camera & Radar",
+    "product_lines": [
+      {
+        "name": "MLM2PRO",
+        "category": "launch-monitor",
+        "tier": "budget",
+        "slug": "mlm2pro"
+      }
+    ],
+    "known_for": [
+      "Mobile Launch Monitors",
+      "Dual camera and radar fusion",
+      "Callaway RPT ball partnership for spin tracking"
+    ],
+    "notable_clients_canada": [
+      "Canadian amateur golfers building indoor net setups"
+    ],
+    "brand_description_short": "Rapsodo bridges the gap between budget radar units and premium camera systems with their highly accurate dual-camera MLM2PRO.",
+    "alternatives": [
+      "garmin",
+      "skytrak"
+    ],
+    "editor_verdict": "The best budget launch monitor for indoor net usage thanks to the Callaway dotted ball spin tracking.",
+    "status": "published"
+  },
+  {
+    "slug": "gspro",
+    "name": "GSPro",
+    "founded_year": 2020,
+    "founded_location": "USA",
+    "canada_presence_since": 2021,
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB",
+      "QC",
+      "MB",
+      "NS"
+    ],
+    "hq": "USA",
+    "website": "https://gsprogolf.com",
+    "canadian_website": "https://gsprogolf.com",
+    "technology_type": "Simulation Software",
+    "product_lines": [
+      {
+        "name": "GSPro Software",
+        "category": "software",
+        "tier": "budget",
+        "slug": "gspro-software"
+      }
+    ],
+    "known_for": [
+      "4K Unity Graphics",
+      "Open Course Forge Community",
+      "Realistic Ball Physics"
+    ],
+    "notable_clients_canada": [
+      "Canadian DIY Simulator Owners",
+      "Commercial Indoor Golf Centers"
+    ],
+    "brand_description_short": "GSPro is a community-driven simulator software boasting breathtaking 4K graphics, hyper-realistic physics, and a massive library of user-created courses.",
+    "alternatives": [
+      "e6-connect",
+      "fsx-play"
+    ],
+    "editor_verdict": "The absolute best simulator software for the money. With hundreds of Canadian courses built by the community, it is a must-have for any home build.",
+    "status": "published"
+  },
+  {
+    "slug": "square-golf",
+    "name": "Square Golf",
+    "founded_year": 2022,
+    "founded_location": "South Korea",
+    "canada_presence_since": 2024,
+    "canada_authorized_dealers": [
+      "ON",
+      "BC",
+      "AB"
+    ],
+    "hq": "Seoul, South Korea",
+    "website": "https://squaregolf.com",
+    "canadian_website": "https://squaregolf.com",
+    "technology_type": "Photometric",
+    "product_lines": [
+      {
+        "name": "Square Golf Launch Monitor",
+        "category": "launch-monitor",
+        "tier": "budget",
+        "slug": "square-golf"
+      }
+    ],
+    "known_for": [
+      "Affordable Photometric Technology",
+      "Built-in Simulation App"
+    ],
+    "notable_clients_canada": [
+      "Entry-level home simulator builders"
+    ],
+    "brand_description_short": "Square Golf is an emerging brand offering high-speed photometric camera precision at a sub- price point.",
+    "alternatives": [
+      "garmin",
+      "rapsodo"
+    ],
+    "editor_verdict": "A promising newcomer that brings camera-based accuracy to the tightest budgets and smallest indoor spaces.",
     "status": "published"
   }
 ]

@@ -6,7 +6,7 @@ category: "Buyers Guide"
 primary_keyword: "best golf launch monitor canada"
 meta_title: "Top 7 Best Golf Launch Monitors in Canada (2026 Tested)"
 meta_description: "Discover the best golf launch monitors for Canadian indoors. We compare CAD pricing, space requirements (feet/meters), radar vs camera, and shipping nuances."
-og_image: "/images/blog/best-launch-monitor-canada.jpg"
+og_image: "/assets/images/blog/best-golf-launch-monitor-canada.jpg"
 schema_type: "Article"
 related_products: ["garmin-r10", "mlm2pro", "square-golf"]
 related_posts: []

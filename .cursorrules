@@ -1,0 +1,19 @@
+# GolfSimCanada SSG Build Architecture Rules
+
+These rules apply specifically to this Programmatic SEO / Static Site Generator project.
+
+## 1. File Path & URL Consistency (Strict Frontmatter)
+- The URL structure of this site is dictated by the **folder hierarchy** (e.g., `src/content/blog/post-name.md` always maps to `/blog/post-name/`).
+- **NEVER** use a `slug` variable in the Markdown frontmatter to override the URL. If the user specifies a frontmatter `slug`, it will break the link logic in the `build.js` index builder.
+- If you need to change a URL, rename the actual Markdown file.
+
+## 2. Strict Internal Linking
+- When creating internal links, ensure they point to the exact rendered directory path (e.g., `/blog/golf-simulator-cost-canada/`), NOT to the root level (unless it's a pillar page intentionally placed there).
+- **NEVER** create an internal link that points to a non-existent page unless you are explicitly defining a fallback/stub for future content.
+
+## 3. Post-Build Verification
+- Before deploying to Cloudflare Pages, always run the build command (`node src/scripts/build.js`) and check the terminal logs.
+- If the build log shows `⚠️ Generating stub for missing link:` for any page other than the intentional fallbacks (`/blog/best-golf-simulators-canadian-winter`, `/blog/smash-factor`, `/blog/financing`), STOP and fix the broken link. Do not deploy a build with unintentional orphan pages.
+
+## 4. Modifying the Build Script
+- Do not modify the object spread logic in `build.js` (`{ ...parsed.data, slug: urlSlug }`). The `urlSlug` must always take precedence over any accidental `slug` provided in `parsed.data` to prevent the orphan page bug.

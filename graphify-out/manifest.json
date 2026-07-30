@@ -1,0 +1,977 @@
+{
+  "build.config.json": {
+    "mtime": 1785301162.608758,
+    "ast_hash": "fbf888aad8fded91a80e7a1f36b95d40",
+    "semantic_hash": "fbf888aad8fded91a80e7a1f36b95d40"
+  },
+  "package.json": {
+    "mtime": 1785353165.9283042,
+    "ast_hash": "1fc917e3e29f85487c42637f3c05cbb1",
+    "semantic_hash": "1fc917e3e29f85487c42637f3c05cbb1"
+  },
+  "process-images.js": {
+    "mtime": 1785303502.5136757,
+    "ast_hash": "f64b4fd8e183519505417b521d0e597f",
+    "semantic_hash": "f64b4fd8e183519505417b521d0e597f"
+  },
+  "src/assets/js/filters.js": {
+    "mtime": 1785301927.7797613,
+    "ast_hash": "1db9eaf90e33189ac11d29122462d26d",
+    "semantic_hash": "1db9eaf90e33189ac11d29122462d26d"
+  },
+  "src/assets/js/main.js": {
+    "mtime": 1785301209.6329813,
+    "ast_hash": "ce1a5ebf7d35d51b63a5356cd22ea6ad",
+    "semantic_hash": "ce1a5ebf7d35d51b63a5356cd22ea6ad"
+  },
+  "src/assets/js/search.js": {
+    "mtime": 1785302321.698593,
+    "ast_hash": "4ddb01555accaff1b677c2bbd8912ce3",
+    "semantic_hash": "4ddb01555accaff1b677c2bbd8912ce3"
+  },
+  "src/assets/js/tools.js": {
+    "mtime": 1785301955.5139797,
+    "ast_hash": "5bd52bc7506a12762bb8af059b41e7e7",
+    "semantic_hash": "5bd52bc7506a12762bb8af059b41e7e7"
+  },
+  "src/data/brands.json": {
+    "mtime": 1785301345.832066,
+    "ast_hash": "80fd9aaaa7a396a7b99e1c654f744246",
+    "semantic_hash": "80fd9aaaa7a396a7b99e1c654f744246"
+  },
+  "src/data/cities.json": {
+    "mtime": 1785319886.3625042,
+    "ast_hash": "345cbfc171ba41de6361228ff7f8ec09",
+    "semantic_hash": "345cbfc171ba41de6361228ff7f8ec09"
+  },
+  "src/data/comparisons.json": {
+    "mtime": 1785301369.1409123,
+    "ast_hash": "b15b6091b46d9dbda8636163c71bb72a",
+    "semantic_hash": "b15b6091b46d9dbda8636163c71bb72a"
+  },
+  "src/data/events.json": {
+    "mtime": 1785301364.614539,
+    "ast_hash": "1f74aca6e7c008dfb202845119391141",
+    "semantic_hash": "1f74aca6e7c008dfb202845119391141"
+  },
+  "src/data/glossary.json": {
+    "mtime": 1785301375.181752,
+    "ast_hash": "00913d75a536890a54c5cbddbefe9a3b",
+    "semantic_hash": "00913d75a536890a54c5cbddbefe9a3b"
+  },
+  "src/data/installers.json": {
+    "mtime": 1785319890.7273524,
+    "ast_hash": "d7477a14700c2d8ac0cbc7b2935f07fe",
+    "semantic_hash": "d7477a14700c2d8ac0cbc7b2935f07fe"
+  },
+  "src/data/products.json": {
+    "mtime": 1785301341.0294707,
+    "ast_hash": "6b2950d6c6c085530179eafa1b37961e",
+    "semantic_hash": "6b2950d6c6c085530179eafa1b37961e"
+  },
+  "src/data/rentals.json": {
+    "mtime": 1785301361.553849,
+    "ast_hash": "56993934e092db40c4eed808a9d4c107",
+    "semantic_hash": "56993934e092db40c4eed808a9d4c107"
+  },
+  "src/data/venues.json": {
+    "mtime": 1785319882.3559947,
+    "ast_hash": "8e66fb67412aad171b3c53a5dc5b5faa",
+    "semantic_hash": "8e66fb67412aad171b3c53a5dc5b5faa"
+  },
+  "src/scripts/build.js": {
+    "mtime": 1785355919.9572175,
+    "ast_hash": "7b47df4538bc1f224908172c94ec84b3",
+    "semantic_hash": "7b47df4538bc1f224908172c94ec84b3"
+  },
+  "src/scripts/fix-frontmatter.js": {
+    "mtime": 1785353717.8052182,
+    "ast_hash": "d5438db5c566db0d463153d3b4e7159b",
+    "semantic_hash": "d5438db5c566db0d463153d3b4e7159b"
+  },
+  "src/scripts/scrape-apify.js": {
+    "mtime": 1785353302.7876308,
+    "ast_hash": "d11b9de1efaafe8102914097f7059d37",
+    "semantic_hash": "d11b9de1efaafe8102914097f7059d37"
+  },
+  "src/scripts/scrape-images.js": {
+    "mtime": 1785350975.5252502,
+    "ast_hash": "102bd047ba55d91e1232a8cddc419532",
+    "semantic_hash": "102bd047ba55d91e1232a8cddc419532"
+  },
+  "src/scripts/scrape.py": {
+    "mtime": 1785351514.5583704,
+    "ast_hash": "888488d9290c0ec8afaa83b6ded22a93",
+    "semantic_hash": "888488d9290c0ec8afaa83b6ded22a93"
+  },
+  "src/scripts/validate.js": {
+    "mtime": 1785302979.549628,
+    "ast_hash": "1083b2e90d1abdc15b13cc6e6f34da78",
+    "semantic_hash": "1083b2e90d1abdc15b13cc6e6f34da78"
+  },
+  "SSOT/00-project-overview.md": {
+    "mtime": 1785266002.2212174,
+    "ast_hash": "9c374002d518994acfdca6dfb6986f70",
+    "semantic_hash": "9c374002d518994acfdca6dfb6986f70"
+  },
+  "SSOT/01-brand-dna.md": {
+    "mtime": 1785263941.7297359,
+    "ast_hash": "0409368930a4c81d6b79aae8164803b7",
+    "semantic_hash": "0409368930a4c81d6b79aae8164803b7"
+  },
+  "SSOT/02-business-model.md": {
+    "mtime": 1785264203.9719677,
+    "ast_hash": "c28cea10e8087540d87c79777010f425",
+    "semantic_hash": "c28cea10e8087540d87c79777010f425"
+  },
+  "SSOT/03-site-architecture.md": {
+    "mtime": 1785300309.2678237,
+    "ast_hash": "9a09461059ba2ff8e102adf11d62d50c",
+    "semantic_hash": "9a09461059ba2ff8e102adf11d62d50c"
+  },
+  "SSOT/04-topical-map.md": {
+    "mtime": 1785300337.6347315,
+    "ast_hash": "6bc44f7a155f9009c832804c3e10f81a",
+    "semantic_hash": "6bc44f7a155f9009c832804c3e10f81a"
+  },
+  "SSOT/05-keyword-matrix.md": {
+    "mtime": 1785299958.2697532,
+    "ast_hash": "0cb8f15916156463afdc87fb3618baad",
+    "semantic_hash": "0cb8f15916156463afdc87fb3618baad"
+  },
+  "SSOT/06-seo-strategy.md": {
+    "mtime": 1785264170.7874868,
+    "ast_hash": "bfff6ed1f8f2cc6c2e13fe0fd6e91c03",
+    "semantic_hash": "bfff6ed1f8f2cc6c2e13fe0fd6e91c03"
+  },
+  "SSOT/06b-internal-linking.md": {
+    "mtime": 1785265227.3769805,
+    "ast_hash": "e48a92f3c7f872676c085c11223e1073",
+    "semantic_hash": "e48a92f3c7f872676c085c11223e1073"
+  },
+  "SSOT/06c-wiki-glossary.md": {
+    "mtime": 1785300053.173185,
+    "ast_hash": "c5d64a19da6f447c54347cd0e08e8f43",
+    "semantic_hash": "c5d64a19da6f447c54347cd0e08e8f43"
+  },
+  "SSOT/07-content-launch-checklist.md": {
+    "mtime": 1785264272.7948556,
+    "ast_hash": "fed5897195db8da32460e017feff8269",
+    "semantic_hash": "fed5897195db8da32460e017feff8269"
+  },
+  "SSOT/08-design-system.md": {
+    "mtime": 1785300457.2351334,
+    "ast_hash": "30ea5ad2fe634cb04452fc0be9361a50",
+    "semantic_hash": "30ea5ad2fe634cb04452fc0be9361a50"
+  },
+  "SSOT/10-cms-dev-spec.md": {
+    "mtime": 1785300577.0795815,
+    "ast_hash": "a116c45d72ced162c4d36bd01f222f75",
+    "semantic_hash": "a116c45d72ced162c4d36bd01f222f75"
+  },
+  "SSOT/11-page-templates.md": {
+    "mtime": 1785266381.803761,
+    "ast_hash": "937665768401074ca9e30aa3ddae982e",
+    "semantic_hash": "937665768401074ca9e30aa3ddae982e"
+  },
+  "SSOT/12-guardrails.md": {
+    "mtime": 1785265981.2853024,
+    "ast_hash": "b8a899e46fb1210c7a6641b718ac3a88",
+    "semantic_hash": "b8a899e46fb1210c7a6641b718ac3a88"
+  },
+  "SSOT/13-build-flow.md": {
+    "mtime": 1785266298.7926211,
+    "ast_hash": "2040389d62948464ce4f028ae8bc4b23",
+    "semantic_hash": "2040389d62948464ce4f028ae8bc4b23"
+  },
+  "SSOT/14-competitor-gap-analysis.md": {
+    "mtime": 1785299762.1365633,
+    "ast_hash": "1a58a03db7156f5253e05189755b690b",
+    "semantic_hash": "1a58a03db7156f5253e05189755b690b"
+  },
+  "src/content/blog/24-7-sim-venue.md": {
+    "mtime": 1785354808.8660498,
+    "ast_hash": "d024064d95b3e0883fcf8f9a7ee0b047",
+    "semantic_hash": "d024064d95b3e0883fcf8f9a7ee0b047"
+  },
+  "src/content/blog/best-golf-launch-monitor-canada.md": {
+    "mtime": 1785354808.8750143,
+    "ast_hash": "9333f2a6d536378617b71ae2c9db79f3",
+    "semantic_hash": "9333f2a6d536378617b71ae2c9db79f3"
+  },
+  "src/content/blog/best-golf-simulators-canada.md": {
+    "mtime": 1785354808.8902557,
+    "ast_hash": "73d33137c56792c0d98f26909bfa0bac",
+    "semantic_hash": "73d33137c56792c0d98f26909bfa0bac"
+  },
+  "src/content/blog/canadian-winter-golf.md": {
+    "mtime": 1785354808.9167864,
+    "ast_hash": "0fefbb687ed7290adff5b17ad1260c32",
+    "semantic_hash": "0fefbb687ed7290adff5b17ad1260c32"
+  },
+  "src/content/blog/category/buying-guides.md": {
+    "mtime": 1785318951.1268206,
+    "ast_hash": "6ec34f6c482630362dc2b52e5ac16f05",
+    "semantic_hash": "6ec34f6c482630362dc2b52e5ac16f05"
+  },
+  "src/content/blog/category/canadian-golf.md": {
+    "mtime": 1785318952.4874685,
+    "ast_hash": "9bd768e7275e01323b170b16e128aa8e",
+    "semantic_hash": "9bd768e7275e01323b170b16e128aa8e"
+  },
+  "src/content/blog/category/setup.md": {
+    "mtime": 1785318952.066865,
+    "ast_hash": "bfd92861e3f86aab56259ea8b7e27671",
+    "semantic_hash": "bfd92861e3f86aab56259ea8b7e27671"
+  },
+  "src/content/blog/category/technique.md": {
+    "mtime": 1785318952.2718153,
+    "ast_hash": "a6eff02c48470a515495adb6886a0415",
+    "semantic_hash": "a6eff02c48470a515495adb6886a0415"
+  },
+  "src/content/blog/corporate-events.md": {
+    "mtime": 1785354809.0526485,
+    "ast_hash": "ba4d7e9f2ad1ba7a2da5fe28d13551b3",
+    "semantic_hash": "ba4d7e9f2ad1ba7a2da5fe28d13551b3"
+  },
+  "src/content/blog/fr/meilleur-simulateur-de-golf.md": {
+    "mtime": 1785319868.5149844,
+    "ast_hash": "fb2b6a74ca4889ffb927eb3b58c29433",
+    "semantic_hash": "fb2b6a74ca4889ffb927eb3b58c29433"
+  },
+  "src/content/blog/franchise-canada.md": {
+    "mtime": 1785354809.290629,
+    "ast_hash": "991744a14957c6050a4b538357bedde9",
+    "semantic_hash": "991744a14957c6050a4b538357bedde9"
+  },
+  "src/content/blog/golf-ball-spin-rate.md": {
+    "mtime": 1785354809.3085382,
+    "ast_hash": "17281920189aadd714f53008182b7662",
+    "semantic_hash": "17281920189aadd714f53008182b7662"
+  },
+  "src/content/blog/golf-simulator-business-canada.md": {
+    "mtime": 1785354809.4047008,
+    "ast_hash": "fbbe30c39873466fd116def94ffde255",
+    "semantic_hash": "fbbe30c39873466fd116def94ffde255"
+  },
+  "src/content/blog/golf-simulator-cost-canada.md": {
+    "mtime": 1785354809.4400055,
+    "ast_hash": "ea07f6b42b761508515d9e98d717fe72",
+    "semantic_hash": "ea07f6b42b761508515d9e98d717fe72"
+  },
+  "src/content/blog/golf-simulator-packages-canada.md": {
+    "mtime": 1785354809.455871,
+    "ast_hash": "145fb4da58f1c5f9b5d4315d9ddda88c",
+    "semantic_hash": "145fb4da58f1c5f9b5d4315d9ddda88c"
+  },
+  "src/content/blog/golf-simulator-rental-canada.md": {
+    "mtime": 1785354809.4696126,
+    "ast_hash": "4621d88891452024e757ef2f735ce483",
+    "semantic_hash": "4621d88891452024e757ef2f735ce483"
+  },
+  "src/content/blog/golf-technology-evolution.md": {
+    "mtime": 1785354809.4858592,
+    "ast_hash": "d2dda73a38f1547acc899d316dea3df0",
+    "semantic_hash": "d2dda73a38f1547acc899d316dea3df0"
+  },
+  "src/content/blog/history-of-golf-simulators-canada.md": {
+    "mtime": 1785354809.5003762,
+    "ast_hash": "da2b608289f4a4277aa2bc78547e7098",
+    "semantic_hash": "da2b608289f4a4277aa2bc78547e7098"
+  },
+  "src/content/blog/how-to-practice-golf-indoor.md": {
+    "mtime": 1785354809.5189726,
+    "ast_hash": "5949f7cd2e581c8b1b80d12bba03c046",
+    "semantic_hash": "5949f7cd2e581c8b1b80d12bba03c046"
+  },
+  "src/content/blog/indoor-golf-canada.md": {
+    "mtime": 1785354809.5386202,
+    "ast_hash": "ab26078d75b93b01d8771485df8eb07a",
+    "semantic_hash": "ab26078d75b93b01d8771485df8eb07a"
+  },
+  "src/content/blog/launch-angle-by-club.md": {
+    "mtime": 1785354809.6388445,
+    "ast_hash": "0030b833131baa6ffbd38dd84aff3054",
+    "semantic_hash": "0030b833131baa6ffbd38dd84aff3054"
+  },
+  "src/content/blog/mobile-golf-simulator.md": {
+    "mtime": 1785354809.6646583,
+    "ast_hash": "fb37123b8fb7e2725ca11ecae89859d2",
+    "semantic_hash": "fb37123b8fb7e2725ca11ecae89859d2"
+  },
+  "src/content/blog/simulator-vs-driving-range.md": {
+    "mtime": 1785354809.68988,
+    "ast_hash": "3bb962ba03cac71b74aa9ea87d3b8543",
+    "semantic_hash": "3bb962ba03cac71b74aa9ea87d3b8543"
+  },
+  "src/content/blog/smash-factor-golf.md": {
+    "mtime": 1785354809.7667994,
+    "ast_hash": "80d648b6d3fa39d72c8884d3f36583c0",
+    "semantic_hash": "80d648b6d3fa39d72c8884d3f36583c0"
+  },
+  "src/content/blog/swing-speed-vs-distance.md": {
+    "mtime": 1785354809.8439646,
+    "ast_hash": "d89e2c9c75a32cda979c533d0278d8c5",
+    "semantic_hash": "d89e2c9c75a32cda979c533d0278d8c5"
+  },
+  "src/content/blog/tournaments-leagues.md": {
+    "mtime": 1785354809.8808198,
+    "ast_hash": "128aaf0d9da411d3d09bacf66c02d322",
+    "semantic_hash": "128aaf0d9da411d3d09bacf66c02d322"
+  },
+  "src/content/compare/costco-golf-simulator.md": {
+    "mtime": 1785354809.8985715,
+    "ast_hash": "5fdcd5427666cf17ab000b8aed1db1ad",
+    "semantic_hash": "5fdcd5427666cf17ab000b8aed1db1ad"
+  },
+  "src/content/compare/garmin-r10-vs-mlm2pro.md": {
+    "mtime": 1785354809.9197166,
+    "ast_hash": "f451e5b0350ef99159c442e4508d76f6",
+    "semantic_hash": "f451e5b0350ef99159c442e4508d76f6"
+  },
+  "src/content/compare/gc3-vs-gcquad.md": {
+    "mtime": 1785354809.942989,
+    "ast_hash": "da2e25babb0c9ee7153f376849957bc8",
+    "semantic_hash": "da2e25babb0c9ee7153f376849957bc8"
+  },
+  "src/content/compare/gspro-vs-e6-connect.md": {
+    "mtime": 1785354809.9612017,
+    "ast_hash": "988619b3f5ef996f62450f56f9edbc14",
+    "semantic_hash": "988619b3f5ef996f62450f56f9edbc14"
+  },
+  "src/content/compare/skytrak-plus-vs-bushnell-launch-pro-canada.md": {
+    "mtime": 1785354809.975372,
+    "ast_hash": "d16d4d0c775758038ab33b9e4cf2eefb",
+    "semantic_hash": "d16d4d0c775758038ab33b9e4cf2eefb"
+  },
+  "src/content/fr.md": {
+    "mtime": 1785318963.7904894,
+    "ast_hash": "c663f9acbb87262d020becf1e114ea81",
+    "semantic_hash": "c663f9acbb87262d020becf1e114ea81"
+  },
+  "src/content/fr/installers.md": {
+    "mtime": 1785318964.0409214,
+    "ast_hash": "c2bc577f9fa0a0b36df7f45ad2b7c506",
+    "semantic_hash": "c2bc577f9fa0a0b36df7f45ad2b7c506"
+  },
+  "src/content/legal/accessibility.md": {
+    "mtime": 1785318949.2466986,
+    "ast_hash": "4996f5ff9c145f0137a0673b481d1cb9",
+    "semantic_hash": "4996f5ff9c145f0137a0673b481d1cb9"
+  },
+  "src/content/legal/cookie-policy.md": {
+    "mtime": 1785319869.8283207,
+    "ast_hash": "c4c06a2bb783a1e2be9f8ab93bdb5c48",
+    "semantic_hash": "c4c06a2bb783a1e2be9f8ab93bdb5c48"
+  },
+  "src/content/legal/cookies.md": {
+    "mtime": 1785318947.8523264,
+    "ast_hash": "db859bcadb7bcbbd01bba5db674da21a",
+    "semantic_hash": "db859bcadb7bcbbd01bba5db674da21a"
+  },
+  "src/content/legal/disclaimer.md": {
+    "mtime": 1785319869.7911723,
+    "ast_hash": "66d1f1b30fada7e3e66259ff6a12947b",
+    "semantic_hash": "66d1f1b30fada7e3e66259ff6a12947b"
+  },
+  "src/content/legal/editorial-policy.md": {
+    "mtime": 1785319869.8780956,
+    "ast_hash": "270a9b70f1714a59e63de639a5380509",
+    "semantic_hash": "270a9b70f1714a59e63de639a5380509"
+  },
+  "src/content/legal/editorial.md": {
+    "mtime": 1785318950.206887,
+    "ast_hash": "898755e75227856cb9815de3cea6b956",
+    "semantic_hash": "898755e75227856cb9815de3cea6b956"
+  },
+  "src/content/legal/privacy-policy.md": {
+    "mtime": 1785319863.2945423,
+    "ast_hash": "72317204c97f040538918fdfb61a0008",
+    "semantic_hash": "72317204c97f040538918fdfb61a0008"
+  },
+  "src/content/legal/privacy.md": {
+    "mtime": 1785318929.8014712,
+    "ast_hash": "ce43bad4096655bfaeb30c61ae402530",
+    "semantic_hash": "ce43bad4096655bfaeb30c61ae402530"
+  },
+  "src/content/legal/terms-of-use.md": {
+    "mtime": 1785319866.263689,
+    "ast_hash": "cf6ad9b369377e16af469cac88b7781a",
+    "semantic_hash": "cf6ad9b369377e16af469cac88b7781a"
+  },
+  "src/content/legal/terms.md": {
+    "mtime": 1785318947.0402367,
+    "ast_hash": "fa4a5d5e627bea983063c826a29bcaa1",
+    "semantic_hash": "fa4a5d5e627bea983063c826a29bcaa1"
+  },
+  "src/content/pillars/best-home-simulators.md": {
+    "mtime": 1785317818.2902489,
+    "ast_hash": "79c42268812b047b9ab946ef2c7a1e6d",
+    "semantic_hash": "79c42268812b047b9ab946ef2c7a1e6d"
+  },
+  "src/content/pillars/cost.md": {
+    "mtime": 1785302515.5693254,
+    "ast_hash": "9229700e7e741dd0723384e399288bc5",
+    "semantic_hash": "9229700e7e741dd0723384e399288bc5"
+  },
+  "src/content/pillars/indoor-golf.md": {
+    "mtime": 1785302519.5957782,
+    "ast_hash": "3ff6aac1bb5dc1e4934ab0c1695a4418",
+    "semantic_hash": "3ff6aac1bb5dc1e4934ab0c1695a4418"
+  },
+  "src/content/pillars/packages.md": {
+    "mtime": 1785302517.744949,
+    "ast_hash": "52cb683e231a6ab7710881a868738b9b",
+    "semantic_hash": "52cb683e231a6ab7710881a868738b9b"
+  },
+  "src/content/products/awesome-golf.md": {
+    "mtime": 1785354808.5749443,
+    "ast_hash": "c64687a9ef6852b961c52f1cac87e082",
+    "semantic_hash": "c64687a9ef6852b961c52f1cac87e082"
+  },
+  "src/content/products/bushnell-launch-pro.md": {
+    "mtime": 1785354808.591747,
+    "ast_hash": "9a99c3baff0220eb0f3282b303f41a16",
+    "semantic_hash": "9a99c3baff0220eb0f3282b303f41a16"
+  },
+  "src/content/products/e6-connect.md": {
+    "mtime": 1785354808.6003249,
+    "ast_hash": "ae0af5da5bebeb9b2d0c292e5ce58743",
+    "semantic_hash": "ae0af5da5bebeb9b2d0c292e5ce58743"
+  },
+  "src/content/products/flightscope-mevo-plus.md": {
+    "mtime": 1785354808.6074684,
+    "ast_hash": "d49d06dedde63929f65f688a7829cdbc",
+    "semantic_hash": "d49d06dedde63929f65f688a7829cdbc"
+  },
+  "src/content/products/fsx-play.md": {
+    "mtime": 1785354808.6158512,
+    "ast_hash": "82efc25ada44c8b246ee67f340d26d49",
+    "semantic_hash": "82efc25ada44c8b246ee67f340d26d49"
+  },
+  "src/content/products/full-swing-kit.md": {
+    "mtime": 1785354808.6243196,
+    "ast_hash": "98edf4e199eefee858dd76bd0f81e8a1",
+    "semantic_hash": "98edf4e199eefee858dd76bd0f81e8a1"
+  },
+  "src/content/products/garmin-r10.md": {
+    "mtime": 1785354808.6365137,
+    "ast_hash": "e317958ad41b965e280ebdc84e2b3a75",
+    "semantic_hash": "e317958ad41b965e280ebdc84e2b3a75"
+  },
+  "src/content/products/garmin-r50.md": {
+    "mtime": 1785354808.6569266,
+    "ast_hash": "81308e7e508177a578da4fd1c76c1773",
+    "semantic_hash": "81308e7e508177a578da4fd1c76c1773"
+  },
+  "src/content/products/gc3.md": {
+    "mtime": 1785354808.6766627,
+    "ast_hash": "2c2af23c415a9445cb7743fb7393e602",
+    "semantic_hash": "2c2af23c415a9445cb7743fb7393e602"
+  },
+  "src/content/products/gcquad.md": {
+    "mtime": 1785354808.6911082,
+    "ast_hash": "06456fc1e8d2f642aa87daf708be27e7",
+    "semantic_hash": "06456fc1e8d2f642aa87daf708be27e7"
+  },
+  "src/content/products/gspro.md": {
+    "mtime": 1785354808.724077,
+    "ast_hash": "3ae58276b7282c5afcff98e22c568178",
+    "semantic_hash": "3ae58276b7282c5afcff98e22c568178"
+  },
+  "src/content/products/mlm2pro.md": {
+    "mtime": 1785354808.7339408,
+    "ast_hash": "e6b2a9418ea1b85ab3b0b54801865326",
+    "semantic_hash": "e6b2a9418ea1b85ab3b0b54801865326"
+  },
+  "src/content/products/skytrak-plus.md": {
+    "mtime": 1785354808.7524986,
+    "ast_hash": "d278c9be7c7168b8d2f3ce0ccc151687",
+    "semantic_hash": "d278c9be7c7168b8d2f3ce0ccc151687"
+  },
+  "src/content/products/square-golf.md": {
+    "mtime": 1785354808.7745726,
+    "ast_hash": "f00e2910953185533cc621289d7e3baf",
+    "semantic_hash": "f00e2910953185533cc621289d7e3baf"
+  },
+  "src/content/products/tgc-2019.md": {
+    "mtime": 1785354808.7865093,
+    "ast_hash": "c57ef342ce04d387620d5435fb79feca",
+    "semantic_hash": "c57ef342ce04d387620d5435fb79feca"
+  },
+  "src/content/products/trackman-4.md": {
+    "mtime": 1785354808.804131,
+    "ast_hash": "9d22b32b7e1e2768f343a03bd0053b5e",
+    "semantic_hash": "9d22b32b7e1e2768f343a03bd0053b5e"
+  },
+  "src/content/products/uneekor-eye-mini.md": {
+    "mtime": 1785354808.816714,
+    "ast_hash": "0dfa62737f2a789767f47dd80e83fba3",
+    "semantic_hash": "0dfa62737f2a789767f47dd80e83fba3"
+  },
+  "src/content/products/uneekor-eye-xo.md": {
+    "mtime": 1785354808.8339424,
+    "ast_hash": "810025d25da94568075c5c10aa0c5a1a",
+    "semantic_hash": "810025d25da94568075c5c10aa0c5a1a"
+  },
+  "src/content/products/uneekor-eye-xo2.md": {
+    "mtime": 1785354808.8477268,
+    "ast_hash": "62e6270ec6c72c5826e7db5d1a17e485",
+    "semantic_hash": "62e6270ec6c72c5826e7db5d1a17e485"
+  },
+  "src/content/setup/basement.md": {
+    "mtime": 1785302485.2612,
+    "ast_hash": "d578bac5d8181723e62e516366f146b3",
+    "semantic_hash": "d578bac5d8181723e62e516366f146b3"
+  },
+  "src/content/setup/benq-projectors.md": {
+    "mtime": 1785354696.603399,
+    "ast_hash": "388355bcd8cdd046bc7b2cc381b6347e",
+    "semantic_hash": "388355bcd8cdd046bc7b2cc381b6347e"
+  },
+  "src/content/setup/carls-place-enclosures.md": {
+    "mtime": 1785354696.3622417,
+    "ast_hash": "3339129d81a6ff509287a7313a5ac876",
+    "semantic_hash": "3339129d81a6ff509287a7313a5ac876"
+  },
+  "src/content/setup/cost.md": {
+    "mtime": 1785302492.8740728,
+    "ast_hash": "44709f62bec0be780a79087310898596",
+    "semantic_hash": "44709f62bec0be780a79087310898596"
+  },
+  "src/content/setup/diy-enclosures.md": {
+    "mtime": 1785321855.337029,
+    "ast_hash": "a98362c63a319b9d807bb132d8cebf25",
+    "semantic_hash": "a98362c63a319b9d807bb132d8cebf25"
+  },
+  "src/content/setup/diy-golf-simulator-canada.md": {
+    "mtime": 1785321863.9416933,
+    "ast_hash": "f7d7e7d1a987c6b5cdea1ea5728542ce",
+    "semantic_hash": "f7d7e7d1a987c6b5cdea1ea5728542ce"
+  },
+  "src/content/setup/diy.md": {
+    "mtime": 1785302480.5188882,
+    "ast_hash": "cd014114cd64ce5bc2e3978b0bf17443",
+    "semantic_hash": "cd014114cd64ce5bc2e3978b0bf17443"
+  },
+  "src/content/setup/enclosures.md": {
+    "mtime": 1785321855.2699814,
+    "ast_hash": "d658a63bd61fbad71d2816b34f558679",
+    "semantic_hash": "d658a63bd61fbad71d2816b34f558679"
+  },
+  "src/content/setup/fiberbuilt-mats.md": {
+    "mtime": 1785354681.1611872,
+    "ast_hash": "a117d4445342d7cef73d4fd5edcd625c",
+    "semantic_hash": "a117d4445342d7cef73d4fd5edcd625c"
+  },
+  "src/content/setup/flooring.md": {
+    "mtime": 1785321877.515541,
+    "ast_hash": "9eb57c3e4ccda9be89a504061fcd25ad",
+    "semantic_hash": "9eb57c3e4ccda9be89a504061fcd25ad"
+  },
+  "src/content/setup/garage.md": {
+    "mtime": 1785302482.6680405,
+    "ast_hash": "0b11ce32365db1fcad67e8533e13d810",
+    "semantic_hash": "0b11ce32365db1fcad67e8533e13d810"
+  },
+  "src/content/setup/golf-simulator-basement-canada.md": {
+    "mtime": 1785321838.0427446,
+    "ast_hash": "ada17ad3207760a41128f50f52e6be0a",
+    "semantic_hash": "ada17ad3207760a41128f50f52e6be0a"
+  },
+  "src/content/setup/golf-simulator-garage-canada.md": {
+    "mtime": 1785319913.909251,
+    "ast_hash": "8bb92988404f9fb70b1ae443ba1d50c9",
+    "semantic_hash": "8bb92988404f9fb70b1ae443ba1d50c9"
+  },
+  "src/content/setup/golf-simulator-installation-canada.md": {
+    "mtime": 1785320464.8199718,
+    "ast_hash": "18840c4ca51028dc9c1e1e0d8c07354b",
+    "semantic_hash": "18840c4ca51028dc9c1e1e0d8c07354b"
+  },
+  "src/content/setup/golf-simulator-shed-canada.md": {
+    "mtime": 1785321851.1620295,
+    "ast_hash": "2e7d06511119678f88a5fafb1a19211a",
+    "semantic_hash": "2e7d06511119678f88a5fafb1a19211a"
+  },
+  "src/content/setup/golf-simulator-software-canada.md": {
+    "mtime": 1785321938.9815738,
+    "ast_hash": "d23ee5a7d6bc0d08c7cc8d17bd77a232",
+    "semantic_hash": "d23ee5a7d6bc0d08c7cc8d17bd77a232"
+  },
+  "src/content/setup/hitting-mats.md": {
+    "mtime": 1785321864.6406536,
+    "ast_hash": "e2991200f4d1fc7652e925739151ed4d",
+    "semantic_hash": "e2991200f4d1fc7652e925739151ed4d"
+  },
+  "src/content/setup/impact-screens.md": {
+    "mtime": 1785321855.1683302,
+    "ast_hash": "89ffe2a166561f78b2471eef10e4610e",
+    "semantic_hash": "89ffe2a166561f78b2471eef10e4610e"
+  },
+  "src/content/setup/installation.md": {
+    "mtime": 1785302477.846862,
+    "ast_hash": "c56365ff0d031d60a8c6519ae266cf70",
+    "semantic_hash": "c56365ff0d031d60a8c6519ae266cf70"
+  },
+  "src/content/setup/launch-monitors.md": {
+    "mtime": 1785302496.6270812,
+    "ast_hash": "f539ce69f97d9a0becfcc1ad0b862c3f",
+    "semantic_hash": "f539ce69f97d9a0becfcc1ad0b862c3f"
+  },
+  "src/content/setup/mats.md": {
+    "mtime": 1785302505.0411181,
+    "ast_hash": "f741d3f548b72968024d8f250337dd82",
+    "semantic_hash": "f741d3f548b72968024d8f250337dd82"
+  },
+  "src/content/setup/projectors.md": {
+    "mtime": 1785321938.5594292,
+    "ast_hash": "c7c908d64366915991870f640325bc40",
+    "semantic_hash": "c7c908d64366915991870f640325bc40"
+  },
+  "src/content/setup/putting-turf.md": {
+    "mtime": 1785321938.748577,
+    "ast_hash": "caf7aba4f64d3e0d0beeb5690de71101",
+    "semantic_hash": "caf7aba4f64d3e0d0beeb5690de71101"
+  },
+  "src/content/setup/retractable-enclosures.md": {
+    "mtime": 1785321919.6946747,
+    "ast_hash": "45e95d16ab58215d4e9da9f46b61b875",
+    "semantic_hash": "45e95d16ab58215d4e9da9f46b61b875"
+  },
+  "src/content/setup/room-size.md": {
+    "mtime": 1785302490.3507614,
+    "ast_hash": "c32cf14d939f0383d02679db5dd8ec85",
+    "semantic_hash": "c32cf14d939f0383d02679db5dd8ec85"
+  },
+  "src/content/setup/shed.md": {
+    "mtime": 1785302487.9085152,
+    "ast_hash": "463cde014af835bd9d73a0d772659b3c",
+    "semantic_hash": "463cde014af835bd9d73a0d772659b3c"
+  },
+  "src/content/setup/software.md": {
+    "mtime": 1785302509.015877,
+    "ast_hash": "5b349435bc86cc2ec191985819b41f14",
+    "semantic_hash": "5b349435bc86cc2ec191985819b41f14"
+  },
+  "src/content/setup/spornia-nets.md": {
+    "mtime": 1785354696.4415116,
+    "ast_hash": "032a9d897d93ea05a51e1bc493705746",
+    "semantic_hash": "032a9d897d93ea05a51e1bc493705746"
+  },
+  "src/templates/404.html": {
+    "mtime": 1785302401.2624476,
+    "ast_hash": "1e07ac6efde62fca5500b9f47031f223",
+    "semantic_hash": "1e07ac6efde62fca5500b9f47031f223"
+  },
+  "src/templates/about.html": {
+    "mtime": 1785302404.1639986,
+    "ast_hash": "c978461d04722bf39416513c79154150",
+    "semantic_hash": "c978461d04722bf39416513c79154150"
+  },
+  "src/templates/alternatives-single.html": {
+    "mtime": 1785302470.1780322,
+    "ast_hash": "6c28920bb31332444285d0921e70f931",
+    "semantic_hash": "6c28920bb31332444285d0921e70f931"
+  },
+  "src/templates/base.html": {
+    "mtime": 1785303525.4244375,
+    "ast_hash": "4c35b1b8fadc9d86c98b585d703f2b05",
+    "semantic_hash": "4c35b1b8fadc9d86c98b585d703f2b05"
+  },
+  "src/templates/blog-index.html": {
+    "mtime": 1785302391.1402059,
+    "ast_hash": "bdd9263c730e531e34cd319a8d7f2f71",
+    "semantic_hash": "bdd9263c730e531e34cd319a8d7f2f71"
+  },
+  "src/templates/blog-post.html": {
+    "mtime": 1785302388.5994773,
+    "ast_hash": "f3379d782f0d97848aede3d860973cf4",
+    "semantic_hash": "f3379d782f0d97848aede3d860973cf4"
+  },
+  "src/templates/brand-index.html": {
+    "mtime": 1785302379.4708145,
+    "ast_hash": "767f3674e610f6f3b1d285f654848709",
+    "semantic_hash": "767f3674e610f6f3b1d285f654848709"
+  },
+  "src/templates/brand-single.html": {
+    "mtime": 1785302376.073029,
+    "ast_hash": "0c4d4d71d2e07cfd0e1c1db0a8130bf2",
+    "semantic_hash": "0c4d4d71d2e07cfd0e1c1db0a8130bf2"
+  },
+  "src/templates/build.html": {
+    "mtime": 1785302412.5121684,
+    "ast_hash": "e4f8baf1d3bbff8a67b1029153b35747",
+    "semantic_hash": "e4f8baf1d3bbff8a67b1029153b35747"
+  },
+  "src/templates/compare-index.html": {
+    "mtime": 1785302384.986843,
+    "ast_hash": "9b3b92251aa5218a9e0c30b850e26c71",
+    "semantic_hash": "9b3b92251aa5218a9e0c30b850e26c71"
+  },
+  "src/templates/compare-single.html": {
+    "mtime": 1785302466.5169482,
+    "ast_hash": "2661ab322756cd6472055f7785857b4b",
+    "semantic_hash": "2661ab322756cd6472055f7785857b4b"
+  },
+  "src/templates/contact.html": {
+    "mtime": 1785302407.0450544,
+    "ast_hash": "8fd3c352439db4ae38ac54d3a8f769fa",
+    "semantic_hash": "8fd3c352439db4ae38ac54d3a8f769fa"
+  },
+  "src/templates/events-city.html": {
+    "mtime": 1785302618.6013083,
+    "ast_hash": "404edc928071eb43816162f0dd3c6245",
+    "semantic_hash": "404edc928071eb43816162f0dd3c6245"
+  },
+  "src/templates/glossary-index.html": {
+    "mtime": 1785302399.6935375,
+    "ast_hash": "ad2afb97b2eb8daab7a37a9d85d2a130",
+    "semantic_hash": "ad2afb97b2eb8daab7a37a9d85d2a130"
+  },
+  "src/templates/glossary-term.html": {
+    "mtime": 1785302396.3595638,
+    "ast_hash": "2694ed6b48fe952e980e6e0441d33f0f",
+    "semantic_hash": "2694ed6b48fe952e980e6e0441d33f0f"
+  },
+  "src/templates/homepage.html": {
+    "mtime": 1785356188.429013,
+    "ast_hash": "099f8616d294d2957dcbf138bcd5565b",
+    "semantic_hash": "099f8616d294d2957dcbf138bcd5565b"
+  },
+  "src/templates/installer-index.html": {
+    "mtime": 1785302434.9332108,
+    "ast_hash": "1ff55ac663afd3b554578fea3b32843c",
+    "semantic_hash": "1ff55ac663afd3b554578fea3b32843c"
+  },
+  "src/templates/installer-province.html": {
+    "mtime": 1785302623.9323175,
+    "ast_hash": "a74f18305bfca38062766796b4d5abfb",
+    "semantic_hash": "a74f18305bfca38062766796b4d5abfb"
+  },
+  "src/templates/installer-single.html": {
+    "mtime": 1785302432.6283321,
+    "ast_hash": "e4421c39ebfa35e853570b05f801d4c4",
+    "semantic_hash": "e4421c39ebfa35e853570b05f801d4c4"
+  },
+  "src/templates/list-business.html": {
+    "mtime": 1785302417.95755,
+    "ast_hash": "711ce1bc7e739acb8bbec30a0902f5df",
+    "semantic_hash": "711ce1bc7e739acb8bbec30a0902f5df"
+  },
+  "src/templates/list-venue.html": {
+    "mtime": 1785302415.2724297,
+    "ast_hash": "a00502c61ff7c0688fef781a13e69ff4",
+    "semantic_hash": "a00502c61ff7c0688fef781a13e69ff4"
+  },
+  "src/templates/partials/article-card.html": {
+    "mtime": 1785355795.7439175,
+    "ast_hash": "517c707f4cad2d304fe8d9a7b6e87c88",
+    "semantic_hash": "517c707f4cad2d304fe8d9a7b6e87c88"
+  },
+  "src/templates/partials/cookie-consent.html": {
+    "mtime": 1785318004.2273886,
+    "ast_hash": "696e64a079ceb64225b8f2dd3b2e9c68",
+    "semantic_hash": "696e64a079ceb64225b8f2dd3b2e9c68"
+  },
+  "src/templates/partials/faq-block.html": {
+    "mtime": 1785302356.9101603,
+    "ast_hash": "c2d8db53e3faec785225deed5b22eedb",
+    "semantic_hash": "c2d8db53e3faec785225deed5b22eedb"
+  },
+  "src/templates/partials/footer.html": {
+    "mtime": 1785356197.3767066,
+    "ast_hash": "e5022866c3f3f59747309844f4da76b0",
+    "semantic_hash": "e5022866c3f3f59747309844f4da76b0"
+  },
+  "src/templates/partials/mobile-bottom-nav.html": {
+    "mtime": 1785325922.7759068,
+    "ast_hash": "060df1c095d1b80716e32dd1fb201afd",
+    "semantic_hash": "060df1c095d1b80716e32dd1fb201afd"
+  },
+  "src/templates/partials/nav.html": {
+    "mtime": 1785355782.3638668,
+    "ast_hash": "ce0a85efdc886fb6d8cc0299587254f7",
+    "semantic_hash": "ce0a85efdc886fb6d8cc0299587254f7"
+  },
+  "src/templates/partials/product-card-mini.html": {
+    "mtime": 1785302353.5818498,
+    "ast_hash": "36e3c35e3062032a96feafc3de34b131",
+    "semantic_hash": "36e3c35e3062032a96feafc3de34b131"
+  },
+  "src/templates/partials/product-card.html": {
+    "mtime": 1785302351.9103723,
+    "ast_hash": "a40b78d6529291ef0d17190ecc0ad5da",
+    "semantic_hash": "a40b78d6529291ef0d17190ecc0ad5da"
+  },
+  "src/templates/pillar.html": {
+    "mtime": 1785303964.0815625,
+    "ast_hash": "8bcc652d4736697b92b30ad111cb4eb0",
+    "semantic_hash": "8bcc652d4736697b92b30ad111cb4eb0"
+  },
+  "src/templates/product-collection.html": {
+    "mtime": 1785302464.0981748,
+    "ast_hash": "84fd316ad7ff6b6fa8d01c9786c57a0c",
+    "semantic_hash": "84fd316ad7ff6b6fa8d01c9786c57a0c"
+  },
+  "src/templates/product-index.html": {
+    "mtime": 1785302373.6905756,
+    "ast_hash": "84b086ff69f0c3c0eb4a074e7d9352f3",
+    "semantic_hash": "84b086ff69f0c3c0eb4a074e7d9352f3"
+  },
+  "src/templates/product-single.html": {
+    "mtime": 1785302460.5667095,
+    "ast_hash": "a5086ea3304f4b282aa3ad7c1891a28e",
+    "semantic_hash": "a5086ea3304f4b282aa3ad7c1891a28e"
+  },
+  "src/templates/rental-city.html": {
+    "mtime": 1785318681.98661,
+    "ast_hash": "ea78a7a45e6d51034f6a0f9809574ad9",
+    "semantic_hash": "ea78a7a45e6d51034f6a0f9809574ad9"
+  },
+  "src/templates/setup-guide.html": {
+    "mtime": 1785302473.0143366,
+    "ast_hash": "b2f9a8f23bc579ab91879089f4033834",
+    "semantic_hash": "b2f9a8f23bc579ab91879089f4033834"
+  },
+  "src/templates/venue-city.html": {
+    "mtime": 1785302629.6341076,
+    "ast_hash": "a6ed180389ef66a070612f04608f41ef",
+    "semantic_hash": "a6ed180389ef66a070612f04608f41ef"
+  },
+  "src/templates/venue-index.html": {
+    "mtime": 1785302481.6858318,
+    "ast_hash": "a6392d5081400e7ef92d25a5dffd79e1",
+    "semantic_hash": "a6392d5081400e7ef92d25a5dffd79e1"
+  },
+  "src/templates/venue-single.html": {
+    "mtime": 1785302427.8331811,
+    "ast_hash": "aaa3fee02a3596dc8020d259cad36f99",
+    "semantic_hash": "aaa3fee02a3596dc8020d259cad36f99"
+  },
+  "SSOT/assets/icon (1).jpg": {
+    "mtime": 1785303322.179385,
+    "ast_hash": "f4a80d1f26071cd5cf59e8209af7ccdf",
+    "semantic_hash": "f4a80d1f26071cd5cf59e8209af7ccdf"
+  },
+  "SSOT/assets/icon.jpg": {
+    "mtime": 1785265830.7170138,
+    "ast_hash": "c527605b58b5cf204ab632264ae515e8",
+    "semantic_hash": "c527605b58b5cf204ab632264ae515e8"
+  },
+  "SSOT/assets/logo-concept-v1.jpg": {
+    "mtime": 1785264655.6103063,
+    "ast_hash": "a78b8ad35a05c4c2b557a62d04b15e4f",
+    "semantic_hash": "a78b8ad35a05c4c2b557a62d04b15e4f"
+  },
+  "SSOT/assets/transparent small.png": {
+    "mtime": 1785265728.1011775,
+    "ast_hash": "71f566f28b4cd5cfeab664f6775b34e1",
+    "semantic_hash": "71f566f28b4cd5cfeab664f6775b34e1"
+  },
+  "src/assets/images/blog/best-golf-sim-winter-canada.jpg": {
+    "mtime": 1785351130.8835676,
+    "ast_hash": "c8cb691eca266c31cb9fee29935e0bc9",
+    "semantic_hash": "c8cb691eca266c31cb9fee29935e0bc9"
+  },
+  "src/assets/images/blog/financing-golf-simulator-canada.jpg": {
+    "mtime": 1785351121.349146,
+    "ast_hash": "fb0b0c80ac6cbb75b7e91ddae5ba71c4",
+    "semantic_hash": "fb0b0c80ac6cbb75b7e91ddae5ba71c4"
+  },
+  "src/assets/images/blog/placeholder.webp": {
+    "mtime": 1785351134.4332814,
+    "ast_hash": "8e13cb1103fdfe5f88595ce763922efc",
+    "semantic_hash": "8e13cb1103fdfe5f88595ce763922efc"
+  },
+  "src/assets/images/blog/smash-factor-explained.jpg": {
+    "mtime": 1785351118.0723455,
+    "ast_hash": "aa1a31fb5a0bd6ed1d50b9e37462ac71",
+    "semantic_hash": "aa1a31fb5a0bd6ed1d50b9e37462ac71"
+  },
+  "src/assets/images/logo/apple-touch-icon.png": {
+    "mtime": 1785303518.506,
+    "ast_hash": "3e644abf7b531df3596bcc136492f374",
+    "semantic_hash": "3e644abf7b531df3596bcc136492f374"
+  },
+  "src/assets/images/logo/favicon.png": {
+    "mtime": 1785303518.49,
+    "ast_hash": "b2037c7f79512d7a0b372f9285e89b2a",
+    "semantic_hash": "b2037c7f79512d7a0b372f9285e89b2a"
+  },
+  "src/assets/images/logo/logo.png": {
+    "mtime": 1785303518.537,
+    "ast_hash": "710346879da886856e2207d617b56894",
+    "semantic_hash": "710346879da886856e2207d617b56894"
+  },
+  "src/assets/images/logo/logo.svg": {
+    "mtime": 1785301229.1641703,
+    "ast_hash": "400979b81ac867b09a5eadf7211a7a7b",
+    "semantic_hash": "400979b81ac867b09a5eadf7211a7a7b"
+  },
+  "src/assets/images/products/bushnell-launch-pro.jpg": {
+    "mtime": 1785354932.9449892,
+    "ast_hash": "0dc99b43c668ba9b63f2d9875981a1f9",
+    "semantic_hash": "0dc99b43c668ba9b63f2d9875981a1f9"
+  },
+  "src/assets/images/products/foresight-gcquad.jpg": {
+    "mtime": 1785354891.0649924,
+    "ast_hash": "5d87fba2a27195e975577ddbdfd6147b",
+    "semantic_hash": "5d87fba2a27195e975577ddbdfd6147b"
+  },
+  "src/assets/images/products/garmin-r10.jpg": {
+    "mtime": 1785354944.663791,
+    "ast_hash": "e30666a413dcb3893e1e9ff2f38c20a3",
+    "semantic_hash": "e30666a413dcb3893e1e9ff2f38c20a3"
+  },
+  "src/assets/images/products/garmin-r50.jpg": {
+    "mtime": 1785354954.9762383,
+    "ast_hash": "3734105739ea5078359ca1cfc54d6a08",
+    "semantic_hash": "3734105739ea5078359ca1cfc54d6a08"
+  },
+  "src/assets/images/products/gc3.jpg": {
+    "mtime": 1785354960.9846692,
+    "ast_hash": "e622f14e3244a8afdcadfb677167e958",
+    "semantic_hash": "e622f14e3244a8afdcadfb677167e958"
+  },
+  "src/assets/images/products/gcquad.jpg": {
+    "mtime": 1785355000.6765661,
+    "ast_hash": "a6b1cc8ac6d2078536f14c8da6313e50",
+    "semantic_hash": "a6b1cc8ac6d2078536f14c8da6313e50"
+  },
+  "src/assets/images/products/gspro-canada.jpg": {
+    "mtime": 1785355010.117443,
+    "ast_hash": "a61703b6cd1d930d46d4d55a74b974f2",
+    "semantic_hash": "a61703b6cd1d930d46d4d55a74b974f2"
+  },
+  "src/assets/images/products/mlm2pro.jpg": {
+    "mtime": 1785355019.5317278,
+    "ast_hash": "12a802b67dcbcfd9a86a30cee0a37bf1",
+    "semantic_hash": "12a802b67dcbcfd9a86a30cee0a37bf1"
+  },
+  "src/assets/images/products/placeholder.webp": {
+    "mtime": 1785354882.4989727,
+    "ast_hash": "5890e70cbf48e8c58dd875ccebed71e1",
+    "semantic_hash": "5890e70cbf48e8c58dd875ccebed71e1"
+  },
+  "src/assets/images/products/skytrak-plus.jpg": {
+    "mtime": 1785354901.678822,
+    "ast_hash": "262834baea38c8011343ecec3ee67282",
+    "semantic_hash": "262834baea38c8011343ecec3ee67282"
+  },
+  "src/assets/images/products/square-golf.jpg": {
+    "mtime": 1785355027.1805806,
+    "ast_hash": "b9d11b77619f592dab4848dc3e517871",
+    "semantic_hash": "b9d11b77619f592dab4848dc3e517871"
+  },
+  "src/assets/images/products/uneekor-eye-xo2.jpg": {
+    "mtime": 1785354920.4246645,
+    "ast_hash": "527815af002383e45d5d80a36ed5eed2",
+    "semantic_hash": "527815af002383e45d5d80a36ed5eed2"
+  },
+  "src/assets/images/team/editor-in-chief.jpg": {
+    "mtime": 1785351137.7511306,
+    "ast_hash": "282e3fa8f2b06018a15e985cfc45118d",
+    "semantic_hash": "282e3fa8f2b06018a15e985cfc45118d"
+  }
+}

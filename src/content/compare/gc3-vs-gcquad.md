@@ -1,6 +1,7 @@
 ---
 title: "Foresight GC3 vs GCQuad: A Veteran's Guide to Which One You Actually Need"
 slug: "gc3-vs-gcquad"
+og_image: "/assets/images/compare/gc3-vs-gcquad.jpg"
 date_published: "2026-07-29"
 category: "Comparisons"
 primary_keyword: "GC3 vs GCQuad"
