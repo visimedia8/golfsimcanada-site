@@ -1503,3 +1503,26 @@
   color: var(--color-text-tertiary);
   margin-bottom: 0;
 }
+
+
+/* Mobile Specific Component Overrides */
+@media (max-width: 767px) {
+  /* Fix Hero CTAs stacking on mobile */
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-ctas .btn {
+    width: 100%;
+  }
+  
+  /* Fix Product Card Footer buttons squishing/overflowing */
+  .product-card__footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .product-card__footer .btn {
+    width: 100%;
+  }
+}
+
