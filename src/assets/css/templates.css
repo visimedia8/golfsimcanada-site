@@ -104,3 +104,107 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Pre-Footer Section
+   -------------------------------------------------------------------------- */
+.pre-footer {
+  padding: var(--section-gap) 0;
+  background: var(--color-bg-elevated);
+  border-top: 1px solid var(--color-border-strong);
+}
+
+.pre-footer-trust-bar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.pre-footer-trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.pre-footer-trust-item span {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.pre-footer-trust-item svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--color-accent);
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pre-footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+.pre-footer-cta {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.pre-footer-cta h3 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-2);
+}
+
+.pre-footer-cta p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-6);
+}
+
+.pre-footer-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+}
+
+.pre-footer-links-col h4 {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+}
+
+.pre-footer-links-col a {
+  display: block;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  padding: var(--space-2) 0;
+  transition: color var(--duration-fast);
+}
+
+.pre-footer-links-col a:hover {
+  color: var(--color-accent);
+}
+
+@media (min-width: 768px) {
+  .pre-footer-trust-bar {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .pre-footer-grid {
+    grid-template-columns: 1fr 2fr;
+    gap: var(--space-12);
+  }
+  .pre-footer-links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

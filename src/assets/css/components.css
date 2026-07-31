@@ -850,7 +850,9 @@
    21. Mobile Sticky Bottom Nav (Mobile Only)
    SSOT Reference: 08-design-system.md §13
    -------------------------------------------------------------------------- */
-.mobile-bottom-nav {
+.mobile-bottom-nav,
+.mbn-tray,
+.mbn-tray-backdrop {
   display: none; /* Hidden on desktop */
 }
 
@@ -912,6 +914,7 @@
 
   /* Sub-tray — slides up from bottom */
   .mbn-tray {
+    display: block;
     position: fixed;
     bottom: 0;
     left: 0;

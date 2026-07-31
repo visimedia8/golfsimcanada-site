@@ -24,4 +24,4 @@ We operate in strict adherence to Canadian digital privacy regulations, includin
 
 ## Contact Us
 
-If you have questions or concerns about this Privacy Policy or our data practices, please reach out to our Privacy Officer.
+If you have questions or concerns about this Privacy Policy or our data practices, please reach out to our Privacy Officer at [hi@golfsimcanada.site](mailto:hi@golfsimcanada.site).
